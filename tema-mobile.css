@@ -233,6 +233,9 @@
         border: none;
         padding: 0 !important;
         position: relative;
+        width: 81%;
+        display: inline-block;
+        vertical-align: middle;
 
     }
 
