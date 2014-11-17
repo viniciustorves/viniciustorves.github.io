@@ -8,6 +8,16 @@
         box-sizing: border-box;
         font-weight: normal;
     }
+    
+    a {
+        color: #666;
+        
+    }
+    
+    a:hover {
+        text-decoration: none;
+        color: #666;
+    }
 
     body {
         width: 100% !important;
