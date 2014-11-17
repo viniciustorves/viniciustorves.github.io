@@ -67,6 +67,7 @@
 
             var htmlBusca = $('.bg-busca').clone();
             $('#cabecalho').append('<div class="menu-mobile"><div class="menu-conta"></div>'+htmlBusca+'<div class="hamburguer"></div></div>');
+            $('.bg-busca').remove();
            
            
            
