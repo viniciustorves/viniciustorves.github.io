@@ -855,11 +855,10 @@
     .caixa-login h3 ,
     .caixa-cadastro-titulo {
         font: 400 16px/1 Arial, sans-serif;
-        color: #999999;
+        color: #fff;
         text-transform: capitalize;
         display: block;
         background: #999999;
-        color: #fff;
         padding: 10px 5px ;
     }
 
