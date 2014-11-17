@@ -824,6 +824,10 @@
         background: #fff !important;
         margin-top: 10px;
     }
+    
+    #Page .caixa-login br {
+        display: none;
+    }
 
     #Page .caixa-login .bt-efetua-login {
         float: right;
