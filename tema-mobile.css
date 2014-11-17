@@ -578,6 +578,7 @@
         color: #666 !important;
         display: inline-block;
         text-align: center;
+        font-weight: normal !important;
     }
 
     #NavLogoTray {
