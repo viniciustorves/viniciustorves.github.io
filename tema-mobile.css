@@ -259,7 +259,7 @@
     .busca-botao {
         background-image: none;
         background-color: #fff !important;
-        margin: 0 !important;
+        margin: 0 5px 0 -9px !important;
         border: 0 none;
         color: #fff;
         float: right;
