@@ -128,15 +128,15 @@
     }
 
     .menu-conta {
-        width: 50px;
+        max-width: 50px;
         height: 50px;
         background: #999999 url('https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/conta-tema.png?v=2') no-repeat center center  !important;
         display: table-cell;
-         vertical-align: middle;
+        vertical-align: middle;
     }
 
     .hamburguer {
-        width: 50px;
+        max-width: 50px;
         height: 50px;
         background: #999999 url('https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/hamburguer-tema.png?v=2') no-repeat center center  !important;
         display: table-cell;
