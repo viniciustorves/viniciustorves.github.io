@@ -575,8 +575,8 @@
     .precoAvista {
         font-size: 14px;
         text-decoration: none;
-        color: #666;
-        display: block;
+        color: #666 !important;
+        display: inline-block;
         text-align: center;
     }
 
