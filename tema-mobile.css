@@ -19,7 +19,7 @@
         color: #666 !important;
     }
     
-    .topBorder{
+    .topBorder, .leftCorner{
         background: none;
     }
 
