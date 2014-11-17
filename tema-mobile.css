@@ -567,6 +567,10 @@
         display: none !important;
     }
     
+    .produto-preco .txt-por {
+        font-size: 16px !important;
+    }
+    
     .produto-preco .precoAvista {
         font-size: 16px !important;
         color: #049dbd !important;;
