@@ -237,7 +237,6 @@
     }
 
     .busca-palavra {
-        border-radius: 2px;
         font-size: 16px;
         font-weight: normal;
         height: 47px;
@@ -250,7 +249,8 @@
 
     .busca-botao {
         background-image: none;
-        background-color: blue;
+        background-color: #fff !important;
+        margin: 0 !important;
         border: 0 none;
         border-radius: 3px;
         color: #fff;
