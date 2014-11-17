@@ -225,7 +225,7 @@
     }
 
     .caixa-busca {
-       width: 50%;
+       width: 66%;
        display: inline-block;
        vertical-align: middle;
     }
@@ -237,8 +237,7 @@
     }
 
     .busca-palavra {
-        border: 1px solid #999 !important;
-        border-radius: 5px;
+        border-radius: 2px;
         font-size: 18px;
         height: 42px;
         padding: 0 2%;
