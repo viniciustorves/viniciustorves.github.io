@@ -1092,7 +1092,7 @@
     }
 
     
-    #menu-esquerdo ul > li > a {
+    #menu-esquerdo ul > li > h3 a {
         color: #fff !important;
     }
     .icoFilho p {
