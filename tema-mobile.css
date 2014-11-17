@@ -223,7 +223,7 @@
     }
 
     .caixa-busca {
-        margin-top:20px;
+       width: 50%;
     }
     .caixa-busca label {
         border: none;
