@@ -65,7 +65,10 @@
         var windowsize = $(window).width(); // when the browser resizes, reset the width
         if (windowsize <= 768) {
 
-            $('#cabecalho').append('<div class="menu-mobile"><div class="menu-conta"></div><div class="hamburguer"></div></div>');
+            var htmlBusca = $('.bg-busca').clone();
+            $('#cabecalho').append('<div class="menu-mobile"><div class="menu-conta"></div>'+htmlBusca+'<div class="hamburguer"></div></div>');
+           
+           
            
             $('.menu-conta').click(function() {
                 if ($('#NavLateralEsquerda').css('display') == "block") {
