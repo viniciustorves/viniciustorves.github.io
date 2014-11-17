@@ -65,7 +65,7 @@
         var windowsize = $(window).width(); // when the browser resizes, reset the width
         if (windowsize <= 768) {
             
-            $('.busca-palavra').val('&nbsp;');
+            $('.busca-palavra').attr('value','');
             $('.busca-palavra').attr('placeholder','Buscar na loja');
             
             var htmlBusca = $('.bg-busca').html();
