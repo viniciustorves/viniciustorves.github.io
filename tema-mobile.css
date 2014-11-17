@@ -928,6 +928,7 @@
 
     #CadastroAbas {
         border: none;
+        background: none;
     }
 
     #CadastroAbas > ul > li a {
@@ -1323,6 +1324,9 @@
         width: 100%;
     }
 
+    #CadastroAbas li {
+        background: none;
+    }
     #ProdAbas li a, #ProdAbas .aberta a {
         background-color: #f3f3f3;
         border-left: 1px solid #f3f3f3;
