@@ -631,7 +631,7 @@
 
     input[type='text'] {
         border: 1px solid #eee !important;
-        border-radius: 5px !important;
+        border-radius: 5px;
 
     }
 
