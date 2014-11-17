@@ -257,8 +257,7 @@
     }
 
     .busca-botao {
-        background-image: none;
-        background-color: #fff !important;
+        background: #fff url('https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/lupa.png?v=3');
         margin: 0 5px 0 -9px !important;
         border: 0 none;
         color: #fff;
@@ -268,6 +267,7 @@
         height: 40px;
         width: 40px;
         border-radius: initial !important;
+        font-size: 0;
     }
 
     .icon-busca {
