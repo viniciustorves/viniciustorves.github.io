@@ -547,6 +547,12 @@
     .vitrine-geral li.hover:hover {
         box-shadow: inherit !important;
     }
+    
+    .botao-finalizar-compra, a.botao-finalizar-compra, .botao-finalizar-compra:hover, .botao-prosseguir-cadastro, a.botao-prosseguir-cadastro, .botao-prosseguir-cadastro:hover, .botao-prosseguir-compra, a.botao-prosseguir-compra, .botao-prosseguir-compra:hover, .botao-enviar-cartao, a.botao-enviar-cartao, .botao-enviar-cartao:hover, .botao-enviar-cadastro, a.botao-enviar-cadastro, .botao-enviar-cadastro:hover, .botao-efetuar-login, a.botao-efetuar-login, .botao-efetuar-login:hover, .botao-calcular-frete, a.botao-calcular-frete, .botao-calcular-frete:hover, .botao-simular-frete, a.botao-simular-frete, .botao-simular-frete:hover, .botao-cupom-desconto, a.botao-cupom-desconto, .botao-cupom-desconto:hover, .botao-novo-cadastro, a.botao-novo-cadastro, .botao-novo-cadastro:hover, .botao-salvar-lista, a.botao-salvar-lista, .botao-salvar-lista:hover {
+        background:  #049DBD;
+        color: #fff;
+        float: right;
+    }
 
     .botoes-extras {
         display: none !important;
