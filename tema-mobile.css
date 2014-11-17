@@ -23,7 +23,7 @@
         color: #049dbd !important;
     }
     
-    .topBorder, .leftCorner{
+    .topBorder, .leftCorner, .bottom{
         background: none;
     }
 
