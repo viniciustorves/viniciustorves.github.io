@@ -815,7 +815,7 @@
         max-width: 100% !important;
     }
     
-    .email_login_erro {
+    #email_login_erro {
         display: block;
         background:  red;
         color: #fff;
