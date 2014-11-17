@@ -226,16 +226,16 @@
     }
 
     .caixa-busca {
-       width: 66%;
-       display: inline-block;
+       width: 90%;
+       display: table-cell;
        vertical-align: middle;
     }
     .caixa-busca label {
         border: none;
         padding: 0 !important;
         position: relative;
-        width: 100%;
-        display: table-cell;
+        width: 81%;
+        display: inline-block;
         vertical-align: middle;
         border-radius: initial;
 
