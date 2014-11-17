@@ -1091,6 +1091,10 @@
         display: none;
     }
 
+    
+    .menu_categorias a {
+        color: #fff !important;
+    }
     .icoFilho p {
         position: relative;
         z-index: 1;
