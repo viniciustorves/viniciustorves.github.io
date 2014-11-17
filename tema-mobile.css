@@ -858,7 +858,9 @@
         color: #999999;
         text-transform: capitalize;
         display: block;
-        margin: 5px 0 !important;
+        background: #999999;
+        color: #fff;
+        padding: 10px 5px ;
     }
 
     .caixa-cadastro-titulo {
