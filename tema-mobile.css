@@ -255,11 +255,11 @@
         float: right;
         margin:0px;
         display: table-cell;
-        width: 10%;
+        width: 100%;
     }
 
     .busca-botao {
-        background: #f6f6f6 url('https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/lupa.png?v=3') !important;
+        background: #f6f6f6 url('https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/lupa.png?v=3') center center no-repeat !important;
         margin: 0 5px 0 -9px !important;
         border: 0 none;
         color: #fff;
@@ -267,7 +267,8 @@
         font-size: 16px;
         font-weight: bold;
         height: 40px;
-        width: 40px;
+        display: table-cell;
+        width: 10%;
         border-radius: initial !important;
         font-size: 0;
     }
