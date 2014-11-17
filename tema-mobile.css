@@ -851,6 +851,10 @@
         width: 100%;
         text-transform: unset;
     }
+    
+    .caixa-login label {
+        font-size: 14px !important;
+    }
 
     .caixa-login h3 ,
     .caixa-cadastro-titulo {
