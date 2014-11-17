@@ -543,6 +543,10 @@
     .vitrine-parcela, .vitrine-parcela strong, .vitrine-parcela .precoAvista, .vitrine-parcela .color {
         color: #049dbd !important;
     }
+    
+    .vitrine-geral li.hover:hover {
+        box-shadow: inherit !important;
+    }
 
     .botoes-extras {
         display: none !important;
