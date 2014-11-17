@@ -228,8 +228,8 @@
     }
 
     .caixa-busca {
-       width: 90%;
-       display: table-cell;
+       width: 100%;
+       display: table;
        vertical-align: middle;
     }
     .caixa-busca label {
@@ -252,7 +252,6 @@
         padding: 0 2%;
         width: 100%;
         background: #fff;
-        float: right;
         margin:0px;
         display: table-cell;
         width: 100%;
@@ -263,7 +262,6 @@
         margin: 0 5px 0 -9px !important;
         border: 0 none;
         color: #fff;
-        float: right;
         font-size: 16px;
         font-weight: bold;
         height: 40px;
