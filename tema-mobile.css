@@ -224,6 +224,7 @@
 
     .caixa-busca {
        width: 50%;
+       display: inline-block;
     }
     .caixa-busca label {
         border: none;
