@@ -256,7 +256,7 @@
     }
 
     .busca-botao {
-        background: #f6f6f6 url('https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/lupa.png?v=3');
+        background: #f6f6f6 url('https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/lupa.png?v=3') !important;
         margin: 0 5px 0 -9px !important;
         border: 0 none;
         color: #fff;
