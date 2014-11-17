@@ -65,7 +65,7 @@
         var windowsize = $(window).width(); // when the browser resizes, reset the width
         if (windowsize <= 768) {
 
-            var htmlBusca = $('.bg-busca').clone();
+            var htmlBusca = $('.bg-busca').html();
             $('#cabecalho').append('<div class="menu-mobile"><div class="menu-conta"></div>'+htmlBusca+'<div class="hamburguer"></div></div>');
             $('.bg-busca').remove();
            
