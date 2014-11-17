@@ -566,6 +566,10 @@
     .comparador, .produto-botoes  {
         display: none !important;
     }
+    
+    .produto-preco .precoAvista {
+        font-size: 16px !important;
+    }
 
     .vitrine-nome, 
     .vitrine-preco, 
