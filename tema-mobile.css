@@ -131,6 +131,7 @@
         height: 50px;
         background: #999999 url('https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/conta-tema.png?v=2') no-repeat center center  !important;
         display: inline-block;
+         vertical-align: middle;
     }
 
     .hamburguer {
@@ -138,6 +139,7 @@
         height: 50px;
         background: #999999 url('https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/hamburguer-tema.png?v=2') no-repeat center center  !important;
         display: inline-block;
+        vertical-align: middle;
     }
 
     #logotipo {
