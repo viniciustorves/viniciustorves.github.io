@@ -821,8 +821,9 @@
         color: #fff;
         padding: 5px;
         border: none;
-        margin: 0;
+        margin: 5px 0 10px 0;
         width: 100%;
+        
     }
 
     .board .caixa-login #email_login , .board .caixa-login #senha_login , .caixa-cadastro #email_cadastro {
