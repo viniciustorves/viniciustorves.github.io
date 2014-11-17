@@ -236,10 +236,11 @@
         border: none;
         padding: 0 !important;
         position: relative;
-        width: 81%;
+        width: 90%;
         display: inline-block;
         vertical-align: middle;
         border-radius: initial;
+        display: table-cell;
 
     }
 
@@ -253,6 +254,8 @@
         background: #fff;
         float: right;
         margin:0px;
+        display: table-cell;
+        width: 10%;
     }
 
     .busca-botao {
