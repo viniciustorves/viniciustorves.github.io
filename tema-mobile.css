@@ -251,13 +251,13 @@
         padding: 0 2%;
         width: 100%;
         
-        background: #f1f1f1;
+        background: #fff;
         float: right;
         margin:0px;
     }
 
     .busca-botao {
-        background: #fff url('https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/lupa.png?v=3');
+        background: #f6f6f6 url('https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/lupa.png?v=3');
         margin: 0 5px 0 -9px !important;
         border: 0 none;
         color: #fff;
