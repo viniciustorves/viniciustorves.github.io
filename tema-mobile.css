@@ -857,6 +857,8 @@
         font: 400 16px/1 Arial, sans-serif;
         color: #999999;
         text-transform: capitalize;
+        display: block;
+        margin: 5px 0 !important;
     }
 
     .caixa-cadastro-titulo {
