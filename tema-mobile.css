@@ -822,6 +822,7 @@
         border-radius: 5px !important;
         display: block;
         background: #fff !important;
+        margin-top: 10px 0;
     }
 
     #Page .caixa-login .bt-efetua-login {
