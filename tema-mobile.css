@@ -238,6 +238,7 @@
 
     .busca-palavra {
         font-size: 16px;
+        border-radius: none;
         font-weight: normal;
         height: 47px;
         padding: 0 2%;
@@ -252,13 +253,13 @@
         background-color: #fff !important;
         margin: 0 !important;
         border: 0 none;
-        border-radius: 3px;
         color: #fff;
         float: right;
         font-size: 16px;
         font-weight: bold;
         height: 40px;
         width: 40px;
+        border-radius: none;
     }
 
     .icon-busca {
