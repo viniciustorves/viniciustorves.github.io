@@ -1006,7 +1006,7 @@
     #frm2 .text {
         max-width: 100% !important;
         width: 100%  !important;
-        background: none !important;
+        background: #fff !important;
         display: block;
         border: none;
         font-size: 14px !important;
