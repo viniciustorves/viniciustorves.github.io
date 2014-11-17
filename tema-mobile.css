@@ -855,7 +855,7 @@
     .caixa-login h3 ,
     .caixa-cadastro-titulo {
         font: 400 16px/1 Arial, sans-serif;
-        color: #fff;
+        color: #fff !important;
         text-transform: capitalize;
         display: block;
         background: #999999;
