@@ -238,8 +238,9 @@
 
     .busca-palavra {
         border-radius: 2px;
-        font-size: 18px;
-        height: 42px;
+        font-size: 16px;
+        font-weight: normal;
+        height: 47px;
         padding: 0 2%;
         width: 100%;
         background: #fff;
