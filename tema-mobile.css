@@ -1690,6 +1690,9 @@
         font-size: 14px;
         color: #666;
     }
+    #formas_envio_frete tr:nth-child(2n+1) {
+    background-color: #f1f1f1;
+    }
 
     #formas_envio_frete .valores_carrinho {
         margin-top: -25px;
