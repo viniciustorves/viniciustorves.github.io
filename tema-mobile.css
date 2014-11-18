@@ -1219,6 +1219,10 @@
     #form_comprar #quantidade {
         width: 100%;
     }
+    
+    .caixa-frete .bottom {
+        display: none;
+    }
 
     #form_pagamento .caixa-frete .tit-frete {
         font-size: 14px;
