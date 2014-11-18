@@ -883,6 +883,10 @@
         max-width: 100%;
         width: 100%;
     }
+    
+    #fisica > p:nth-child(1) > br:nth-child(8) {
+        display: none;
+    }
 
     #Page .caixa-login h3, #Page .caixa-login form, #Page .caixa-login p, #Page .caixa-cadastro h3, #Page .caixa-cadastro form {
         max-width: 100% !important;
