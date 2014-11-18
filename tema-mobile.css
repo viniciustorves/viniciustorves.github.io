@@ -1282,8 +1282,8 @@
         display: none;
     }
     
-    .carrinho-tabs li .active {
-        display: block;
+    .carrinho-tabs .active {
+        display: block !important;
         width: 100%;
     }
 
