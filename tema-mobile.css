@@ -573,7 +573,18 @@
         color: #fff;
         float: right;
         border: none !important;
-        margin-top: 20px;
+        margin-top: 0;
+        border-radius: 5px;
+    }
+    
+    .botao-simular-frete{
+        background: none repeat scroll 0% 0% #049DBD;
+        color: #FFF;
+        float: right;
+        border: medium none !important;
+        margin-top: 3px;
+        padding: 12px;
+        margin-left: 10px;
     }
 
     .botoes-extras {
