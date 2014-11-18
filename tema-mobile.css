@@ -1658,6 +1658,16 @@
         font-size: 14px;
         padding: 5px;
     }
+    
+    .caixa-forma-frete .blocoAlerta {
+        background-color: #ff3333;
+        color: #fff;
+    }
+    
+    .caixa-forma-frete .blocoAlerta br {
+        display: block !important;
+        
+    }
 
     #calculoFrete {
         float: left !important;
