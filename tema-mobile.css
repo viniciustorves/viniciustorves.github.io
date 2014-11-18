@@ -1272,6 +1272,10 @@
     .escolha-forma-pagamento {
         display: none;
     }
+    
+    .form_comprar .produto-preco {
+        width: 100%;
+    }
 
     .produto-wrapper .produto-preco  {
         background:  #eee !important;
