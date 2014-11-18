@@ -1,12 +1,12 @@
 @media (max-width: 768px) {
 /* teste commit*/
 
-    @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,600);
+    @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700,600);
 
     * {
         font-family: 'Open Sans', sans-serif !important;
         box-sizing: border-box;
-        font-weight: 300 !important;
+        font-weight: normal;
     }
     
     a {
@@ -33,7 +33,7 @@
         overflow-x: hidden;
         background: #fff !important;
         background-image: none !important;
-        font-weight: 300 !important;
+        font-weight: normal;
     }
 
     .board {
