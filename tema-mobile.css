@@ -1531,6 +1531,9 @@
         border-top: 20px solid #fff;
         background: #f6f6f6;
     }
+    .caixa-detalhes-compra .nome-produto-pagamento {
+        padding: 10px 0 ;
+    }
     .caixa-detalhes-compra .nome-produto-pagamento div {
         margin: 0 !important;
     }
