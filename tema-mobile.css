@@ -1695,7 +1695,9 @@
     }
     
     .caixa-total h3 {
-        font-size: 18px;
+        font-size: 18px !important;
+        float: none;
+        margin: 0 !important;
     }
 
     #formas_envio_frete .valores_carrinho {
