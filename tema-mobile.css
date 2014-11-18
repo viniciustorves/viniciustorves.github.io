@@ -1712,6 +1712,10 @@
     #formas_envio_frete img {
         display: none;
     }
+    
+    .botao-continuar-comprando .botao-commerce-img {
+        display: none;
+    }
 
     #Page .caixa-cupom, #Page .caixa-cupom + th, #Page .caixa-cupom + th + th {
         border-bottom: 15px solid #fff;
