@@ -158,6 +158,7 @@
         
         if ($(location).attr('pathname') == "/loja/carrinho.php") {
             $('div.container:nth-child(4)').remove();
+            $('.container3').css('display','block');
         }
 
 
