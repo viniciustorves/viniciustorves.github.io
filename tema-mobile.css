@@ -1682,6 +1682,10 @@
         width: 104px;
         height: 40px;
     }
+    
+    .caixa-forma-frete br {
+        display: none;
+    }
 
     .caixa-forma-frete .carFretePara {
         float: left;
