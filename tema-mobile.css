@@ -1273,7 +1273,7 @@
 
     #Page .text, #Page .select, #Page .textarea, #Page select, #Page textarea {
         height: 40px !important;
-        background: #fff;
+        background: #fff !important;
     }
 
     #preco_ini, #preco_fim {
