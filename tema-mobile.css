@@ -1777,7 +1777,7 @@
     }
     
     .botao-prosseguir-compra {
-        margin: 0:
+        margin: 0 !important;
     }
 
     .bt-avancar img {
