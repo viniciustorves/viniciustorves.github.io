@@ -1666,7 +1666,10 @@
     
     .caixa-forma-frete .blocoAlerta br {
         display: block !important;
-        
+    }
+    
+    .caixa-forma-frete .blocoAlerta a {
+        display: #fff;
     }
 
     #calculoFrete {
