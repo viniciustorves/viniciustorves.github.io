@@ -1777,7 +1777,7 @@
     }
     
     .botao-prosseguir-compra {
-        margin: 0 !important;
+        margin-top: 0 !important;
         border-radius: 5px;
         text-transform: capitalize;
     }
