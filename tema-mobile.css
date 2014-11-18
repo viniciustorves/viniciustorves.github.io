@@ -6,7 +6,7 @@
     * {
         font-family: 'Open Sans', sans-serif !important;
         box-sizing: border-box;
-        font-weight: 400;
+        font-weight: 400 !important;
     }
     
     a {
@@ -33,7 +33,7 @@
         overflow-x: hidden;
         background: #fff !important;
         background-image: none !important;
-        font-weight: 400;
+        font-weight: 400 !important;
     }
 
     .board {
