@@ -1289,6 +1289,7 @@
         padding: 10px;
         background: #999;
         color: #fff;
+        box-shadow: none;
     }
     
     .carrinho-tabs .active  h6{
