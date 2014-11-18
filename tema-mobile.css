@@ -1598,6 +1598,10 @@
         font-family: 'Open Sans', sans-serif !important;
         background: #eee;
     }
+    
+    #cesta_produtos > div:nth-child(1) > span:nth-child(2) {
+        display: none;
+    }
 
     #tabela_carrinho td {
         vertical-align: middle !important;
