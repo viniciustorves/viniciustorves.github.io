@@ -1694,6 +1694,10 @@
         background-color: #f1f1f1;
     }
     
+    .caixa-total {
+        margin: 20px 0 ;
+    }
+    
     .caixa-total h3, .caixa-total .valores_carrinho, .caixa-total .tit-total {
         font-size: 18px !important;
         float: none;
