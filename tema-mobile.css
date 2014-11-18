@@ -1145,6 +1145,9 @@
         min-width: 0px !important;
     }
 
+    .tablePage {
+        border: none;
+    }
     .tablePage tr:first-child th, 
     table tr:first-child th, 
     .Pedidos tr:first-child th {
