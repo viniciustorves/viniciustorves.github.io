@@ -1273,8 +1273,9 @@
         display: none;
     }
     
-    .form_comprar .produto-preco {
+    #direita .produto-preco {
         width: 100%;
+        max-width: 100%;
     }
 
     .produto-wrapper .produto-preco  {
