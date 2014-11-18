@@ -1694,7 +1694,7 @@
         background-color: #f1f1f1;
     }
     
-    .caixa-total h3 {
+    .caixa-total h3, .caixa-total .valores_carrinho {
         font-size: 18px !important;
         float: none;
         margin: 0 !important;
