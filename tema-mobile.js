@@ -155,6 +155,10 @@
             $('#Page p').addClass('msg-p-finalizar');
             $('#Page p').addClass('msg-p-finalizar');
         }
+        
+        if ($(location).attr('pathname') == "/loja/carrinho.php") {
+            $('div.container:nth-child(4)').remove();
+        }
 
 
         $(window).scroll(function(){
