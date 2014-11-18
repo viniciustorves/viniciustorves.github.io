@@ -1670,6 +1670,8 @@
     
     .caixa-forma-frete .blocoAlerta a {
         color: #fff !important;
+        display: block;
+        background-color: #ff6666;
     }
 
     #calculoFrete {
