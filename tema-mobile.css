@@ -1693,6 +1693,10 @@
     #formas_envio_frete table tr:nth-child(2n+1) {
         background-color: #f1f1f1;
     }
+    
+    .caixa-total h3 {
+        font-size: 18px;
+    }
 
     #formas_envio_frete .valores_carrinho {
         margin-top: -25px;
