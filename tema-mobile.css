@@ -1669,7 +1669,7 @@
     }
     
     .caixa-forma-frete .blocoAlerta a {
-        display: #fff;
+        display: #fff !important;
     }
 
     #calculoFrete {
