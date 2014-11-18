@@ -1668,8 +1668,8 @@
         display: block !important;
     }
     
-    .caixa-forma-frete a {
-        display: #fff !important;
+    .caixa-forma-frete .blocoAlerta a {
+        color: #fff !important;
     }
 
     #calculoFrete {
