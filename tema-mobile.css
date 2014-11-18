@@ -1277,6 +1277,15 @@
         width: 100%;
         max-width: 100%;
     }
+    
+    .carrinho-tabs li {
+        display: none;
+    }
+    
+    .carrinho-tabs li .active {
+        display: block;
+        width: 100%;
+    }
 
     .produto-wrapper .produto-preco  {
         background:  #eee !important;
