@@ -1285,6 +1285,14 @@
     .carrinho-tabs .active {
         display: block !important;
         width: 100%;
+        margin: 0 !important;
+        padding: 10px;
+        background: #999;
+        color: #fff;
+    }
+    
+    .carrinho-tabs .active  h6{
+        display: none;
     }
 
     .produto-wrapper .produto-preco  {
