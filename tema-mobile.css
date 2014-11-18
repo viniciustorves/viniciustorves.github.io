@@ -1692,7 +1692,8 @@
     }
 
     #formas_envio_frete .valores_carrinho {
-        margin-top: -20px;
+        margin-top: -25px;
+        float: right;
     }
     #formas_envio_frete td {
         border: 0 none;
