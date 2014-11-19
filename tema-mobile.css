@@ -20,7 +20,7 @@
     }
     
     .carrinho-separador-basico {
-        color: #049dbd !important;
+       
     }
     
     .topBorder, .leftCorner, .bottom{
@@ -557,11 +557,11 @@
     }
 
     .vitrine-geral .por-preco {
-        color: #049dbd !important;
+        
     }
 
     .vitrine-parcela, .vitrine-parcela strong, .vitrine-parcela .precoAvista, .vitrine-parcela .color {
-        color: #049dbd !important;
+        
     }
     
     .vitrine-geral li.hover:hover {
@@ -616,7 +616,7 @@
     
     .produto-preco .precoAvista {
         font-size: 16px !important;
-        color: #049dbd !important;;
+        
     }
 
     .vitrine-nome, 
@@ -1211,7 +1211,7 @@
 
     #Page .caixa-detalhes-compra .valores_carrinho h3 {
         display: block !important;
-        color: #049dbd !important;
+        
         font-size: 18px;
         font-weight: normal;
     }
@@ -1858,7 +1858,7 @@
     }
 
     #Page .valores_carrinho, .caixa-total .color {
-        color: #049DBD !important;
+        
         font-size: 14px;
         white-space: nowrap;
     }
