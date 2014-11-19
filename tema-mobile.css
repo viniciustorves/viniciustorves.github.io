@@ -151,7 +151,7 @@
         max-width: 50px;
         min-width: 50px;
         height: 50px;
-        background: #999999 url('https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/conta-tema.png?v=2') no-repeat center center  !important;
+        background: url('https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/conta-tema.png?v=2') no-repeat center center  !important;
         display: table-cell;
         vertical-align: middle;
     }
@@ -160,7 +160,7 @@
         max-width: 50px;
         min-width: 50px;
         height: 50px;
-        background: #999999 url('https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/hamburguer-tema.png?v=2') no-repeat center center  !important;
+        background: url('https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/hamburguer-tema.png?v=2') no-repeat center center  !important;
         display: table-cell;
         vertical-align: middle;
     }
