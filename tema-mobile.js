@@ -67,9 +67,9 @@
             
             $('.busca-palavra').attr('value','');
             $('.busca-palavra').attr('placeholder','Buscar na loja');
-            alert($('.color-1').css('color'));
+            
             var htmlBusca = $('.bg-busca').html();
-            $('#cabecalho').append('<div class="menu-mobile"><div class="menu-conta color-tone-2"></div>'+htmlBusca+'<div class="hamburguer color-tone-2"></div></div>');
+            $('#cabecalho').append('<div class="menu-mobile"><div class="menu-conta color-tone-2 style=\'background-color: '+$('.color-1').css('color')+'\'"></div>'+htmlBusca+'<div class="hamburguer color-tone-2  style=\'background-color: '+$('.color-1').css('color')+'\'"></div></div>');
             $('.bg-busca').remove();
            
            
