@@ -692,7 +692,7 @@
     }
 
     .breadcrumb-spacer {
-        color: #666 !important;
+       
     }
 
     input[type='text'] {
@@ -705,7 +705,7 @@
         display: block;
         text-align: center;
         font-size: 18px;
-        color: #666;
+       
         padding: 10px 0;
     }
 
