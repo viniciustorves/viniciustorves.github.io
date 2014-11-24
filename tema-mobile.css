@@ -235,6 +235,10 @@
         margin: 0 5px; 
         font-size: 12px;
     }
+    
+    .cliente-saudacao {
+        display: block !important;
+    }
 
     .carrinho-compras:before{
         display: none;
@@ -451,9 +455,7 @@
         display: none !important;
     }
     
-    .cliente-saudacao {
-        display: block;
-    }
+    
 
     .mini-menu-rodape .nav-pages li a{
         padding: 0 10px;
