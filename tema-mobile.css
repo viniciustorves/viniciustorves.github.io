@@ -818,6 +818,10 @@
     .catalogo-comparator {
         display: none;
     }
+    
+    .nav-pages-spacer {
+        display: none;
+    }
 
     .catalogo-display {
         display: block;
