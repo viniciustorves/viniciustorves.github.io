@@ -150,6 +150,7 @@
         box-shadow: 0 0 5px rgba(43, 44, 42, 0.32);
         text-align: center;
         display: table;
+        z-index: 999999;
     }    
 
     .menu-mobile span {
