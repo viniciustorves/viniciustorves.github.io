@@ -109,6 +109,7 @@
         background: #eee;
         left: 0;
         height: 100%;
+        margin: 0 !important;
         min-height: 100%;
     }
 
