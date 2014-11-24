@@ -335,6 +335,11 @@
         overflow: hidden;
         text-transform: uppercase;
     }
+    
+    .menu-esquerdo .menu-icons {
+        height: 100%;
+        width: 35px;
+    }
 
     .icon-menu-fechado:before {
         content: "\e005" !important;
