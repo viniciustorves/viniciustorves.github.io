@@ -235,7 +235,7 @@
         margin: 0 5px; 
         font-size: 12px;
     }
-    
+
     .carrinho-compras:before{
         display: none;
     }
@@ -383,11 +383,11 @@
         padding: 0 ;
         list-style: none;
     }
-    
+
     .nivel-2 li a span{
         display: none;
     }
-    
+
     .menu-esquerdo h3{
         border-radius: 0;
         border-bottom: 1px solid #fff !important;
@@ -1192,17 +1192,21 @@
     .central-menu img {
         display: none;
     }
-    
+
     #menu-esquerdo {
         background: transparent;
         margin: 0;
         padding: 0;
     }
-    
+
     .menu-esquerdo h3 a, .menu-esquerdo h3 p {
-    background-color: transparent !important;
+        background-color: transparent !important;
     }
 
+    .menu-esquerdo .icon-menu-aberto + a {
+        background-color: transparent !important;
+    }
+    
     #menu-esquerdo ul > li > h3 a {
         color: #fff !important;
     }
