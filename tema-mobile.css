@@ -312,6 +312,11 @@
     #menu-esquerdo .bg-tone-1 {
         background-color: #999 !important;
     }
+    
+    .menu-esquerdo {
+        border: none;
+    }
+    
     .menu-esquerdo .menu-icons { 
         height: 40px;
         width: 40px;
