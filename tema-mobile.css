@@ -1192,7 +1192,10 @@
     .central-menu img {
         display: none;
     }
-
+    
+    #menu-esquerdo {
+        background: transparent;
+    }
 
     #menu-esquerdo ul > li > h3 a {
         color: #fff !important;
