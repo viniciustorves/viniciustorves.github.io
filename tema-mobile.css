@@ -277,6 +277,12 @@
         padding: 0
     }
 
+    .carrinho-itens li:first-child{
+        float: none;
+    }
+    .carrinho-itens li:last-child{
+        float: none;
+    }
 
     .caixa-busca {
         width: 100%;
