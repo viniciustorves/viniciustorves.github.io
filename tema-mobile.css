@@ -1,5 +1,5 @@
 @media (max-width: 768px) {
-/* teste commit*/
+    /* teste commit*/
 
     @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700,600);
 
@@ -8,21 +8,21 @@
         box-sizing: border-box;
         font-weight: normal;
     }
-    
+
     a {
-       
-        
+
+
     }
-    
+
     a:hover {
         text-decoration: none !important;
-      
+
     }
-    
+
     .carrinho-separador-basico {
-       
+
     }
-    
+
     .topBorder, .leftCorner, .bottom{
         background: none;
     }
@@ -247,11 +247,17 @@
         float: none;
     }
 
+
     .caixa-busca {
-       width: 100%;
-       display: table;
-       vertical-align: middle;
-       position: relative;
+        width: 100%;
+        display: table;
+        vertical-align: middle;
+        position: relative;
+        background-color: transparent;
+        border-radius: 0;
+        border: none !important;
+        padding: 0 !important;
+        box-shadow: 0 !important;
     }
     .caixa-busca label {
         border: none;
@@ -557,17 +563,17 @@
     }
 
     .vitrine-geral .por-preco {
-        
+
     }
 
     .vitrine-parcela, .vitrine-parcela strong, .vitrine-parcela .precoAvista, .vitrine-parcela .color {
-        
+
     }
-    
+
     .vitrine-geral li.hover:hover {
         box-shadow: inherit !important;
     }
-    
+
     .botao-finalizar-compra, a.botao-finalizar-compra, .botao-finalizar-compra:hover, .botao-prosseguir-cadastro, a.botao-prosseguir-cadastro, .botao-prosseguir-cadastro:hover, .botao-prosseguir-compra, a.botao-prosseguir-compra, .botao-prosseguir-compra:hover, .botao-enviar-cartao, a.botao-enviar-cartao, .botao-enviar-cartao:hover, .botao-enviar-cadastro, a.botao-enviar-cadastro, .botao-enviar-cadastro:hover, .botao-efetuar-login, a.botao-efetuar-login, .botao-efetuar-login:hover, .botao-calcular-frete, a.botao-calcular-frete, .botao-calcular-frete:hover, .botao-simular-frete, a.botao-simular-frete, .botao-simular-frete:hover, .botao-cupom-desconto, a.botao-cupom-desconto, .botao-cupom-desconto:hover, .botao-novo-cadastro, a.botao-novo-cadastro, .botao-novo-cadastro:hover, .botao-salvar-lista, a.botao-salvar-lista, .botao-salvar-lista:hover {
         background:  #049DBD;
         color: #fff;
@@ -576,7 +582,7 @@
         margin-top: 0;
         border-radius: 5px;
     }
-    
+
     .botao-simular-frete{
         background: none repeat scroll 0% 0% #049DBD;
         color: #FFF;
@@ -609,14 +615,14 @@
     .comparador, .produto-botoes  {
         display: none !important;
     }
-    
+
     .produto-preco .txt-por {
         font-size: 16px !important;
     }
-    
+
     .produto-preco .precoAvista {
         font-size: 16px !important;
-        
+
     }
 
     .vitrine-nome, 
@@ -692,7 +698,7 @@
     }
 
     .breadcrumb-spacer {
-       
+
     }
 
     input[type='text'] {
@@ -705,7 +711,7 @@
         display: block;
         text-align: center;
         font-size: 18px;
-       
+
         padding: 10px 0;
     }
 
@@ -844,7 +850,7 @@
         margin: 0 !important;
         max-width: 100% !important;
     }
-    
+
     #email_login_erro {
         display: block;
         background:  red;
@@ -853,7 +859,7 @@
         border: none;
         margin: 5px 0 10px 0;
         width: 100%;
-        
+
     }
 
     .board .caixa-login #email_login , .board .caixa-login #senha_login , .caixa-cadastro #email_cadastro {
@@ -867,7 +873,7 @@
         margin-top: 10px;
         margin-bottom: 10px;
     }
-    
+
     #Page .caixa-login br {
         display: none;
     }
@@ -893,7 +899,7 @@
         max-width: 100%;
         width: 100%;
     }
-    
+
     #fisica > p:nth-child(1) > br:nth-child(8) {
         display: none;
     }
@@ -903,7 +909,7 @@
         width: 100%;
         text-transform: unset;
     }
-    
+
     .caixa-login label {
         font-size: 14px !important;
     }
@@ -1105,7 +1111,7 @@
         display: none;
     }
 
-    
+
     #menu-esquerdo ul > li > h3 a {
         color: #fff !important;
     }
@@ -1210,7 +1216,7 @@
 
     #Page .caixa-detalhes-compra .valores_carrinho h3 {
         display: block !important;
-        
+
         font-size: 18px;
         font-weight: normal;
     }
@@ -1218,7 +1224,7 @@
     #form_comprar #quantidade {
         width: 100%;
     }
-    
+
     .caixa-frete .bottom {
         display: none;
     }
@@ -1290,16 +1296,16 @@
     .escolha-forma-pagamento {
         display: none;
     }
-    
+
     #direita .produto-preco {
         width: 100%;
         max-width: 100%;
     }
-    
+
     .carrinho-tabs li {
         display: none;
     }
-    
+
     .carrinho-tabs .active {
         display: block !important;
         width: 100%;
@@ -1309,7 +1315,7 @@
         color: #fff;
         box-shadow: none;
     }
-    
+
     .carrinho-tabs .active  h6{
         display: none;
     }
@@ -1621,7 +1627,7 @@
         font-family: 'Open Sans', sans-serif !important;
         background: #eee;
     }
-    
+
     #cesta_produtos > div:nth-child(1) > span:nth-child(2) {
         display: none;
     }
@@ -1665,16 +1671,16 @@
         font-size: 14px;
         padding: 5px;
     }
-    
+
     .caixa-forma-frete .blocoAlerta {
         background-color: #ff3333;
         color: #fff;
     }
-    
+
     .caixa-forma-frete .blocoAlerta br {
         display: block !important;
     }
-    
+
     .caixa-forma-frete .blocoAlerta a {
         color: #fff !important;
         display: block;
@@ -1710,7 +1716,7 @@
         width: 104px;
         height: 40px;
     }
-    
+
     .caixa-forma-frete br {
         display: none;
     }
@@ -1725,11 +1731,11 @@
     #formas_envio_frete table tr:nth-child(2n+1) {
         background-color: #f1f1f1;
     }
-    
+
     .caixa-total {
         margin: 20px 0 ;
     }
-    
+
     .caixa-total h3, .caixa-total .valores_carrinho, .caixa-total .tit-total {
         font-size: 18px !important;
         float: none;
@@ -1769,11 +1775,11 @@
 
     #formas_envio_frete tr td:first-child + td + td {
     }
-    
+
     #formas_envio_frete img {
         display: none;
     }
-    
+
     .botao-continuar-comprando .botao-commerce-img {
         display: none;
     }
@@ -1836,7 +1842,7 @@
         border: none;
         font-size: 0;
     }
-    
+
     .botao-prosseguir-compra {
         margin-top: 0 !important;
         border-radius: 5px;
@@ -1857,7 +1863,7 @@
     }
 
     #Page .valores_carrinho, .caixa-total .color {
-        
+
         font-size: 14px;
         white-space: nowrap;
     }
@@ -1901,7 +1907,7 @@
         padding-bottom: 11px;
         padding-top: 45px;
     }
-    
+
     .carrinho-heading {
         display: none;
     }
