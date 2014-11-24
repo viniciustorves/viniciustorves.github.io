@@ -310,7 +310,7 @@
         display: none;
     }
     .menu-esquerdo h3 {
-        background: #666 !important;
+        background: #999!important;
         color: #fff !important;
         overflow: hidden;
     }
