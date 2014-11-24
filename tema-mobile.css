@@ -215,6 +215,7 @@
         height: 150px;
         border-radius: 0 0 10px 10px;
         z-index: 999;
+        box-shadow: 0 0 5px rgba(43, 44, 42, 0.32);
     }
 
     .nav-cliente {
