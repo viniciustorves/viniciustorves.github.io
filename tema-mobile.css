@@ -222,6 +222,7 @@
         line-height: 40px;
         white-space: nowrap;
         margin: 0 !important;
+        background: transparent;
     }
     .nav-cliente li {
         margin: 0;
@@ -258,6 +259,7 @@
     .carrinho-compras .carrinho-itens {
         text-align: center;
         float: none;
+        background: transparent;
     }
 
 
