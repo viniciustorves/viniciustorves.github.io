@@ -443,8 +443,12 @@
         margin-bottom: 20px;
     }
 
-    .mini-menu-rodape .nav-pages li{
+    .mini-menu-rodape .nav-pages > li{
         display: block;
+    }
+    
+    .mini-menu-rodape .nav-pages .nav-pages-spacer {
+        display: none !important;
     }
 
     .mini-menu-rodape .nav-pages li a{
@@ -819,9 +823,7 @@
         display: none;
     }
     
-    .nav-pages-spacer {
-        display: none !important;
-    }
+    
 
     .catalogo-display {
         display: block;
