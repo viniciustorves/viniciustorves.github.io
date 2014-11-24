@@ -276,6 +276,10 @@
         margin-top: 0;
         padding: 0
     }
+    
+    .carrinho-itens li{
+        float: none;
+    }
 
     .carrinho-itens li:first-child{
         float: none;
