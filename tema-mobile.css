@@ -1198,6 +1198,10 @@
         margin: 0;
         padding: 0;
     }
+    
+    .menu-esquerdo h3 a, .menu-esquerdo h3 p {
+    background-color: transparent !important;
+    }
 
     #menu-esquerdo ul > li > h3 a {
         color: #fff !important;
