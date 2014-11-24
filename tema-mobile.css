@@ -1207,6 +1207,10 @@
         background-color: transparent !important;
     }
     
+    .menu-esquerdo .nivel-2 a {
+        background: transparent !important;
+    }
+    
     #menu-esquerdo ul > li > h3 a {
         color: #fff !important;
     }
