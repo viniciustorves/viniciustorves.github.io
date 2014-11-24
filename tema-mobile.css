@@ -450,6 +450,10 @@
     .mini-menu-rodape .nav-pages .nav-pages-spacer {
         display: none !important;
     }
+    
+    .cliente-saudacao {
+        display: block;
+    }
 
     .mini-menu-rodape .nav-pages li a{
         padding: 0 10px;
