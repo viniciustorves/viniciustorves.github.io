@@ -225,6 +225,7 @@
         margin: 0 !important;
         background: transparent;
         padding: 0 !important;
+        width: 100%;
     }
     .nav-cliente li {
         margin: 0;
