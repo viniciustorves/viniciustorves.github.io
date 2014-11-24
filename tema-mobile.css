@@ -228,7 +228,7 @@
         margin: 0 5px; 
         font-size: 12px;
     }
-    
+
     .cliente-saudacao {
         display: block !important;
     }
@@ -268,7 +268,7 @@
         margin-top: 0;
         padding: 0
     }
-    
+
     .carrinho-itens li{
         float: none !important;
     }
@@ -372,6 +372,28 @@
         display: block;
     }
 
+    .menu-esquerdo h3 a:after {
+        background-color: transparent;
+        border-top: none;
+        bottom: 0px;
+        content: "";
+        height: 1px;
+        left: 0px;
+        position: absolute;
+        width: 100%;
+    }
+
+    a:before {
+        background-color: transparent;
+        border-top: none;
+        content: "";
+        height: 1px;
+        left: 0px;
+        position: absolute;
+        top: 1px;
+        width: 100%;
+    }
+
     .menu-esquerdo .icon-menu-fechado:before {
         border-top: 4px solid transparent;
         border-bottom: 4px solid transparent;
@@ -383,19 +405,19 @@
         right: 13px;
         width: 0px;
         border-left: 5px solid #FFF;
-}
+    }
     .menu-esquerdo .icon-menu-aberto:before {
-    border-left: 4px solid transparent;
-    border-right: 4px solid transparent;
-    border-top: 5px solid #FFF;
-    content: "";
-    height: 0px;
-    margin-top: -4px;
-    position: absolute;
-    top: 50%;
-    right: 13px;
-    width: 0px;
-}
+        border-left: 4px solid transparent;
+        border-right: 4px solid transparent;
+        border-top: 5px solid #FFF;
+        content: "";
+        height: 0px;
+        margin-top: -4px;
+        position: absolute;
+        top: 50%;
+        right: 13px;
+        width: 0px;
+    }
 
     .menu-esquerdo {
         border: none !important;
@@ -478,12 +500,12 @@
     .mini-menu-rodape .nav-pages > li{
         display: block;
     }
-    
+
     .mini-menu-rodape .nav-pages .nav-pages-spacer {
         display: none !important;
     }
-    
-    
+
+
     .nav-pages li {
         padding: 10px 0;
         border: none;
@@ -862,8 +884,8 @@
     .catalogo-comparator {
         display: none;
     }
-    
-    
+
+
 
     .catalogo-display {
         display: block;
@@ -1256,11 +1278,11 @@
     .menu-esquerdo .icon-menu-aberto + a {
         background-color: transparent !important;
     }
-    
+
     .menu-esquerdo .nivel-2 a {
         background: transparent !important;
     }
-    
+
     #menu-esquerdo ul > li > h3 a {
         color: #fff !important;
     }
