@@ -235,6 +235,10 @@
         margin: 0 5px; 
         font-size: 12px;
     }
+    
+    .carrinho-compras:before{
+        display: none;
+    }
 
     .bg-busca {
         padding: 0 !important;
