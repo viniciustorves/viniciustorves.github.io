@@ -379,9 +379,13 @@
         padding: 0px !important;
     }
 
+    .menu-esquerdo > ul {
+        border: none;
+    }
     .menu-esquerdo > ul > li {
         padding: 0 ;
         list-style: none;
+        border: none;
     }
 
     .nivel-2 li a span{
