@@ -278,7 +278,7 @@
     }
     
     .carrinho-itens li{
-        float: none;
+        float: none !important;
     }
 
     .carrinho-itens li:first-child{
