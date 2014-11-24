@@ -420,6 +420,9 @@
     .icon-user {
         display: none;
     }
+    .nav-cliente li:first-child {
+        display: inline-block;
+    }
     #news {
         display: none;
     }
