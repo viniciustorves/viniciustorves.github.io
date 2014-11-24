@@ -397,6 +397,16 @@
         padding: 0;
         background: #fff;
     }
+    
+    .carrinho-descricao {
+        display: block;
+        font-size: 18px;
+        font-weight: bold;
+        letter-spacing: -0.8px;
+        margin: 5px 3px 0px;
+        text-align: left;
+        text-transform: uppercase;
+    }
 
     #news {
         display: none;
