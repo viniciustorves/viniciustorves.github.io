@@ -283,7 +283,9 @@
     .carrinho-itens li:last-child{
         float: none;
     }
-
+    .carrinho-separador-basico {
+        display: block !important;
+    }
     .caixa-busca {
         width: 100%;
         display: table;
