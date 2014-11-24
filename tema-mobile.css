@@ -369,6 +369,7 @@
         height: 100%;
         position: relative;
         width: 35px;
+        display: block;
     }
 
     .menu-esquerdo .icon-menu-fechado:before {
