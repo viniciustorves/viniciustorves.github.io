@@ -338,6 +338,7 @@
     
     .menu-esquerdo .menu-icons {
         height: 100%;
+        position: relative;
         width: 35px;
     }
 
