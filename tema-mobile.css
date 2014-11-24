@@ -327,7 +327,7 @@
         color: #fff !important;
         overflow: hidden;
     }
-    
+
     .menu-esquerdo .nivel-2 a {
         border-bottom: 1px dotted;
         display: block;
@@ -335,7 +335,7 @@
         font-weight: normal;
         padding: 6px 7px;
     }
-    
+
     .menu-esquerdo h3 a, .menu-esquerdo h3 p {
         display: block;
         font-size: 16px;
@@ -345,7 +345,7 @@
         overflow: hidden;
         text-transform: uppercase;
     }
-    
+
     .menu-esquerdo .menu-icons {
         height: 100%;
         position: relative;
@@ -397,7 +397,7 @@
         padding: 0;
         background: #fff;
     }
-    
+
     .carrinho-descricao {
         display: block;
         font-size: 18px;
@@ -407,7 +407,7 @@
         text-align: left;
         text-transform: uppercase;
     }
-    
+
     .carrinho-compras {
         background: transparent;
         border-radius: 0;
@@ -416,8 +416,10 @@
         margin: 0;
         padding: 0;
         position: relative;
-}
-
+    }
+    .icon-user {
+        display: none;
+    }
     #news {
         display: none;
     }
