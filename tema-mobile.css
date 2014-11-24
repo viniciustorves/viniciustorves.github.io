@@ -1,6 +1,17 @@
 @media (max-width: 768px) {
     /* teste commit*/
 
+    @font-face {
+        font-family: 'tema_basico';
+        src:url('fonts/tema_basico.eot');
+        src:url('fonts/tema_basico.eot?#iefix') format('embedded-opentype'),
+            url('fonts/tema_basico.woff') format('woff'),
+            url('fonts/tema_basico.ttf') format('truetype'),
+            url('fonts/tema_basico.svg#tema_basico') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+
     @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700,600);
 
     * {
@@ -314,18 +325,18 @@
         color: #fff !important;
         overflow: hidden;
     }
-    
+
     .icon-menu-fechado:before {
         content: "\e005" !important;
     }
     .icon-menu-aberto:before {
         content: "\e004"  !important;;
     }
-    
+
     .menu-esquerdo {
         border: none !important;
     }
-    
+
     .menu-esquerdo .menu-icons { 
         height: 40px;
         width: 40px;
