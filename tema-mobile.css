@@ -479,6 +479,9 @@
     }
     
     
+    .nav-pages li {
+        padding: 10px 0;
+    }
 
     .mini-menu-rodape .nav-pages li a{
         padding: 0 10px;
