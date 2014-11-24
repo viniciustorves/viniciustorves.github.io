@@ -1195,6 +1195,8 @@
     
     #menu-esquerdo {
         background: transparent;
+        margin: 0;
+        padding: 0;
     }
 
     #menu-esquerdo ul > li > h3 a {
