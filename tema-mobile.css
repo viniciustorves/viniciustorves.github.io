@@ -315,6 +315,13 @@
         overflow: hidden;
     }
     
+    .icon-menu-fechado:before {
+        content: "\e005" !important;
+    }
+    .icon-menu-aberto:before {
+        content: "\e004"  !important;;
+    }
+    
     .menu-esquerdo {
         border: none !important;
     }
