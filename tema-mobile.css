@@ -129,8 +129,8 @@
         margin-top: 40px;
         top: 40px;
         overflow: initial;
-        border: 0;
-        box-shadow: 0;
+        border: none !important;
+        box-shadow: none !important;
     }
 
     .menu-mobile {
