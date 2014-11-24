@@ -314,7 +314,7 @@
     }
     
     .menu-esquerdo {
-        border: none;
+        border: none !important;
     }
     
     .menu-esquerdo .menu-icons { 
