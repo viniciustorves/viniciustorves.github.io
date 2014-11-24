@@ -820,7 +820,7 @@
     }
     
     .nav-pages-spacer {
-        display: none;
+        display: none !important;
     }
 
     .catalogo-display {
