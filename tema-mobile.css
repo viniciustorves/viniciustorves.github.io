@@ -1,5 +1,5 @@
 @media (max-width: 768px) {
-    /* teste commit*/
+
     @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700,600);
 
     * {
@@ -7,19 +7,9 @@
         box-sizing: border-box;
         font-weight: normal;
     }
-
-    a {
-
-
-    }
-
+    
     a:hover {
         text-decoration: none !important;
-
-    }
-
-    .carrinho-separador-basico {
-
     }
 
     .topBorder, .leftCorner, .bottom{
@@ -218,6 +208,7 @@
         padding: 0 !important;
         width: 100%;
     }
+    
     .nav-cliente li {
         margin: 0;
         font-size: 12px;
@@ -241,7 +232,6 @@
         padding: 0 !important;
         overflow: initial !important;
     }
-
 
     .carrinho-compras {
         border-left: none;
@@ -276,12 +266,15 @@
     .carrinho-itens li:first-child{
         float: none;
     }
+    
     .carrinho-itens li:last-child{
         float: none;
     }
+    
     .carrinho-separador-basico {
         display: block !important;
     }
+    
     .caixa-busca {
         width: 100%;
         display: table;
@@ -293,6 +286,7 @@
         padding: 0 !important;
         box-shadow: 0 !important;
     }
+    
     .caixa-busca label {
         border: none;
         padding: 0 !important;
@@ -302,7 +296,6 @@
         vertical-align: middle;
         border-radius: initial;
         display: table-cell;
-
     }
 
     .busca-palavra {
@@ -336,11 +329,7 @@
         z-index: 1;
     }
 
-    .icon-busca {
-        display: none;
-    }
-
-    .icon-carrinho {
+    .icon-busca, .icon-carrinho  {
         display: none;
     }
 
@@ -417,10 +406,6 @@
         top: 50%;
         right: 13px;
         width: 0px;
-    }
-
-    .menu-esquerdo {
-        border: none !important;
     }
 
     .menu-esquerdo .menu-icons { 
@@ -531,32 +516,6 @@
     .filtros select {
         margin: 0 !important;
         padding: 0 !important;
-    }
-
-
-    .first-level {       
-        vertical-align: middle;
-        font-size: 0;
-        position: absolute;
-        z-index: 9999;
-        width: 100%;
-        display: block;
-        right: 0;
-        top: 0;
-        height: 100%;
-        background: #fff;
-        display: none;
-
-    }
-
-    .first-level > li {
-        display: block;
-        position: relative;
-        background: #eee;
-    }
-
-    .second-level ul {
-        display: none;
     }
 
     .close-menu {
@@ -1269,6 +1228,7 @@
         background: transparent;
         margin: 0;
         padding: 0;
+        border: none !important;
     }
 
     .menu-esquerdo h3 a, .menu-esquerdo h3 p {
@@ -2125,7 +2085,7 @@
     }
 
     #NavCentral {
-        margin: 0 !important;.first-level > li > h3 > a
+        margin: 0 !important;
     }
 
     #NavCentral > #Page > h2 {
