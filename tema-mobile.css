@@ -102,6 +102,7 @@
         box-shadow: 0 0 5px rgba(43, 44, 42, 0.32);
         background: transparent !important;
         top: 60px;
+        margin: 0 !important;
     }
 
     .rodape {
@@ -118,6 +119,12 @@
         text-align: center !important;
         width: 90%;
         border: none !important;
+    }
+    
+    .forma-tipo {
+        font-size: 16px;
+        display: block;
+        padding: 10px 0;
     }
     
     #NavSuperior {
