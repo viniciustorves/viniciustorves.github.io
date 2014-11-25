@@ -213,7 +213,7 @@
     
     .nav-cliente li {
        margin: 0px;
-        font-size: 18px;
+        font-size: 16px;
         color: #999;
         
     }
@@ -221,7 +221,7 @@
     .nav-cliente li a {
         display: inline-block;
         margin: 0 5px; 
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .cliente-saudacao {
