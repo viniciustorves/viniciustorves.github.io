@@ -276,6 +276,7 @@
         width: 100% !important;
         overflow: initial;
         float: none;
+        display: inline-block;
     }
 
     .carrinho-compras .carrinho-descricao {
