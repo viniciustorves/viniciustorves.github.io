@@ -185,6 +185,7 @@
         height: auto;
         line-height: inherit;
         max-height: 100%;
+        padding: 15px 0 ;
         vertical-align: middle;
     }
 
