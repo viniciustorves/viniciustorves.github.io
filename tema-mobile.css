@@ -253,7 +253,7 @@
     }
     
     .carrinho-descricao span {
-        color: #999;
+        color: #999 !important;
     }
 
     .carrinho-compras .carrinho-itens {
