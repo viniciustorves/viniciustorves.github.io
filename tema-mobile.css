@@ -66,7 +66,8 @@
     }
 
     #div1bg {
-        position: initial;
+        position: relative;
+        top: 32px;
     }
 
     #NavVisitados, 
