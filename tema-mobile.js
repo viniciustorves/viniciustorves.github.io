@@ -21,9 +21,7 @@
         $('#NavInferior').css('width', windowsize);
         $('#Body').css('width', windowsize);
         $('#Page').css('width', windowsize);
-        $('#NavLogoTray').css('display', 'none');
-
-        
+        $('#NavLogoTray').css('display', 'none');  
     });
 
     var windowsize = $(window).width(); // when the browser resizes, reset the width
@@ -37,6 +35,9 @@
             
             $('.busca-palavra').attr('value','');
             $('.busca-palavra').attr('placeholder','Buscar na loja');
+           
+           var corfundo  = $('body').css('background-color');
+           var corimagem = $('body').css('background-image');
            
             var htmlBusca = $('.bg-busca').html();
             $('#cabecalho').append('<div class="menu-mobile"><div class="hamburguer color-tone-2"></div>'+htmlBusca+'<div class="menu-conta color-tone-2"></div></div>');
