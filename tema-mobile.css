@@ -653,13 +653,15 @@
         text-align: center;
     }
 
-    .vitrine-geral li, .vitrine li, .store-front li, #Vitrine li{
-       
+    .vitrine-geral li, 
+    .vitrine li, 
+    .store-front li, 
+    #Vitrine li {
         background-clip: padding-box;
         background-color: #fff;
         background: #fff;
         border-radius: 11px;
-        border: 1px solid #d4d2bf;
+        border: 1px solid #ccc;
         box-shadow: 0;
         height: auto;
         margin: 10px auto !important;
