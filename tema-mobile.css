@@ -121,7 +121,7 @@
     }
     
     .rodape-info h6 {
-        color: #999;
+        color: #999 !important;
     }
     
     .forma-tipo {
