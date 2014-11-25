@@ -654,18 +654,13 @@
     }
 
     .vitrine-geral li, .vitrine li, .store-front li, #Vitrine li{
-        -moz-background-clip: padding;
-        -moz-border-radius: 11px;
-        -moz-box-shadow: 0 0 5px rgba(43,44,42,.32);
-        -webkit-background-clip: padding-box;
-        -webkit-border-radius: 11px;
-        -webkit-box-shadow: 0 0 5px rgba(43,44,42,.32);
+       
         background-clip: padding-box;
         background-color: #fff;
         background: #fff;
         border-radius: 11px;
         border: 1px solid #d4d2bf;
-        box-shadow: 0 0 5px rgba(43,44,42,.32);
+        box-shadow: 0;
         height: auto;
         margin: 10px auto !important;
         width: 90% !important;
