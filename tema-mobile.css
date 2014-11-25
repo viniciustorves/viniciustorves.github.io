@@ -103,6 +103,10 @@
         background: transparent !important;
     }
 
+    .rodape {
+        margin-top: 35px;
+    }
+    
     .rodape-info {
         background:  #ccc;
         margin: 0 !important;
