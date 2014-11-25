@@ -90,6 +90,7 @@
         height: 100%;
         margin: 0 !important;
         min-height: 100%;
+        border: 0 !important;
     }
 
     #NavInferior {
