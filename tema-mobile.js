@@ -5,7 +5,7 @@
 (function($) {
 
     $('head').append('<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">');
-    $('head').append('<meta http-equiv="X-UA-Compatible" content="IE=edge" />');
+
 
 
     $(window).resize(function() {
@@ -23,37 +23,7 @@
         $('#Page').css('width', windowsize);
         $('#NavLogoTray').css('display', 'none');
 
-        $('header').find('.lupa-resp').click(function() {
-            $('#form-auto-complete').toggle();
-        });
-
-
-
-        $('header').find('.login-resp').click(function() {
-            var loja = $('input[name="loja"]').val();
-            document.location.href = 'login_layout.php?loja=' + loja + '&origem=central&f=';
-        });
-
-        $('header').find('.carrinho-resp').click(function() {
-            var loja = $('input[name="loja"]').val();
-            document.location.href = 'carrinho.php?loja=' + loja;
-        });
-
-        $('header').find('.hamburguer').click(function() {
-            $('header').css('position', 'relative');
-            $('.first-level').fadeIn('fast');
-            if (!$('.fundo-close').length) {
-                $('body > div').before('<div class="fundo-close"></div>');
-            } else {
-                $('.fundo-close').fadeIn('fast');
-            }
-            $('.close-x').click(function() {
-                $('.fundo-close').fadeOut('fast');
-                $('.first-level').fadeOut('fast');
-                $('header').css('position', 'fixed');
-
-            })
-        })
+        
     });
 
     var windowsize = $(window).width(); // when the browser resizes, reset the width
