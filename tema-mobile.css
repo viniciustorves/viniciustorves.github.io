@@ -81,7 +81,7 @@
 
     #NavLateralEsquerda {
         position: absolute;
-        top: -50px;
+        top: -20px;
         width: 100%;
         display: none;
         background: #eee;
