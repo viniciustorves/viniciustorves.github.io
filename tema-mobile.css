@@ -661,7 +661,7 @@
         background-color: #fff;
         background: #fff;
         border-radius: 11px;
-        border: 1px solid #ccc;
+        border: 1px solid #eee !important;
         box-shadow: 0;
         height: auto;
         margin: 10px auto !important;
