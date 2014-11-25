@@ -99,7 +99,6 @@
     #NavInferior {
         clear: both;
         position: relative;
-        box-shadow: 0 0 5px rgba(43, 44, 42, 0.32);
         background: transparent !important;
         top: 60px;
         margin: 0 !important;
@@ -110,7 +109,7 @@
     }
     
     .rodape-info {
-        background:  #ccc;
+        background:  #eee;
         margin: 0 !important;
         padding: 5px 0;
     }
