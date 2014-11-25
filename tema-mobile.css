@@ -251,6 +251,10 @@
         text-align: center;
         float: none;
     }
+    
+    .carrinho-descricao span {
+        color: #999;
+    }
 
     .carrinho-compras .carrinho-itens {
         text-align: center;
