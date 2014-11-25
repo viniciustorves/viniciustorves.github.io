@@ -212,14 +212,16 @@
     }
     
     .nav-cliente li {
-        margin: 0;
-        font-size: 12px;
+       margin: 0px;
+        font-size: 18px;
+        color: #999;
+        
     }
 
     .nav-cliente li a {
         display: inline-block;
         margin: 0 5px; 
-        font-size: 12px;
+        font-size: 18px;
     }
 
     .cliente-saudacao {
