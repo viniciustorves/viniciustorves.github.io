@@ -111,6 +111,10 @@
         width: 90%;
         border: none !important;
     }
+    
+    #NavSuperior {
+        margin: 0;
+    }
 
     #NavSuperior .cabecalho {
         background: #eee;
