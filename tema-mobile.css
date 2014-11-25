@@ -2089,6 +2089,7 @@
 
     #NavCentral {
         margin: 0 !important;
+        background: #fff;
     }
 
     #NavCentral > #Page > h2 {
