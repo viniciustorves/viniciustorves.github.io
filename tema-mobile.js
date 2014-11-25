@@ -39,6 +39,9 @@
            var corfundo  = $('body').css('background-color');
            var corimagem = $('body').css('background-image');
            
+           $('#logotipo').css('background-color',corfundo);
+           $('#logotipo').css('background-image',corimagem);
+           
             var htmlBusca = $('.bg-busca').html();
             $('#cabecalho').append('<div class="menu-mobile"><div class="hamburguer color-tone-2"></div>'+htmlBusca+'<div class="menu-conta color-tone-2"></div></div>');
             $('.bg-busca').remove();
