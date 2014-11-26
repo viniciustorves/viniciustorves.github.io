@@ -1394,7 +1394,7 @@
 
     .tit-nome-destinatario,
     .tit-dados-entrega{
-        font-size: 13px;
+        font-size: 13px !important;
     }
 
     .tit-destinatario h3 {
