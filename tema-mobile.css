@@ -1302,6 +1302,16 @@
         font-size: 13px;
     }
 
+    .TimeLine5 ul li, .TimeLine7 ul li {
+        border-top: none;
+        display: block;
+        float: left;
+        font-size: 14px;
+        padding-top: 5px;
+        text-align: center;
+        width: 20%;
+    }
+
     .TimeLine5 ul li{
         display: none;
     }
@@ -1309,6 +1319,7 @@
     .TimeLine5 ul .ok {
         display: block !important;
         width: 100%;
+       
     }
 
     #menu-esquerdo {
