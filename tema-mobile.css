@@ -1470,6 +1470,11 @@
     .caixa-lista-formas .leftCorner2 {
         display: none;
     }
+    
+    .caixa-lista-formas #ProdAbas ul li a, 
+    .caixa-lista-formas #ProdAbas .aberta a {
+        font-size: 16px !important;  
+    }
 
     .central-conteudo hr {
         display: none;
