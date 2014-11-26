@@ -1310,7 +1310,8 @@
         display: block;
     }
     
-    span.breadcrumb-item:nth-child(3) {
+    span.breadcrumb-item:nth-child(3),
+    span.breadcrumb-spacer:nth-child(2) {
         display: none;
     }
 
