@@ -2289,7 +2289,7 @@
     .finalizarBT {
         width: 61px;
         height: 36px;
-        background: url('https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/bt-pagar.png');
+        background: url('https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/bt-pagar.png') !important;
         bottom: 0;
         right: 10px;
     }
