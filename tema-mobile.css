@@ -529,6 +529,9 @@
         display: none !important;
     }
 
+    .nav-pages {
+        background: transparent;
+    }
 
     .nav-pages li {
         padding: 10px 0;
