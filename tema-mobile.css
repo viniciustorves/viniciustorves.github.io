@@ -1470,20 +1470,26 @@
     .caixa-lista-formas .leftCorner2 {
         display: none;
     }
+    
+    .caixa-lista-formas #ProdAbas ul li {
+        display: block;
+        padding: 0;
+    }
 
     .caixa-lista-formas #ProdAbas ul li a, 
     .caixa-lista-formas #ProdAbas .aberta a {
         background: none repeat scroll 0 0 transparent;
         display: block;
         font-size: 16px !important;
+        padding: 15px 5px;
     }
-    
+
     #ProdAbas .aberta {
-    background-image: none;
-    float: none;
-    margin: 0 0 0 3px;
-    z-index: 20;
-}
+        background-image: none;
+        float: none;
+        margin: 0 0 0 3px;
+        z-index: 20;
+    }
 
     .central-conteudo hr {
         display: none;
