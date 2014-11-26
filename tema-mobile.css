@@ -1392,6 +1392,11 @@
         padding: 5px !important;
     }
     
+    .tit-nome-destinatario,
+    .tit-dados-entrega{
+        font-size: 13px;
+    }
+    
     .tit-destinatario h3 {
         padding: 10px 0;
     }
