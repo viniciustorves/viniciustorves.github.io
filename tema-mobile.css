@@ -1273,6 +1273,11 @@
         text-transform: uppercase !important;
         font: 700 16px/49px "Open Sans",sans-serif;
     }
+    
+    .breadcrumb {
+        margin: 0;
+        padding-bottom: 10px;
+    }
 
     .central-menu img {
         display: none;
