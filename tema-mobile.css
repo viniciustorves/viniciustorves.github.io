@@ -2173,6 +2173,10 @@
     .lista-formas-pagamento {
         display: none;
     }
+    
+    .lista-formas-pagamento li {
+        position: relative;
+    }
 
     .mensagem-popup {
         display: none;
