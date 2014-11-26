@@ -63,6 +63,7 @@
         position: relative;
         overflow: hidden;
         border: none !important;
+        min-height: 300px;
     }
 
     #div1bg {
