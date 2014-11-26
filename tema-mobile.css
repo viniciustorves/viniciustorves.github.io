@@ -1385,6 +1385,7 @@
     
     .tablePage th {
         background: transparent;
+        border: 1px solid #fff;
     }
 
     .tablePage td, .tablePage th, table td, table th, .Pedidos td, .Pedidos th {
