@@ -1406,6 +1406,7 @@
     .finish-purchase,
     .finish-delivery{
         width: 100% !important;
+        padding: 20px 0;
     }
 
     .Pedidos tr:first-child th:nth-child(4) {
