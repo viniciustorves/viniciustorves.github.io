@@ -1339,7 +1339,7 @@
         margin: 20px 0 0 0;
     }
 
-    .central-conteudo .board, .central-conteudo h1, .central-conteudo a {
+     .central-conteudo h1, .central-conteudo a {
         display: inline-block;
         font-size: 14px !important;
         color: #333;
