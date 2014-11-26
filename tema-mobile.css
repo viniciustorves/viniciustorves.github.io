@@ -2294,6 +2294,10 @@
         bottom: 0;
         right: 10px;
     }
+    
+    .finalizarBT .botao-commerce-img {
+        display: none;
+    }
 
     .finalizarBT img {
         display: none;
