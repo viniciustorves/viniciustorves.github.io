@@ -968,8 +968,8 @@
         font: 400 13px/13px 'Lato', sans-serif;
         color: #6e6e6e;
     }
-    
-    
+
+
     #footer .copyright-mensagem {
         background-color: transparent;
         font-size: 11px;
@@ -1292,11 +1292,19 @@
     .central-menu img {
         display: none;
     }
-    
+
+    .TimeLine5, .TimeLine7 {
+        background: none;
+        border: none;
+        margin-left: 0;
+        padding: 20px 0;
+        width: 90%;
+    }
+
     .TimeLine5 ul li{
         display: none;
     }
-    
+
     .TimeLine5 ul .ok {
         display: block !important;
         width: 100%;
@@ -1419,7 +1427,7 @@
     .tit-destinatario h3 {
         padding: 10px 0;
     }
-    
+
     .finish-message,
     .finish-order,
     .finish-purchase,
@@ -1498,7 +1506,7 @@
     .caixa-lista-formas .leftCorner2 {
         display: none;
     }
-    
+
     .caixa-lista-formas #ProdAbas ul {
         padding: 0;
 
@@ -2201,11 +2209,11 @@
     .lista-formas-pagamento {
         display: none;
     }
-    
+
     .lista-formas-pagamento li {
         position: relative;
     }
-    
+
     .mensagem-popup {
         display: none;
     }
@@ -2326,7 +2334,7 @@
         bottom: 0;
         right: 10px;
     }
-    
+
     .finalizarBT .botao-commerce-img {
         display: none;
     }
