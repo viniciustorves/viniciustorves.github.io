@@ -516,6 +516,9 @@
         display: none;
     }
 
+    .mini-menu-rodape {
+        margin: 0 !important;
+    }
     .mini-menu-rodape .nav-pages > li{
         display: block;
     }
