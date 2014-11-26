@@ -1323,8 +1323,9 @@
     }
     
     .central-conteudo p {
-        text-align: left;
-        display: block;
+        text-align: left !important;
+        display: block !important;
+        padding: 5px 0;
     }
 
     #menu-esquerdo {
