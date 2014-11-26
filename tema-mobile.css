@@ -1289,6 +1289,10 @@
         position: relative;
         z-index: 1;
         font-size: 14px;
+        border-bottom: 1px solid #eee;
+        margin: 0;
+        padding: 15px 0;
+        display: inline-block;
     }
 
     .icoFilho a {
