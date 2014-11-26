@@ -1462,6 +1462,10 @@
     }
 
     /* Confirmar pagamento*/
+    
+    .caixa-lista-formas #ProdAbas {
+        background: #eee;
+    }
 
     .central-conteudo hr {
         display: none;
