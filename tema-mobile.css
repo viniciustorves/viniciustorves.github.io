@@ -1951,6 +1951,11 @@
         margin-top: -25px;
         float: right;
     }
+    
+    #formas_envio_frete table {
+        width: 100%;
+    }
+    
     #formas_envio_frete td {
         border: 0 none;
         display: inline-block;
