@@ -1227,6 +1227,10 @@
     .central-saudacao {
         margin: 20px 0;
     }
+    
+    .central-saudacao p {
+        display: none;
+    }
 
     .central-icons-pai {
         background: #f6f6f6 !important;
