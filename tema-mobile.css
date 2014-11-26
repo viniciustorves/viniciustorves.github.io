@@ -1297,8 +1297,9 @@
         display: none;
     }
     
-    .TimeLine5 ul li .ok {
+    .TimeLine5 ul .ok {
         display: block !important;
+        width: 100%;
     }
 
     #menu-esquerdo {
