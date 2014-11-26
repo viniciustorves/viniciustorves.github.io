@@ -1927,11 +1927,12 @@
     }
 
     .caixa-forma-frete .carFretePara {
-        float: left;
         display: block;
-        padding: 10px 0;
+        padding: 15px 0;
         font-size: 14px;
         color: #666;
+        width: 100%;
+        text-align: center;
     }
     #formas_envio_frete table tr:nth-child(2n+1) {
         background-color: #f1f1f1;
