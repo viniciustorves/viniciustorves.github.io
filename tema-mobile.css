@@ -1253,7 +1253,7 @@
     }
     
     .central-breadcrumb .board {
-        display: none;
+        display: none !important;
     }
 
     .central-titulo h1 {
