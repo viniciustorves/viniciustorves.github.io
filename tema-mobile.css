@@ -1250,6 +1250,10 @@
         width: 100%;
         display: none;
     }
+    
+    .central-breadcrumb .board {
+        display: none;
+    }
 
     .central-titulo h1 {
         display: block !important;
