@@ -1471,6 +1471,10 @@
         display: none;
     }
     
+    .caixa-lista-formas #ProdAbas ul {
+        padding: 0;
+
+    }
     .caixa-lista-formas #ProdAbas ul li {
         display: block;
         padding: 0;
