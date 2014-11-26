@@ -1400,6 +1400,13 @@
     .tit-destinatario h3 {
         padding: 10px 0;
     }
+    
+    .finish-message,
+    .finish-order,
+    .finish-purchase,
+    .finish-delivery{
+        width: 100% !important;
+    }
 
     .Pedidos tr:first-child th:nth-child(4) {
 
