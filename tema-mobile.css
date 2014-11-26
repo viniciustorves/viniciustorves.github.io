@@ -1248,6 +1248,7 @@
     .central-titulo {
         max-width: 100%;
         width: 100%;
+        display: none;
     }
 
     .central-titulo h1 {
