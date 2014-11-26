@@ -515,12 +515,6 @@
         display: none;
     }
 
-
-    .mini-menu-rodape {
-        background: #eee;
-        margin-bottom: 20px;
-    }
-
     .mini-menu-rodape .nav-pages > li{
         display: block;
     }
