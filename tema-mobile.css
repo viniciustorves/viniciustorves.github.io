@@ -1303,7 +1303,7 @@
     }
 
     .TimeLine5 ul li, .TimeLine7 ul li {
-        border-top: none;
+        border-top: 3px solid #;
         display: block;
         float: left;
         font-size: 14px;
@@ -1320,7 +1320,11 @@
         display: block !important;
         width: 100%;
         background: none;
-       
+    }
+    
+    .central-conteudo p {
+        text-align: left;
+        display: block;
     }
 
     #menu-esquerdo {
