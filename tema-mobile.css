@@ -1291,8 +1291,9 @@
         font-size: 14px;
         border-bottom: 1px solid #eee;
         margin: 0;
-        padding: 15px 0;
+        padding: 15px 10px;
         display: inline-block;
+        width: 100%;
     }
 
     .icoFilho a {
@@ -1308,6 +1309,7 @@
         display: block;
         width: 100%;
         text-align: left;
+        padding: 0;
     }
 
     .Seguro {
