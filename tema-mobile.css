@@ -1231,6 +1231,12 @@
     .central-saudacao p {
         display: none;
     }
+    
+    .central-saudacao h2 {
+        display: inline-block;
+        padding: 10px 0 ;
+        vertical-align: middle;
+    }
 
     .central-icons-pai {
         background: #f6f6f6 !important;
