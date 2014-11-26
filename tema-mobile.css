@@ -2178,10 +2178,6 @@
         position: relative;
     }
     
-    .lista-formas-pagamento li:hover {
-        background: #eee;
-    }
-
     .mensagem-popup {
         display: none;
     }
