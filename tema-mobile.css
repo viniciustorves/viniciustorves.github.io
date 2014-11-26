@@ -1292,6 +1292,14 @@
     .central-menu img {
         display: none;
     }
+    
+    .TimeLine5 ul li{
+        display: none;
+    }
+    
+    .TimeLine5 ul li .ok {
+        display: block !important;
+    }
 
     #menu-esquerdo {
         background: transparent;
