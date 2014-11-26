@@ -1911,10 +1911,9 @@
         margin: 10px 0;
     }
 
-    #calculoFrete {
-        float: left !important;
+    #calculoFrete {        
         max-width: 100%;
-        display: block;
+        display: inline-block;
         text-align: left;
     }
 
