@@ -1477,6 +1477,13 @@
         display: block;
         font-size: 16px !important;
     }
+    
+    #ProdAbas .aberta {
+    background-image: none;
+    float: none;
+    margin: 0 0 0 3px;
+    z-index: 20;
+}
 
     .central-conteudo hr {
         display: none;
