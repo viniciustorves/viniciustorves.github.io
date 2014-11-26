@@ -1319,6 +1319,7 @@
     .TimeLine5 ul .ok {
         display: block !important;
         width: 100%;
+        background: none;
        
     }
 
