@@ -1407,6 +1407,7 @@
     .finish-delivery{
         width: 100% !important;
         padding: 20px 0;
+        text-align: center;
     }
 
     .Pedidos tr:first-child th:nth-child(4) {
