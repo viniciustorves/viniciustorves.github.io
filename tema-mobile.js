@@ -148,6 +148,7 @@
         
           if ($(location).attr('pathname') == "/loja/central_cliente.php") {
               $('#ProdBlock').remove();
+              $('.central-breadcrumb').remove();
           }
         
         
