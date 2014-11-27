@@ -1284,7 +1284,7 @@
     }
 
     .central-titulo h1 {
-        display: block !important;
+/*        display: block !important;
         background-color: #f6f6f6 !important;
         color: #666 !important;
         border-bottom-left-radius: 5px;
@@ -1294,7 +1294,7 @@
         max-width: 100%;
         padding: 20px 15px;
         text-transform: uppercase !important;
-        font: 700 16px/49px "Open Sans",sans-serif;
+        font: 700 16px/49px "Open Sans",sans-serif;*/
     }
 
     .breadcrumb {
