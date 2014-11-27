@@ -62,7 +62,7 @@
                     $('.hamburguer').css('display','none');
                 }
                 else {
-                     $('.hamburguer').css('display','none');
+                     $('.hamburguer').css('display','block');
                 }
 
                 $('html, body').scrollTop(0);
