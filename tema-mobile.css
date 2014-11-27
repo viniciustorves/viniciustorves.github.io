@@ -528,7 +528,7 @@
     }
 
     .nav-pages {
-        background: transparent;
+        background: inherit;
     }
 
     .nav-pages li {
