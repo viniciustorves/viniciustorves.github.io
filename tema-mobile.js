@@ -82,6 +82,7 @@
             $('#NavLogoTray').css('display', 'none');
 
             if ($('#tabela_carrinho').length) {
+                
                 $('#tabela_carrinho tr').not('#tabela_carrinho tr:first-child').each(function() {
                     var nome = $(this).find('strong').html();
                     $(this).before('<tr><td colspan="6" class="nome-produto-carrinho">' + nome + '</td></tr>');
@@ -140,6 +141,12 @@
             $('p').css('display','block');
             $('p').css('padding','10px 0');
             $('.tablePage img').css('display','none');
+            
+            $('.tablePage tr').not('.tablePage  tr:first-child').each(function() {
+                    var nome = $(this).not('.tablePage tr:first-child').find('td:first-child').html();
+                    $(this).before('<tr><td colspan="6" class="nome-produto-carrinho">' + nome + '</td></tr>');
+                    $(this).find('td:nth-child(2)').hide();
+                });
         }
 
 
