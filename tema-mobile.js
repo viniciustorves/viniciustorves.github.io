@@ -67,7 +67,7 @@
                     $('.hamburguer').css('background','url(https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/hamburguer-tema-x.gif?v=5) center center no-repeat');
                 }
                 else {
-                     $('.hamburguer').css('background','url(https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/hamburguer-tema.png)');
+                     $('.hamburguer').css('background','url(https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/hamburguer-tema.png) center center no-repeat');
                 }
                 
                 $('#NavLateralEsquerda').toggle('fast');
