@@ -61,15 +61,17 @@
                     $('.cabecalho .caixa-overflow').toggle('fast');
                     
                 }
-                if($('#NavLateralEsquerda').css('display') == "hidden") {
+                $('html, body').scrollTop(0);
+                $('#NavLateralEsquerda').toggle('fast');
+                
+                if($('#NavLateralEsquerda').css('display') == "block") {
                     $('.hamburguer').css('background','red');
                 }
                 else {
                      $('.hamburguer').css('background','hamburguer-tema.png');
                 }
 
-                $('html, body').scrollTop(0);
-                $('#NavLateralEsquerda').toggle('fast');
+                
             })
 
 
