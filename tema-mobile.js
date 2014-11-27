@@ -87,6 +87,7 @@
                     $(this).before('<tr><td colspan="6" class="nome-produto-carrinho">' + nome + '</td></tr>');
                     $(this).find('td:nth-child(2)').hide();
                 });
+                
                 $('.nome-produto-carrinho td:first-child').remove();
                 $('table.tablePage:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > th:nth-child(1)').attr('colspan', '4');
                 $('div.board:nth-child(4) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > th:nth-child(1)').attr('colspan', '8');
@@ -138,6 +139,7 @@
         if ($(location).attr('pathname') == "/loja/central_detalhe_pedido.php") {
             $('p').css('display','block');
             $('p').css('padding','10px 0');
+            $('.tablePage img').css('display','none');
         }
 
 
