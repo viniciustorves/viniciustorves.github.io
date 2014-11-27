@@ -2391,7 +2391,7 @@
     }
     
     .central-conteudo .change {
-        display: none;
+        display: none !important;
     }
     
 }
