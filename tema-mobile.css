@@ -1218,10 +1218,11 @@
     }
 
     div.board:nth-child(4) {
-        text-align: left;
-        padding: 10px 0 !important;
-        display: block !important;;
-        font-size: 12px;
+
+    }
+    
+    .precoparc {
+        font-size: 100%;
     }
 
     div.board:nth-child(2) > fieldset:nth-child(10) > label:nth-child(20) {
