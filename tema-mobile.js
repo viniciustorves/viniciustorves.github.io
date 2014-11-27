@@ -57,7 +57,7 @@
             })
 
             $('.hamburguer').click(function() {
-                if ($('.cabecalho .caixa-overflow').css('display') == "block") {
+                if ($('#NavLateralEsquerda').css('display') == "block") {
                     $('.cabecalho .caixa-overflow').toggle('fast');
                     $('.hamburguer').css('display','none');
                 }
