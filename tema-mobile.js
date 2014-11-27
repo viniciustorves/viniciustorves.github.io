@@ -68,6 +68,7 @@
                     $('.hamburguer').css('background','red');
                 }
                 else {
+                    alert('blue');
                      $('.hamburguer').css('background','blue');
                 }
 
