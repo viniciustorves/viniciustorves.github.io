@@ -21,7 +21,7 @@
         $('#NavInferior').css('width', windowsize);
         $('#Body').css('width', windowsize);
         $('#Page').css('width', windowsize);
-        $('#NavLogoTray').css('display', 'none');  
+        $('#NavLogoTray').css('display', 'none');
     });
 
     var windowsize = $(window).width(); // when the browser resizes, reset the width
@@ -32,25 +32,25 @@
     $(document).ready(function() {
         var windowsize = $(window).width(); // when the browser resizes, reset the width
         if (windowsize <= 768) {
-            
-            $('.busca-palavra').attr('value','');
-            $('.busca-palavra').attr('placeholder','Buscar na loja');
-           
-           var corfundo  = $('body').css('background-color');
-           var corimagem = $('body').css('background-image');
-           
-           $('#logotipo').css('background-color',corfundo);
-           $('#logotipo').css('background-image',corimagem);
-           
+
+            $('.busca-palavra').attr('value', '');
+            $('.busca-palavra').attr('placeholder', 'Buscar na loja');
+
+            var corfundo = $('body').css('background-color');
+            var corimagem = $('body').css('background-image');
+
+            $('#logotipo').css('background-color', corfundo);
+            $('#logotipo').css('background-image', corimagem);
+
             var htmlBusca = $('.bg-busca').html();
-            $('#cabecalho').append('<div class="menu-mobile"><div class="hamburguer color-tone-2"></div>'+htmlBusca+'<div class="menu-conta color-tone-2"></div></div>');
+            $('#cabecalho').append('<div class="menu-mobile"><div class="hamburguer color-tone-2"></div>' + htmlBusca + '<div class="menu-conta color-tone-2"></div></div>');
             $('.bg-busca').remove();
-           
-           
-           
+
+
+
             $('.menu-conta').click(function() {
                 if ($('#NavLateralEsquerda').css('display') == "block") {
-                    
+
                     $('#NavLateralEsquerda').toggle('fast');
                 }
                 $('.cabecalho .caixa-overflow').toggle('fast');
@@ -60,12 +60,12 @@
                 if ($('.cabecalho .caixa-overflow').css('display') == "block") {
                     $('.cabecalho .caixa-overflow').toggle('fast');
                 }
- 
+
                 $('html, body').scrollTop(0);
                 $('#NavLateralEsquerda').toggle('fast');
             })
-            
-            
+
+
 
             $('html').css('width', windowsize);
             $('header').css('width', windowsize);
@@ -82,13 +82,13 @@
             $('#NavLogoTray').css('display', 'none');
 
             if ($('#tabela_carrinho').length) {
-                
+
                 $('#tabela_carrinho tr').not('#tabela_carrinho tr:first-child').each(function() {
                     var nome = $(this).find('strong').html();
                     $(this).before('<tr><td colspan="6" class="nome-produto-carrinho">' + nome + '</td></tr>');
                     $(this).find('td:nth-child(2)').hide();
                 });
-                
+
                 $('.nome-produto-carrinho td:first-child').remove();
                 $('table.tablePage:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > th:nth-child(1)').attr('colspan', '4');
                 $('div.board:nth-child(4) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > th:nth-child(1)').attr('colspan', '8');
@@ -131,27 +131,23 @@
             $('#Page p').addClass('msg-p-finalizar');
             $('#Page p').addClass('msg-p-finalizar');
         }
-        
+
         if ($(location).attr('pathname') == "/loja/carrinho.php") {
             $('div.container:nth-child(4)').remove();
-            $('.container3').css('display','block');
+            $('.container3').css('display', 'block');
         }
-        
+
         if ($(location).attr('pathname') == "/loja/central_detalhe_pedido.php") {
-            $('p').css('display','block');
-            $('p').css('padding','10px 0');
-            $('.tablePage img').css('display','none');
+            $('p').css('display', 'block');
+            $('p').css('padding', '10px 0');
+            $('.tablePage img').css('display', 'none');
+
             
-            $('.tablePage tr').not('.tablePage  tr:first-child').each(function() {
-                    var nome = $(this).not('.tablePage tr:first-child').find('td:first-child').html();
-                    $(this).after('<tr><td colspan="6" class="nome-produto-carrinho">' + nome + '</td></tr>');
-                    $(this).find('td:nth-child(2)').hide();
-                });
         }
 
 
-        $(window).scroll(function(){
-            if($('.caixa-overflow').css('display') != "none") {
+        $(window).scroll(function() {
+            if ($('.caixa-overflow').css('display') != "none") {
                 $('.caixa-overflow').fadeOut();
             }
         })
