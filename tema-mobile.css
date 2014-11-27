@@ -1270,7 +1270,7 @@
     }
 
     .central-conteudo .board {
-        display: none !important;
+        display: block !important;
     }
 
     .central-titulo h1 {
