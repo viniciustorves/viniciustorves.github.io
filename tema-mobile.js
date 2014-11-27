@@ -62,7 +62,7 @@
                     $('.hamburguer').css('background-image','hamburguer-tema.png');
                 }
                 else {
-                     $('.hamburguer').css('background-image','hamburguer-tema-x.gif');
+                     $('.hamburguer').css('display','none');
                 }
 
                 $('html, body').scrollTop(0);
