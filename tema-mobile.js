@@ -64,7 +64,7 @@
                 $('html, body').scrollTop(0);
                 
                 if($('#NavLateralEsquerda').css('display') == "none") {
-                    $('.hamburguer').css('background','url(https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/hamburguer-tema-x.gif?v=4) center center no-repeat');
+                    $('.hamburguer').css('background','url(https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/hamburguer-tema-x.gif?v=5) center center no-repeat');
                 }
                 else {
                      $('.hamburguer').css('background','url(https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/hamburguer-tema.png)');
