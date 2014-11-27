@@ -2390,4 +2390,8 @@
         height: auto;
     }
     
+    .central-conteudo .change {
+        display: none;
+    }
+    
 }
