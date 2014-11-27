@@ -2383,8 +2383,10 @@
     }
     
     .vitrineVisitados .bts2 {
-        padding: 10px;
+        padding: 15px;
         display: block;
+        width: auto;
+        height: auto;
     }
     
 }
