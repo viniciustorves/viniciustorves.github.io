@@ -68,7 +68,7 @@
                     $('.hamburguer').css('background','red');
                 }
                 else {
-                     $('.hamburguer').css('background','hamburguer-tema.png');
+                     $('.hamburguer').css('background','blue');
                 }
 
                 
