@@ -61,7 +61,7 @@
                     $('.cabecalho .caixa-overflow').toggle('fast');
                     
                 }
-                if($('#NavLateralEsquerda').css('display') == "block") {
+                if($('#NavLateralEsquerda').css('display') == "hidden") {
                     $('.hamburguer').css('background','red');
                 }
                 else {
