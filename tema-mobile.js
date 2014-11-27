@@ -59,9 +59,11 @@
             $('.hamburguer').click(function() {
                 if ($('.cabecalho .caixa-overflow').css('display') == "block") {
                     $('.cabecalho .caixa-overflow').toggle('fast');
+                    alert('xxxx');
                     $('.hamburguer').css('background','hamburguer-tema-x.gif');
                 }
                 else {
+                    alert('yyyy');
                      $('.hamburguer').css('background','hamburguer-tema.png');
                 }
 
