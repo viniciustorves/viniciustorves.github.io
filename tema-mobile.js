@@ -134,6 +134,11 @@
             $('div.container:nth-child(4)').remove();
             $('.container3').css('display','block');
         }
+        
+        if ($(location).attr('pathname') == "/loja/central_detalhe_pedido.php") {
+            $('p').css('display','block');
+            $('p').css('padding','10px 0');
+        }
 
 
         $(window).scroll(function(){
