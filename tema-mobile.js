@@ -64,7 +64,7 @@
                 $('html, body').scrollTop(0);
                 
                 if($('#NavLateralEsquerda').css('display') == "none") {
-                    $('.hamburguer').css('background','https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/hamburguer-tema-x.gif?v=4');
+                    $('.hamburguer').css('background','none');
                 }
                 else {
                      $('.hamburguer').css('background','https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/hamburguer-tema.png');
