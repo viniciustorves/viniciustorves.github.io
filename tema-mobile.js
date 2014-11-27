@@ -63,7 +63,7 @@
                 }
                 $('html, body').scrollTop(0);
                 $('#NavLateralEsquerda').toggle('fast');
-                
+                alert($('#NavLateralEsquerda').css('display'));
                 if($('#NavLateralEsquerda').css('display') == "block") {
                     $('.hamburguer').css('background','red');
                 }
