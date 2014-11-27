@@ -57,12 +57,15 @@
             })
 
             $('.hamburguer').click(function() {
-                if ($('#NavLateralEsquerda').css('display') == "block") {
+                if ($('.cabecalho .caixa-overflow').css('display') == "block") {
                     $('.cabecalho .caixa-overflow').toggle('fast');
-                    $('.hamburguer').css('display','none');
+                    
+                }
+                if($('#NavLateralEsquerda').css('display') == "block") {
+                    $('.hamburguer').css('background','');
                 }
                 else {
-                     $('.hamburguer').css('display','block');
+                     $('.hamburguer').css('background','hamburguer-tema.png');
                 }
 
                 $('html, body').scrollTop(0);
