@@ -63,15 +63,16 @@
                 }
                 $('html, body').scrollTop(0);
                 alert($('#NavLateralEsquerda').css('display'));
-                $('#NavLateralEsquerda').toggle('fast');
-                
-                if($('#NavLateralEsquerda').css('display') == "block") {
+                if($('#NavLateralEsquerda').css('display') == "none") {
                     $('.hamburguer').css('background','red');
                 }
                 else {
                     alert('blue');
                      $('.hamburguer').css('background','blue');
                 }
+                $('#NavLateralEsquerda').toggle('fast');
+                
+                
 
                 
             })
