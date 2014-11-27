@@ -141,7 +141,7 @@
             $('p').css('display', 'block');
             $('p').css('padding', '10px 0');
             $('.tablePage img').css('display', 'none');
-            $('.tablePage tr th nth-child(4)').css('display', 'none');
+            $('.tablePage tr th:nth-child(4)').css('display', 'none');
             
 
             
