@@ -62,7 +62,7 @@
                     
                 }
                 if($('#NavLateralEsquerda').css('display') == "block") {
-                    $('.hamburguer').css('background','');
+                    $('.hamburguer').css('background','red');
                 }
                 else {
                      $('.hamburguer').css('background','hamburguer-tema.png');
