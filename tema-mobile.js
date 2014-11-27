@@ -70,7 +70,6 @@
             })
 
 
-
             $('html').css('width', windowsize);
             $('header').css('width', windowsize);
             $('body').css('width', windowsize);
