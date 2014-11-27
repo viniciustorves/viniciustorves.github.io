@@ -144,7 +144,7 @@
             
             $('.tablePage tr').not('.tablePage  tr:first-child').each(function() {
                     var nome = $(this).not('.tablePage tr:first-child').find('td:first-child').html();
-                    $(this).before('<tr><td colspan="6" class="nome-produto-carrinho">' + nome + '</td></tr>');
+                    $(this).after('<tr><td colspan="6" class="nome-produto-carrinho">' + nome + '</td></tr>');
                     $(this).find('td:nth-child(2)').hide();
                 });
         }
