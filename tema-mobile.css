@@ -528,7 +528,7 @@
     }
 
     #footer .nav-pages{
-        background: inherit;
+        background: inherit !important;
     }
 
     .nav-pages li {
