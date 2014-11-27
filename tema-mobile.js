@@ -59,10 +59,10 @@
             $('.hamburguer').click(function() {
                 if ($('.cabecalho .caixa-overflow').css('display') == "block") {
                     $('.cabecalho .caixa-overflow').toggle('fast');
-                    $('.hamburguer').css('background','hamburguer-tema.gif');
+                    $('.hamburguer').css('background-image','hamburguer-tema.png');
                 }
                 else {
-                     $('.hamburguer').css('background','hamburguer-tema-x.png');
+                     $('.hamburguer').css('background-image','hamburguer-tema-x.gif');
                 }
 
                 $('html, body').scrollTop(0);
