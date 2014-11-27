@@ -1271,6 +1271,16 @@
 
     .central-conteudo .board {
         display: block !important;
+        background-color: #F6F6F6 !important;
+        color: #666 !important;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        margin: 0px;
+        width: 100%;
+        max-width: 100%;
+        padding: 20px 15px;
+        text-transform: uppercase !important;
+        font: 700 16px/49px "Open Sans",sans-serif;
     }
 
     .central-titulo h1 {
