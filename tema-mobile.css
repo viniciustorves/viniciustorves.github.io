@@ -1306,7 +1306,7 @@
     }
 
     .TimeLine5 ul li, .TimeLine7 ul li {
-        border-top: 3px solid #;
+        border-top: 3px solid;
         display: block;
         float: left;
         font-size: 14px;
@@ -2381,4 +2381,10 @@
     #tabela_carrinho td span {
         display: none;
     }
+    
+    .vitrineVisitados .bts2 {
+        padding: 10px;
+        display: block;
+    }
+    
 }
