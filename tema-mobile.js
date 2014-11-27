@@ -144,10 +144,13 @@
             $('.tablePage tr th:nth-child(3)').css('display', 'none');
             $('.tablePage tr td:nth-child(4)').css('display', 'none');
             $('.tablePage tr').find('[colspan=4]').attr('colspan','3');
-            
-
-            
         }
+        
+          if ($(location).attr('pathname') == "/loja/central_cliente.php") {
+              $('#ProdBlock').remove();
+          }
+        
+        
 
 
         $(window).scroll(function() {
