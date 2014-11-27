@@ -527,8 +527,8 @@
         display: none !important;
     }
 
-    #footer .nav-pages{
-        background: inherit !important;
+    .nav-pages {
+        background: transparent;
     }
 
     .nav-pages li {
