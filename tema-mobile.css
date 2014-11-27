@@ -1278,7 +1278,7 @@
         margin: 0px;
         width: 100%;
         max-width: 100%;
-        padding: 20px 15px;
+        padding: 20px 15px !important;
         text-transform: uppercase !important;
         font: 700 16px/49px "Open Sans",sans-serif;
     }
