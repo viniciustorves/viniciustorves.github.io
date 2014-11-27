@@ -1323,6 +1323,7 @@
         display: block !important;
         width: 100%;
         background: none;
+        padding: 10px 0;
     }
     
     .central-conteudo p {
