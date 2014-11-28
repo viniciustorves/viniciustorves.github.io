@@ -1734,15 +1734,16 @@
     }
     #ProdAbas li a, #ProdAbas .aberta a {
         background-color: #f3f3f3;
-        border-left: 1px solid #f3f3f3;
-        border-right: 1px solid #f3f3f3;
-        border-top: 1px solid #f3f3f3;
+       
+        border: 1px solid #eee;
+        margin: 10px 0;
         color: #9d9d9d;
         display: block;
         font: 400 0.65rem/1 "Lato",sans-serif;
         text-transform: uppercase;
         padding: 10px 0;
         float: left;
+        width: 100%;
     }
 
     #CadastroAbas li, #ProdAbas li, #CadastroAbas .aberta, #ProdAbas .aberta {
