@@ -179,7 +179,7 @@
         }
         
         
-        $('a').removeClass('cloud-zoom');
+        alert($('a').removeClass('cloud-zoom'));
           
 
         var loja = $('input[name="loja"]').val();
