@@ -171,7 +171,7 @@
         })
 
         
-        var numItems = $('.prodBox').length;
+        var numItems = $('.abasProduto .prodBox').length;
         
         alert(numItems);
 
