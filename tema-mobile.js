@@ -34,7 +34,9 @@
         var windowsize = $(window).width(); // when the browser resizes, reset the width
         if (windowsize <= 768) {
            
-            $('.mousetrap').remove();
+            $('.mousetrap').each(function(){
+                 $('.mousetrap').remove();
+            })
             
 
             $('.busca-palavra').attr('value', '');
