@@ -35,6 +35,7 @@
             
             $('a').removeClass('cloud-zoom');
             $('a').removeAttr('rel');
+            $('div').removeClass('zoom-on');
 
             $('.busca-palavra').attr('value', '');
             $('.busca-palavra').attr('placeholder', 'Buscar na loja');
