@@ -174,7 +174,7 @@
         var numItems = $('.prodBox').length;
         
         for(var i=0; i<numItems; i++){
-            $('.abasProduto').find('li').eq(i).append($('.prodBox').eq(i).clone());
+            $('.abasProduto').find('li').eq(i).append($('.prodBox').eq(i).html());
             $('.prodBox').eq(i).remove();
         }
 
