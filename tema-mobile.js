@@ -26,6 +26,9 @@
 
     var windowsize = $(window).width(); // when the browser resizes, reset the width
     if (windowsize <= 768) {
+        $('a').removeClass('cloud-zoom');
+            $('a').removeAttr('rel');
+            $('div').removeClass('zoom-on');
         $('#wrapper').append('<div class="fundo-loading"><img src="https://images.tcdn.com.br/img/arquivos/372058/images/responsivo/loading.gif"></div>');
     }
 
@@ -33,9 +36,7 @@
         var windowsize = $(window).width(); // when the browser resizes, reset the width
         if (windowsize <= 768) {
             
-            $('a').removeClass('cloud-zoom');
-            $('a').removeAttr('rel');
-            $('div').removeClass('zoom-on');
+            
 
             $('.busca-palavra').attr('value', '');
             $('.busca-palavra').attr('placeholder', 'Buscar na loja');
