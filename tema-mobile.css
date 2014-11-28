@@ -1733,26 +1733,15 @@
         background: none;
     }
     
-    .abasProduto #ProdAbas .aberta, .abasProduto  #ProdAbas li {
+    .abasProduto .aberta, .abasProduto li {
         display: block;
         width: 100%;
         margin: 10px 0;
     }
     
-    #ProdAbas li a, #ProdAbas .aberta a {
-        background-color: #f3f3f3;
-        border-left: 1px solid #f3f3f3;
-        border-right: 1px solid #f3f3f3;
-        border-top: 1px solid #f3f3f3;
-        color: #9d9d9d;
-        display: block;
-        font: 400 0.65rem/1 "Lato",sans-serif;
-        text-transform: uppercase;
-        padding: 10px 0;
-        float: left;
-    }
+  
 
-    #CadastroAbas li, #ProdAbas li, #CadastroAbas .aberta, #ProdAbas .aberta {
+    #CadastroAbas li, #CadastroAbas .aberta {
         margin: 0 0 0 5px;
         position: relative;
         z-index: 1;
