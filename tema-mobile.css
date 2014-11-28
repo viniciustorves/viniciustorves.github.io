@@ -190,10 +190,10 @@
         background: url('https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/hamburguer-tema.png?v=2') no-repeat center center;
         display: table-cell;
         vertical-align: middle;
-        -webkit-transition:	all 20s linear;
-	-moz-transition: all 20s linear;
-	-o-transition: all 20s linear;
-	transition: all 20s linear;
+        -webkit-transition:	all 2s linear;
+	-moz-transition: all 2s linear;
+	-o-transition: all 2s linear;
+	transition: all 2s linear;
     }
 
     #logotipo {
@@ -1731,21 +1731,25 @@
 
     #CadastroAbas li {
         background: none;
-        border: 1px solid #eee;
-         width: 100%;
-         display: block;
     }
+    
+    .abasProduto #ProdAbas .aberta, .abasProduto  #ProdAbas li {
+        display: block;
+        width: 100%;
+        margin: 10px 0;
+    }
+    
     #ProdAbas li a, #ProdAbas .aberta a {
         background-color: #f3f3f3;
-       
-        
-        margin: 10px 0;
+        border-left: 1px solid #f3f3f3;
+        border-right: 1px solid #f3f3f3;
+        border-top: 1px solid #f3f3f3;
         color: #9d9d9d;
         display: block;
         font: 400 0.65rem/1 "Lato",sans-serif;
         text-transform: uppercase;
         padding: 10px 0;
-       
+        float: left;
     }
 
     #CadastroAbas li, #ProdAbas li, #CadastroAbas .aberta, #ProdAbas .aberta {
