@@ -1737,18 +1737,16 @@
         display: block;
         width: 100%;
         margin: 20px 0 !important;
-        padding: 10px 0 !important;
+        padding: 0 !important;
         background: #eee !important;
         border: none;
-        float: none;
+        float: none !important;
+        border-radius: 0 !important;
     }
     .abasProduto .prodBox {
         background: #fff !important;
     }
 
-    .abasProduto a, .abasProduto a {
-
-    }
 
     .abasProduto #Aba1, .abasProduto #Aba2, .abasProduto #Aba3, .abasProduto #Aba4 {
         display: block;
