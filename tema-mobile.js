@@ -179,7 +179,7 @@
         }
         
         
-                        var zoomHabilitado = false;
+                        $('#container_thumb').removeClass('cloud-zoom');
           
 
 
