@@ -1652,6 +1652,10 @@
     .carrinho-tabs .active  h6{
         display: none;
     }
+    
+    .mousetrap {
+        display: none !important;
+    }
 
     .produto-wrapper .produto-preco  {
         background:  #eee !important;
