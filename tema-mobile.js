@@ -173,7 +173,10 @@
         
         var numItems = $('.prodBox').length;
         
-        alert(numItems);
+        for(var i=0; i<numItems-1; i++){
+            $('.abasProduto').find('li').eq(i).html($('.prodBox').eq(i).html());
+            $('.prodBox').eq(i).remove();
+        }
 
 
         var loja = $('input[name="loja"]').val();
