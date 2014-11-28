@@ -161,16 +161,16 @@
               $('#ProdBlock').remove();
               $('.central-breadcrumb').remove();
           }
+          
+          
         
-        
-
-
         $(window).scroll(function() {
             if ($('.caixa-overflow').css('display') != "none") {
                 $('.caixa-overflow').fadeOut();
             }
         })
 
+        alert($(location).attr('pathname'));
 
 
         var loja = $('input[name="loja"]').val();
