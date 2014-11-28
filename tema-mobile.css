@@ -1,4 +1,6 @@
 @media (max-width: 768px) {
+    
+    @-ms-viewport { width: device-width; } @-o-viewport { width: device-width; } @viewport { width: device-width; }
 
     @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700,600);
 
