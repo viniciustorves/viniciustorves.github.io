@@ -171,7 +171,7 @@
         })
 
         
-        var numItems = $('#ProdAbas .prodBox').length;
+        var numItems = $('.prodBox').length;
         
         alert(numItems);
 
