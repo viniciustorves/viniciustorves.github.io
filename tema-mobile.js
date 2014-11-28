@@ -175,7 +175,7 @@
         
         for(var i=0; i<numItems; i++){
             $('.prodBox').eq(i).appendTo($('.abasProduto').find('li').eq(i));
-            $('.prodBox').eq(i).remove();
+         
         }
 
 
