@@ -26,15 +26,15 @@
 
     var windowsize = $(window).width(); // when the browser resizes, reset the width
     if (windowsize <= 768) {
-        $('.mousetrap').remove();
-           
+        
         $('#wrapper').append('<div class="fundo-loading"><img src="https://images.tcdn.com.br/img/arquivos/372058/images/responsivo/loading.gif"></div>');
     }
 
     $(document).ready(function() {
         var windowsize = $(window).width(); // when the browser resizes, reset the width
         if (windowsize <= 768) {
-            
+           
+            $('.mousetrap').remove();
             
 
             $('.busca-palavra').attr('value', '');
