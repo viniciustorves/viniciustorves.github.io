@@ -1736,17 +1736,19 @@
     .abasProduto .aberta, .abasProduto li {
         display: block;
         width: 100%;
-        margin: 10px 0 !important;
-        padding: 10px 0;
+        margin: 20px 0 !important;
+        padding: 10px 0 !important;
         background: #eee !important;
         border: none;
+        float: none;
     }
     .abasProduto .prodBox {
         background: #fff !important;
     }
     
-    .abasProduto .aberta a, .abasProduto li a {
+    .abasProduto a, .abasProduto a {
         font-size: 16px !important;
+        display: block;
     }
     
     .abasProduto #Aba1, .abasProduto #Aba2, .abasProduto #Aba3, .abasProduto #Aba4 {
