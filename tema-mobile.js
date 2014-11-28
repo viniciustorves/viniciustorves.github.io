@@ -179,7 +179,7 @@
         }
         
         
-                        $('#container_thumb').removeClass('cloud-zoom');
+                        $('#container_thumb').removeClass('.cloud-zoom');
           
 
 
