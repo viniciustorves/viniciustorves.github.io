@@ -1752,7 +1752,7 @@
         display: block;
     }
 
-    .abasProduto #Aba1 a , .abasProduto #Aba2 a, .abasProduto #Aba3 a, .abasProduto #Aba4 a {
+    .abasProduto #Aba1 a , .abasProduto #Aba2 a, .abasProduto #Aba3 a, .abasProduto #Aba4 a, , .abasProduto #Aba5 a, .abasProduto #Aba6 a   {
         font-size: 16px !important;
         display: block;
     }
