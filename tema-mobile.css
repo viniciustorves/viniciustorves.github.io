@@ -1746,7 +1746,7 @@
     }
     
     .abasProduto .aberta a, .abasProduto li a {
-        font-size: 14px;
+        font-size: 16px !important;
     }
     
     .abasProduto #Aba1, .abasProduto #Aba2, .abasProduto #Aba3, .abasProduto #Aba4 {
