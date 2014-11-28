@@ -140,7 +140,7 @@
         padding: 0;
         background: transparent;
     }
-    
+
     #NavSuperior:before {
         display: none;
     }
@@ -191,9 +191,9 @@
         display: table-cell;
         vertical-align: middle;
         -webkit-transition:	all 2s linear;
-	-moz-transition: all 2s linear;
-	-o-transition: all 2s linear;
-	transition: all 2s linear;
+        -moz-transition: all 2s linear;
+        -o-transition: all 2s linear;
+        transition: all 2s linear;
     }
 
     #logotipo {
@@ -1230,7 +1230,7 @@
     div.board:nth-child(4) {
 
     }
-    
+
     .precoparc {
         font-size: 100%;
     }
@@ -1294,17 +1294,17 @@
     }
 
     .central-titulo h1 {
-/*        display: block !important;
-        background-color: #f6f6f6 !important;
-        color: #666 !important;
-        border-bottom-left-radius: 5px;
-        border-bottom-right-radius: 5px;
-        margin: 0;
-        width: 100%;
-        max-width: 100%;
-        padding: 20px 15px;
-        text-transform: uppercase !important;
-        font: 700 16px/49px "Open Sans",sans-serif;*/
+        /*        display: block !important;
+                background-color: #f6f6f6 !important;
+                color: #666 !important;
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;
+                margin: 0;
+                width: 100%;
+                max-width: 100%;
+                padding: 20px 15px;
+                text-transform: uppercase !important;
+                font: 700 16px/49px "Open Sans",sans-serif;*/
     }
 
     .breadcrumb {
@@ -1346,7 +1346,7 @@
         background: none;
         padding: 10px 0;
     }
-    
+
     .central-conteudo p {
         text-align: left !important;
         display: block !important;
@@ -1435,11 +1435,11 @@
     .tablePage {
         border: none;
     }
-    
+
     .Pedidos {
         border: none;
     }
-    
+
     .tablePage tr:first-child th, 
     table tr:first-child th, 
     .Pedidos tr:first-child th {
@@ -1732,7 +1732,7 @@
     #CadastroAbas li {
         background: none;
     }
-    
+
     .abasProduto .aberta, .abasProduto li {
         display: block;
         width: 100%;
@@ -1745,17 +1745,20 @@
     .abasProduto .prodBox {
         background: #fff !important;
     }
-    
+
     .abasProduto a, .abasProduto a {
-        font-size: 16px !important;
-        display: block;
+
     }
-    
+
     .abasProduto #Aba1, .abasProduto #Aba2, .abasProduto #Aba3, .abasProduto #Aba4 {
         display: block;
     }
-    
-  
+
+    .abasProduto #Aba1 a , .abasProduto #Aba2 a, .abasProduto #Aba3 a, .abasProduto #Aba4 a {
+        font-size: 16px !important;
+        display: block;
+    }
+
 
     #CadastroAbas li, #CadastroAbas .aberta {
         margin: 0 0 0 5px;
@@ -2414,7 +2417,7 @@
     #tabela_carrinho td span {
         display: none;
     }
-    
+
     .vitrineVisitados .bts2 {
         padding: 5px 10px;
         border-radius: 5px;
@@ -2422,9 +2425,9 @@
         width: auto;
         height: auto;
     }
-    
+
     .central-conteudo .change {
         display: none !important;
     }
-    
+
 }
