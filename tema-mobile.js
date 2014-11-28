@@ -177,6 +177,10 @@
             $('.prodBox').eq(i).appendTo($('.abasProduto').find('li').eq(i));
          
         }
+        
+        
+                        var zoomHabilitado = false;
+          
 
 
         var loja = $('input[name="loja"]').val();
