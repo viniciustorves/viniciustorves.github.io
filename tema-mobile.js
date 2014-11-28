@@ -170,7 +170,10 @@
             }
         })
 
-        alert($(location).attr('pathname'));
+        
+        var numItems = $('.prodBox').length;
+        
+        alert(numItems);
 
 
         var loja = $('input[name="loja"]').val();
