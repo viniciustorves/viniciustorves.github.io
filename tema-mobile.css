@@ -1281,7 +1281,7 @@
         display: none;
     }
 
-    .central-conteudo .board {
+    .central-conteudo .board h1 {
         display: block !important;
         background-color: #F6F6F6 !important;
         color: #666 !important;
