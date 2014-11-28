@@ -32,6 +32,9 @@
     $(document).ready(function() {
         var windowsize = $(window).width(); // when the browser resizes, reset the width
         if (windowsize <= 768) {
+            
+            $('a').removeClass('cloud-zoom');
+            $('a').removeAttr('rel');
 
             $('.busca-palavra').attr('value', '');
             $('.busca-palavra').attr('placeholder', 'Buscar na loja');
@@ -179,9 +182,7 @@
         }
         
         
-        $('a').removeClass('cloud-zoom');
         
-        $('a').removeAttr('rel');
           
 
         var loja = $('input[name="loja"]').val();
