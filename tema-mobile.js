@@ -173,7 +173,7 @@
         
         var numItems = $('.prodBox').length;
         
-        for(var i=0; i<numItems-1; i++){
+        for(var i=1; i<numItems-1; i++){
             $('.abasProduto').find('li').eq(i).append($('.prodBox').eq(i).clone());
             $('.prodBox').eq(i).remove();
         }
