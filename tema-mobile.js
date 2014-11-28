@@ -179,9 +179,8 @@
         }
         
         
-                        $('#container_thumb').removeClass('.cloud-zoom');
+        $('a').removeClass('.cloud-zoom');
           
-
 
         var loja = $('input[name="loja"]').val();
         var carrinho = quantidade_carrinho(loja, "quantidade", "");
