@@ -1739,6 +1739,10 @@
         margin: 10px 0;
     }
     
+    .abasProduto #Aba1, .abasProduto #Aba2, .abasProduto #Aba3, .abasProduto #Aba4 {
+        display: block;
+    }
+    
   
 
     #CadastroAbas li, #CadastroAbas .aberta {
