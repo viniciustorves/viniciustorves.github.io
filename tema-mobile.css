@@ -1134,8 +1134,8 @@
     
     .qtd-carrinho {
         position: absolute;
-        top: -5px;
-        right: -5px;
+        top: 3px;
+        right: 5px;
         font-size: .7em;
         background: #09A5CB;
         color: white;
