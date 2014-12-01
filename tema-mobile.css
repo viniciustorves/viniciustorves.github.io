@@ -1131,6 +1131,22 @@
         display: block;
         background: none !important;
     }
+    
+    .qtd-carrinho {
+        position: absolute;
+        top: -5px;
+        right: -5px;
+        font-size: .7em;
+        background: #09A5CB;
+        color: white;
+        width: 18px;
+        height: 18px;
+        text-align: center;
+        line-height: 18px;
+        border-radius: 50%;
+        box-shadow: 0 0 1px #333;
+        z-index: 10;
+    }
 
     .container2 .board h1, .txt-dados-entrega {
         font: 400 16px/1 Arial, sans-serif;
