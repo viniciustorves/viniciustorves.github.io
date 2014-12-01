@@ -49,7 +49,7 @@
             $('#logotipo').css('background-color', corfundo);
             $('#logotipo').css('background-image', corimagem);
 
-            var htmlBusca = $('.bg-busca').html();
+            var htmlBusca = $('.bg-busca').clone();
             $('#cabecalho').append('<div class="menu-mobile"><div class="hamburguer color-tone-2"></div>' + htmlBusca + '<div class="menu-conta color-tone-2"></div></div>');
             $('.bg-busca').remove();
 
