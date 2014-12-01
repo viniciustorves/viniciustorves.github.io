@@ -79,9 +79,12 @@
 
                 $('#NavLateralEsquerda').toggle('fast');
 
-           })
 
-$('.bg-busca').remove();
+
+
+            })
+
+
             $('html').css('width', windowsize);
             $('header').css('width', windowsize);
             $('body').css('width', windowsize);
