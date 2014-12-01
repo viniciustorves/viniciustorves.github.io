@@ -1136,6 +1136,8 @@
         font: 400 16px/1 Arial, sans-serif;
         color: #999999;
         text-transform: unset;
+        background: #eee;
+        padding: 15px;
     }
 
     #CadastroAbas {
