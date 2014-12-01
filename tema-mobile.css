@@ -70,7 +70,7 @@
 
     #div1bg {
         position: relative;
-        top: 107px;
+        top: 50px;
         margin:0 !important;
         padding: 0 !important;
         border: none;
@@ -232,7 +232,7 @@
         margin: 10px;
         text-align: center;
         position: fixed;
-        top: 107px;
+        top: 50px;
         background: #eee;
         display: none; 
         width: 100%;
