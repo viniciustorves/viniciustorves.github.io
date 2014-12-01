@@ -134,6 +134,8 @@
             
             $('#quant').replaceWith($('#quant').clone().attr('type', 'number'));
             $('#email_login').replaceWith($('#email_login').clone().attr('type', 'email'));
+            $('#email_cadastro').replaceWith($('#email_cadastro').clone().attr('type', 'email'));
+            
             
             
 
