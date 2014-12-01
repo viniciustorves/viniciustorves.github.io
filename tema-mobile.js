@@ -198,7 +198,7 @@
             var carrinho = quantidade_carrinho(loja, "quantidade", "");
             if (carrinho > 0) {
 
-                $('.carrinho-resp').append('<span class="qtd-carrinho">' + carrinho + '</span>');
+                $('.menu-conta').append('<span class="qtd-carrinho">' + carrinho + '</span>');
 
             }
 
