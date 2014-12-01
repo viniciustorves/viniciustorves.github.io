@@ -1248,9 +1248,10 @@
 
     /* Central do Cliente */
 
-    .Mapa.central-mapa {
+    .Mapa.central-mapa, .Mapa {
         display: none;
     }
+    
 
     .central-saudacao {
         margin: 20px 0;
