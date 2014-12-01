@@ -1623,6 +1623,8 @@
     #Page .text, #Page .select, #Page .textarea, #Page select, #Page textarea {
         height: 40px !important;
         background: #fff !important;
+        border: 1px solid #eee;
+        border-radius: 5px;
     }
 
     #preco_ini, #preco_fim {
