@@ -133,7 +133,7 @@
             $('#cep2').replaceWith($('#cep2').clone().attr('type', 'number'));
             
             $('#quant').replaceWith($('#quant').clone().attr('type', 'number'));
-            $('#email_login').replaceWith($('#email_login').clone().attr('type', 'number'));
+            $('#email_login').replaceWith($('#email_login').clone().attr('type', 'email'));
             
             
 
