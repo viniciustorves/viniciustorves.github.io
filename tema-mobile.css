@@ -1141,8 +1141,8 @@
         color: white;
         width: 18px;
         height: 18px;
-        text-align: center;
-        line-height: 18px;
+        text-align: center !important;;
+        line-height: 18px !important;
         border-radius: 50%;
         box-shadow: 0 0 1px #333;
         z-index: 10;
