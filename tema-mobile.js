@@ -51,7 +51,7 @@
 
             var htmlBusca = $('.bg-busca').html();
             $('#cabecalho').append('<div class="menu-mobile"><div class="hamburguer color-tone-2"></div>' + htmlBusca + '<div class="menu-conta color-tone-2"></div></div>');
-            $('.bg-busca').remove();
+            
 
 
 
