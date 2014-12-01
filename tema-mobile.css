@@ -1136,11 +1136,11 @@
         position: absolute;
         top: 3px;
         right: 5px;
-        font-size: .7em;
+        font-size: 11px !important;
         background: #09A5CB;
         color: white;
-        width: 18px;
-        height: 18px;
+        width: 15px;
+        height: 15px;
         text-align: center !important;;
         line-height: 18px !important;
         border-radius: 50%;
