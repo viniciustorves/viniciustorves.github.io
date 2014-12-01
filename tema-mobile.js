@@ -27,18 +27,18 @@
 
     var windowsize = $(window).width(); // when the browser resizes, reset the width
     if (windowsize <= 768) {
-        
+
         $('#wrapper').append('<div class="fundo-loading"><img src="https://images.tcdn.com.br/img/arquivos/372058/images/responsivo/loading.gif"></div>');
     }
 
     $(document).ready(function() {
         var windowsize = $(window).width(); // when the browser resizes, reset the width
         if (windowsize <= 768) {
-           
-            $('.mousetrap').each(function(){
-                 $('.mousetrap').remove();
+
+            $('.mousetrap').each(function() {
+                $('.mousetrap').remove();
             })
-            
+
 
             $('.busca-palavra').attr('value', '');
             $('.busca-palavra').attr('placeholder', 'Buscar na loja');
@@ -66,22 +66,22 @@
             $('.hamburguer').click(function() {
                 if ($('.cabecalho .caixa-overflow').css('display') == "block") {
                     $('.cabecalho .caixa-overflow').toggle('fast');
-                    
+
                 }
                 $('html, body').scrollTop(0);
-                
-                if($('#NavLateralEsquerda').css('display') == "none") {
-                    $('.hamburguer').css('background','url(https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/hamburguer-tema-x.png?v=7) center center no-repeat');
+
+                if ($('#NavLateralEsquerda').css('display') == "none") {
+                    $('.hamburguer').css('background', 'url(https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/hamburguer-tema-x.png?v=7) center center no-repeat');
                 }
                 else {
-                     $('.hamburguer').css('background','url(https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/hamburguer-tema.png) center center no-repeat');
+                    $('.hamburguer').css('background', 'url(https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/hamburguer-tema.png) center center no-repeat');
                 }
-                
-                $('#NavLateralEsquerda').toggle('fast');
-                
-                
 
-                
+                $('#NavLateralEsquerda').toggle('fast');
+
+
+
+
             })
 
 
@@ -134,68 +134,70 @@
 
             $('#search-key').replaceWith($('#search-key').clone().attr('type', 'search'));
 
-        }
+            $('.fundo-loading').remove();
 
-        $('.fundo-loading').remove();
-
-        $('#FormasPagamento #ProdBlock').each(function() {
-            $(this).click(function() {
-                $(this).siblings('.lista-formas-pagamento').toggle('slow');
+            $('#FormasPagamento #ProdBlock').each(function() {
+                $(this).click(function() {
+                    $(this).siblings('.lista-formas-pagamento').toggle('slow');
+                })
             })
-        })
 
-        if ($(location).attr('pathname') == "/loja/retorno_pagamento.php") {
-            $('#Page').addClass('msg-finalizar');
-            $('#Page p').addClass('msg-p-finalizar');
-            $('#Page p').addClass('msg-p-finalizar');
-        }
-
-        if ($(location).attr('pathname') == "/loja/carrinho.php") {
-            $('div.container:nth-child(4)').remove();
-            $('.container3').css('display', 'block');
-        }
-
-        if ($(location).attr('pathname') == "/loja/central_detalhe_pedido.php") {
-            $('p').css('display', 'block');
-            $('p').css('padding', '10px 0');
-            $('.tablePage img').css('display', 'none');
-            $('.tablePage tr th:nth-child(3)').css('display', 'none');
-            $('.tablePage tr td:nth-child(4)').css('display', 'none');
-            $('.tablePage tr').find('[colspan=4]').attr('colspan','3');
-        }
-        
-          if ($(location).attr('pathname') == "/loja/central_cliente.php") {
-              $('#ProdBlock').remove();
-              $('.central-breadcrumb').remove();
-          }
-          
-          
-        
-        $(window).scroll(function() {
-            if ($('.caixa-overflow').css('display') != "none") {
-                $('.caixa-overflow').fadeOut();
+            if ($(location).attr('pathname') == "/loja/retorno_pagamento.php") {
+                $('#Page').addClass('msg-finalizar');
+                $('#Page p').addClass('msg-p-finalizar');
+                $('#Page p').addClass('msg-p-finalizar');
             }
-        })
 
-        
-        var numItems = $('.prodBox').length;
-        
-        for(var i=0; i<numItems; i++){
-            $('.prodBox').eq(i).appendTo($('.abasProduto').find('li').eq(i));
-         
+            if ($(location).attr('pathname') == "/loja/carrinho.php") {
+                $('div.container:nth-child(4)').remove();
+                $('.container3').css('display', 'block');
+            }
+
+            if ($(location).attr('pathname') == "/loja/central_detalhe_pedido.php") {
+                $('p').css('display', 'block');
+                $('p').css('padding', '10px 0');
+                $('.tablePage img').css('display', 'none');
+                $('.tablePage tr th:nth-child(3)').css('display', 'none');
+                $('.tablePage tr td:nth-child(4)').css('display', 'none');
+                $('.tablePage tr').find('[colspan=4]').attr('colspan', '3');
+            }
+
+            if ($(location).attr('pathname') == "/loja/central_cliente.php") {
+                $('#ProdBlock').remove();
+                $('.central-breadcrumb').remove();
+            }
+
+
+
+            $(window).scroll(function() {
+                if ($('.caixa-overflow').css('display') != "none") {
+                    $('.caixa-overflow').fadeOut();
+                }
+            })
+
+
+            var numItems = $('.prodBox').length;
+
+            for (var i = 0; i < numItems; i++) {
+                $('.prodBox').eq(i).appendTo($('.abasProduto').find('li').eq(i));
+
+            }
+
+
+
+
+
+            var loja = $('input[name="loja"]').val();
+            var carrinho = quantidade_carrinho(loja, "quantidade", "");
+            if (carrinho > 0) {
+
+                $('.carrinho-resp').append('<span class="qtd-carrinho">' + carrinho + '</span>');
+
+            }
+
         }
-        
-        
-        
-          
 
-        var loja = $('input[name="loja"]').val();
-        var carrinho = quantidade_carrinho(loja, "quantidade", "");
-        if (carrinho > 0) {
 
-            $('.carrinho-resp').append('<span class="qtd-carrinho">' + carrinho + '</span>');
-
-        }
 
 
     })
