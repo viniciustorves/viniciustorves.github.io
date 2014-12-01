@@ -131,6 +131,9 @@
 
             $('#cep1').replaceWith($('#cep1').clone().attr('type', 'number'));
             $('#cep2').replaceWith($('#cep2').clone().attr('type', 'number'));
+            
+            $('#quant').replaceWith($('#quant').clone().attr('type', 'number'));
+            
 
             $('#search-key').replaceWith($('#search-key').clone().attr('type', 'search'));
 
