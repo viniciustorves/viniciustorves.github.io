@@ -276,7 +276,9 @@
     .carrinho-compras:before{
         display: none;
     }
-
+    .cabecalho .bg-busca{
+        display: none;
+    }
     .bg-busca {
         padding: 0 !important;
         overflow: initial !important;
