@@ -74,9 +74,11 @@
 
                 if ($('#NavLateralEsquerda').css('display') == "none") {
                     $('.hamburguer').css('background', 'url(https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/hamburguer-tema-x.png?v=7) center center no-repeat');
+                    $('.hamburguer').addClass('bgcolor');
                 }
                 else {
                     $('.hamburguer').css('background', 'url(https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/hamburguer-tema.png) center center no-repeat');
+                    $('.hamburguer').addClass('bgcolor');
                 }
 
                 $('#NavLateralEsquerda').toggle('fast');
