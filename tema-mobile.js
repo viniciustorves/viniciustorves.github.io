@@ -52,7 +52,7 @@
 
 
             var htmlBusca = $('.bg-busca').html();
-            $('#cabecalho').append('<div class="menu-mobile"><div class="hamburguer bgcolor"></div>' + htmlBusca + '<div class="menu-conta bgcolor"></div></div>');
+            $('#cabecalho').append('<div class="menu-mobile bgcolor"><div class="hamburguer bgcolor"></div>' + htmlBusca + '<div class="menu-conta bgcolor"></div></div>');
 
             $('button').addClass('bgcolor');
             $('.botao-commerce').addClass('bgcolor');
