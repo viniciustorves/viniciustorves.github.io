@@ -2056,6 +2056,10 @@
         padding: 5px;
     }
 
+    .caixa-forma-frete .tablePage {
+        width: 100% !important;
+        margin: 0 !important;
+    }
     .caixa-forma-frete .blocoAlerta {
         background-color: #ff3333;
         color: #fff;
