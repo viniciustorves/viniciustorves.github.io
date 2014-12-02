@@ -2,14 +2,14 @@
  * Plugins - Init
  **/
 ;
-(function($) {
+(function ($) {
 
     $('head').append('<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">');
     $('head').append('<meta name="mobileoptimized" content="0" />');
 
 
 
-    $(window).resize(function() {
+    $(window).resize(function () {
         var windowsize = $(window).width(); // when the browser resizes, reset the width
         $('html').css('width', windowsize);
         $('header').css('width', windowsize);
@@ -31,11 +31,11 @@
         $('#wrapper').append('<div class="fundo-loading"><img src="https://images.tcdn.com.br/img/arquivos/372058/images/responsivo/loading.gif"></div>');
     }
 
-    $(document).ready(function() {
+    $(document).ready(function () {
         var windowsize = $(window).width(); // when the browser resizes, reset the width
         if (windowsize <= 768) {
 
-            $('.mousetrap').each(function() {
+            $('.mousetrap').each(function () {
                 $('.mousetrap').remove();
             })
 
@@ -48,36 +48,34 @@
 
             $('#logotipo').css('background-color', corfundo);
             $('#logotipo').css('background-image', corimagem);
-            
+
 
 
             var htmlBusca = $('.bg-busca').html();
             $('#cabecalho').append('<div class="menu-mobile"><div class="hamburguer bgcolor"></div>' + htmlBusca + '<div class="menu-conta bgcolor"></div></div>');
-            
+
             $('button').addClass('bgcolor');
             $('.botao-commerce').addClass('bgcolor');
 
 
 
-            $('.menu-conta').click(function() {
+            $('.menu-conta').click(function () {
                 if ($('#NavLateralEsquerda').css('display') == "block") {
 
                     $('#NavLateralEsquerda').toggle('fast');
                 }
                 $('.cabecalho .caixa-overflow').toggle('fast');
             })
-            
+
             $('.hamburguer').addClass('bgcolor');
-            $('.hamburguer').click(function() {
+            $('.hamburguer').click(function () {
                 if ($('.cabecalho .caixa-overflow').css('display') == "block") {
                     $('.cabecalho .caixa-overflow').toggle('fast');
-
                 }
                 $('html, body').scrollTop(0);
 
                 if ($('#NavLateralEsquerda').css('display') == "none") {
                     $('.hamburguer').css('background-image', 'url(https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/hamburguer-tema-x.png?v=7) center center no-repeat');
-                    
                 }
                 else {
                     $('.hamburguer').css('background-image', 'url(https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/hamburguer-tema.png) center center no-repeat');
@@ -107,7 +105,7 @@
 
             if ($('#tabela_carrinho').length) {
 
-                $('#tabela_carrinho tr').not('#tabela_carrinho tr:first-child').each(function() {
+                $('#tabela_carrinho tr').not('#tabela_carrinho tr:first-child').each(function () {
                     var nome = $(this).find('strong').html();
                     $(this).before('<tr><td colspan="6" class="nome-produto-carrinho">' + nome + '</td></tr>');
                     $(this).find('td:nth-child(2)').hide();
@@ -124,7 +122,7 @@
             if ($('.caixa-detalhes-compra').length) {
                 $('.caixa-detalhes-compra tr:first-child').remove();
 
-                $('.tit-nome-produto').each(function() {
+                $('.tit-nome-produto').each(function () {
                     var nome = $(this).html();
                     $(this).parent('tr').before('<tr><td colspan="6" class="nome-produto-pagamento">' + nome + '</td></tr>');
                     $(this).remove();
@@ -137,20 +135,20 @@
 
             $('#cep1').replaceWith($('#cep1').clone().attr('type', 'number'));
             $('#cep2').replaceWith($('#cep2').clone().attr('type', 'number'));
-            
+
             $('#quant').replaceWith($('#quant').clone().attr('type', 'number'));
             $('#email_login').replaceWith($('#email_login').clone().attr('type', 'email'));
             $('#email_cadastro').replaceWith($('#email_cadastro').clone().attr('type', 'email'));
-            
-            
-            
+
+
+
 
             $('#search-key').replaceWith($('#search-key').clone().attr('type', 'search'));
 
             $('.fundo-loading').remove();
 
-            $('#FormasPagamento #ProdBlock').each(function() {
-                $(this).click(function() {
+            $('#FormasPagamento #ProdBlock').each(function () {
+                $(this).click(function () {
                     $(this).siblings('.lista-formas-pagamento').toggle('slow');
                 })
             })
@@ -182,7 +180,7 @@
 
 
 
-            $(window).scroll(function() {
+            $(window).scroll(function () {
                 if ($('.caixa-overflow').css('display') != "none") {
                     $('.caixa-overflow').fadeOut();
                 }
