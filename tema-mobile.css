@@ -1846,6 +1846,8 @@
         background: transparent;
         display: none;
     }
+    
+    
 
     #button-buy img {
         display: none;
@@ -1864,6 +1866,8 @@
         height: 40px;
         margin: 0 auto;
     }
+    
+    
 
     #quantidade {
         float: none;
@@ -2218,13 +2222,11 @@
     }
 
     .bt-continuar-comprando a {
-        background: url('https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/bt-continuar.png?v=2') !important;
         width: 145px;
         height: 36px;
         display: block;
         margin-bottom: 20px;
         border: none;
-        font-size: 0;
     }
 
     .botao-prosseguir-compra {
