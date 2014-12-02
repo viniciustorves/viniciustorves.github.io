@@ -2216,13 +2216,12 @@
     }
 
     .bt-continuar-comprando img {
-        display: none;
+
     }
 
     .bt-continuar-comprando a {
         width: 145px;
         height: 36px;
-        display: block;
         margin-bottom: 20px;
         border: none;
     }
