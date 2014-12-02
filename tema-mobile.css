@@ -1146,7 +1146,7 @@
         text-align: center !important;;
         line-height: 15px !important;
         border-radius: 50%;
-        box-shadow: 0 0 1px #333;
+        box-shadow: 0 0 1px #fff;
         z-index: 10;
     }
 
