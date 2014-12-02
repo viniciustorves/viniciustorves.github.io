@@ -187,6 +187,7 @@
             $(window).scroll(function () {
                 if ($('.caixa-overflow').css('display') != "none") {
                     $('.caixa-overflow').fadeOut();
+                    $('.menu-conta').css('background', 'url(https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/conta-tema.png?v=2) no-repeat scroll center center transparent');
                 }
             })
 
