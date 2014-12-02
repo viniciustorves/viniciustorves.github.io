@@ -55,6 +55,7 @@
             $('#cabecalho').append('<div class="menu-mobile"><div class="hamburguer bgcolor"></div>' + htmlBusca + '<div class="menu-conta bgcolor"></div></div>');
             
             $('button').addClass('bgcolor');
+            $('.botao-commerce').addClass('bgcolor');
 
 
 
