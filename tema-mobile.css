@@ -544,7 +544,7 @@
     }
 
     .nav-pages {
-        background: transparent;
+        border-radius: 0;
     }
 
     .nav-pages li {
