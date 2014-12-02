@@ -54,6 +54,8 @@
 
             $('button').addClass('bgcolor');
             $('.botao-commerce').addClass('bgcolor');
+            
+            $('#button-buy').html('COMPRAR');
 
 
 
