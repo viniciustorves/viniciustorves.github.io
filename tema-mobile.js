@@ -4,17 +4,11 @@
 ;
 (function ($) {
 
-
-
-
-
-
-
     var windowsize = $(window).width(); // when the browser resizes, reset the width
     if (windowsize <= 768) {
         
-//        $('head').append('<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">');
-//        $('head').append('<meta name="mobileoptimized" content="0" />');;
+        $('head').append('<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">');
+        $('head').append('<meta name="mobileoptimized" content="0" />');;
         
         $(window).resize(function () {
             var windowsize = $(window).width(); // when the browser resizes, reset the width
