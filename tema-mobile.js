@@ -64,6 +64,14 @@
                     $('#NavLateralEsquerda').toggle('fast');
                     $('.hamburguer').css('background', '  url(https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/hamburguer-tema.png) center center no-repeat transparent');
                 }
+                
+               if ($('.cabecalho .caixa-overflow').css('display') == "none") {
+                    $('.menu-conta').css('background', 'url(https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/hamburguer-tema-x.png?v=7) center center no-repeat transparent');
+                }
+                else {
+                    $('.menu-conta').css('background', 'url(https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/conta-tema.png?v=2) no-repeat scroll center center transparent');
+                }
+                
                 $('.cabecalho .caixa-overflow').toggle('fast');
             })
 
