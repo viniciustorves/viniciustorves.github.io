@@ -1247,9 +1247,8 @@
     #frm2 .botao-commerce {
         margin: 20px 0;
         float: none;
-        background: #00a662;
         color: #fff;
-        padding: 15px 20px;
+        padding: 5px 10px;
         border: none;
         border-radius: 5px;
     }
