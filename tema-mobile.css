@@ -1143,7 +1143,7 @@
         text-align: center !important;;
         line-height: 15px !important;
         border-radius: 50%;
-        box-shadow: 0 0 1px #fff;
+        border:1px solid #fff;
         z-index: 10;
     }
 
