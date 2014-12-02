@@ -2166,7 +2166,8 @@
     }
 
     .botao-continuar-comprando .botao-commerce-img {
-        display: none;
+        
+        white-space: nowrap;
     }
 
     #Page .caixa-cupom, #Page .caixa-cupom + th, #Page .caixa-cupom + th + th {
