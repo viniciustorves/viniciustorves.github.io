@@ -1,5 +1,5 @@
 @media (max-width: 768px) {
-    
+
     @-ms-viewport { width: device-width; } @-o-viewport { width: device-width; } @viewport { width: device-width; }
 
     @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700,600);
@@ -75,7 +75,7 @@
         padding: 0 !important;
         border: none;
     }
-    
+
     #div2bg {
         border-radius: 0 !important;
     }
@@ -745,6 +745,10 @@
         margin-top: 0;
         border-radius: 5px;
     }
+    .botao-prosseguir-cadastro, .botao-prosseguir-compra {
+        font-size: 12px;
+        padding: 6px 5px 5px 11px;
+    }
 
     .botao-simular-frete{
         background: none repeat scroll 0% 0% #049DBD;
@@ -1131,7 +1135,7 @@
         display: block;
         background: none !important;
     }
-    
+
     .qtd-carrinho {
         position: absolute;
         top: 3px;
@@ -1270,11 +1274,11 @@
     .Mapa.central-mapa, .Mapa {
         display: none;
     }
-    
+
     .container2 {
         background: none;
     }
-    
+
 
     .central-saudacao {
         margin: 20px 0;
@@ -1678,7 +1682,7 @@
     .carrinho-tabs .active  h6{
         display: none;
     }
-    
+
     .mousetrap {
         display: none !important;
     }
@@ -1843,8 +1847,8 @@
         background: transparent;
         display: none;
     }
-    
-    
+
+
 
     #button-buy img {
         display: none;
@@ -1863,8 +1867,8 @@
         height: 40px;
         margin: 0 auto;
     }
-    
-    
+
+
 
     #quantidade {
         float: none;
