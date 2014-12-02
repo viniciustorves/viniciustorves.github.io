@@ -128,14 +128,14 @@
     }
 
     .rodape-info h6 {
-        
+        white-space: nowrap;
+        font-size: 14px;
     }
 
     .forma-tipo {
         font-size: 16px;
         display: block;
         padding: 10px 0;
-        color: #999;
     }
 
     #NavSuperior {
