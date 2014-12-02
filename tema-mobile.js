@@ -9,26 +9,26 @@
 
 
 
-    
+
 
     var windowsize = $(window).width(); // when the browser resizes, reset the width
     if (windowsize <= 768) {
-        
+
         $(window).resize(function () {
-        var windowsize = $(window).width(); // when the browser resizes, reset the width
-        $('html').css('width', windowsize);
-        $('header').css('width', windowsize);
-        $('body').css('width', windowsize);
-        $('#NavCentral').css('width', windowsize);
-        $('footer').css('width', windowsize);
-        $('#NavSuperior').css('width', windowsize);
-        $('#div2bg').css('width', windowsize);
-        $('#div1bg').css('width', windowsize);
-        $('#NavInferior').css('width', windowsize);
-        $('#Body').css('width', windowsize);
-        $('#Page').css('width', windowsize);
-        $('#NavLogoTray').css('display', 'none');
-    });
+            var windowsize = $(window).width(); // when the browser resizes, reset the width
+            $('html').css('width', windowsize);
+            $('header').css('width', windowsize);
+            $('body').css('width', windowsize);
+            $('#NavCentral').css('width', windowsize);
+            $('footer').css('width', windowsize);
+            $('#NavSuperior').css('width', windowsize);
+            $('#div2bg').css('width', windowsize);
+            $('#div1bg').css('width', windowsize);
+            $('#NavInferior').css('width', windowsize);
+            $('#Body').css('width', windowsize);
+            $('#Page').css('width', windowsize);
+            $('#NavLogoTray').css('display', 'none');
+        });
 
         $('#wrapper').append('<div class="fundo-loading"><img src="https://images.tcdn.com.br/img/arquivos/372058/images/responsivo/loading.gif"></div>');
     }
@@ -66,14 +66,14 @@
                     $('#NavLateralEsquerda').toggle('fast');
                     $('.hamburguer').css('background', '  url(https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/hamburguer-tema.png) center center no-repeat transparent');
                 }
-                
-               if ($('.cabecalho .caixa-overflow').css('display') == "none") {
+
+                if ($('.cabecalho .caixa-overflow').css('display') == "none") {
                     $('.menu-conta').css('background', 'url(https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/hamburguer-tema-x.png?v=7) center center no-repeat transparent');
                 }
                 else {
                     $('.menu-conta').css('background', 'url(https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/conta-tema.png?v=2) no-repeat scroll center center transparent');
                 }
-                
+
                 $('.cabecalho .caixa-overflow').toggle('fast');
             })
 
@@ -81,7 +81,7 @@
             $('.hamburguer').click(function () {
                 if ($('.cabecalho .caixa-overflow').css('display') == "block") {
                     $('.cabecalho .caixa-overflow').toggle('fast');
-                     $('.menu-conta').css('background', 'url(https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/conta-tema.png?v=2) no-repeat scroll center center transparent');
+                    $('.menu-conta').css('background', 'url(https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/conta-tema.png?v=2) no-repeat scroll center center transparent');
                 }
                 $('html, body').scrollTop(0);
 
