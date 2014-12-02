@@ -106,7 +106,6 @@
     #NavInferior {
         clear: both;
         position: relative;
-        background: transparent !important;
         top: 60px;
         margin: 0 !important;
     }
@@ -164,7 +163,6 @@
     }
 
     .menu-mobile {
-        background: #ccc;
         width: 100%;
         position: fixed;
         top: 0;
