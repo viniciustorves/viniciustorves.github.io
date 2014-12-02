@@ -2,7 +2,7 @@
 
     @-ms-viewport { width: device-width; } @-o-viewport { width: device-width; } @viewport { width: device-width; }
 
-    @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700,600);
+    @import url('http://fonts.googleapis.com/css?family=Open+Sans:300,400,700,600');
 
     * {
         font-family: 'Open Sans', sans-serif !important;
@@ -2464,5 +2464,4 @@
     .central-conteudo .change {
         display: none !important;
     }
-
 }
