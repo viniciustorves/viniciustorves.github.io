@@ -9,7 +9,12 @@
 
 
 
-    $(window).resize(function () {
+    
+
+    var windowsize = $(window).width(); // when the browser resizes, reset the width
+    if (windowsize <= 768) {
+        
+        $(window).resize(function () {
         var windowsize = $(window).width(); // when the browser resizes, reset the width
         $('html').css('width', windowsize);
         $('header').css('width', windowsize);
@@ -24,9 +29,6 @@
         $('#Page').css('width', windowsize);
         $('#NavLogoTray').css('display', 'none');
     });
-
-    var windowsize = $(window).width(); // when the browser resizes, reset the width
-    if (windowsize <= 768) {
 
         $('#wrapper').append('<div class="fundo-loading"><img src="https://images.tcdn.com.br/img/arquivos/372058/images/responsivo/loading.gif"></div>');
     }
