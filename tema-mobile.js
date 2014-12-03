@@ -6,6 +6,8 @@
     
     $('head').append('<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">');
     $('head').append('<meta name="mobileoptimized" content="0" />');
+    $('head').append('<meta http-equiv="X-UA-Compatible" content="IE=edge" />');
+    
     
     var windowsize = $(window).width(); // when the browser resizes, reset the width
     if (windowsize <= 768) {
