@@ -100,6 +100,10 @@
                 $('html, body').scrollTop(0);
                 $('#NavLateralEsquerda').toggle('fast');
             })
+            
+            $('header').find('.lupa-resp').click(function() {
+                $('.env-busca').toggle();
+            });
 
 
             $('html').css('width', windowsize);
