@@ -104,6 +104,16 @@
             $('header').find('.lupa-resp').click(function() {
                 $('.env-busca').toggle();
             });
+            
+            $('header').find('.login-resp').click(function() {
+            var loja = $('input[name="loja"]').val();
+            document.location.href = 'login_layout.php?loja=' + loja + '&origem=central&f=';
+        });
+
+        $('header').find('.carrinho-resp').click(function() {
+            var loja = $('input[name="loja"]').val();
+            document.location.href = 'carrinho.php?loja=' + loja;
+        });
 
 
             $('html').css('width', windowsize);
