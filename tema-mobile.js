@@ -52,8 +52,23 @@
 
 
             var htmlBusca = $('.bg-busca').html();
-            $('#cabecalho').append('<div class="menu-mobile bgcolor"><div class="hamburguer bgcolor"></div>' + htmlBusca + '<div class="menu-conta bgcolor"></div></div>');
-
+            
+            var headerHtml  = '<header>';
+                headerHtml +=  '<div class="center">'
+                headerHtml +=  '                    <div class="lupa-resp"></div>'
+                headerHtml +=  '                    <div class="login-resp"></div>'
+                headerHtml +=  '                    <div class="carrinho-resp"></div>'
+                headerHtml +=  '                    <div class="hamburguer"></div>'
+                headerHtml +=  '                    <div class="env-busca">'
+                headerHtml +=  htmlBusca;
+                headerHtml +=  '                    </div>'
+                headerHtml +=  '                </div><!-- .center -->'
+                headerHtml +=  '            </header>';
+            
+            //$('#cabecalho').append('<div class="menu-mobile bgcolor"><div class="hamburguer bgcolor"></div>' + htmlBusca + '<div class="menu-conta bgcolor"></div></div>');
+            
+            $('#cabecalho').append(headerHtml);
+            
             $('button').addClass('bgcolor');
             $('.botao-commerce').addClass('bgcolor');
 
