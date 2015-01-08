@@ -180,8 +180,65 @@
         font-size: 14px;
         line-height: 50px;
     }
+    
+    .lupa-resp {
+        background: url('../images/mobile/lupa.png?v=2');
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        right: 155px;
+        top: 10px;
+        display: block;
+    }
 
-    .menu-conta {
+    .hamburguer {
+        background: url('../images/mobile/hamburguer.png?v=1');
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        right: 20px;
+        top: 10px;
+        display: block;
+    }
+
+    .login-resp {
+        background: url('../images/mobile/login.png?v=12');
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        right: 110px;
+        top: 10px;
+        display: block;
+    }
+
+    .carrinho-resp {
+        background: #f6f6f6 url('../images/mobile/cart.png?v=23');
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        right: 65px;
+        top: 10px;
+        display: block;
+        border-radius: 5px;
+    }
+
+    .qtd-carrinho {
+        position: absolute;
+        top: -5px;
+        right: -5px;
+        font-size: .7em;
+        background: #09A5CB;
+        color: white;
+        width: 18px;
+        height: 18px;
+        text-align: center;
+        line-height: 18px;
+        border-radius: 50%;
+        box-shadow: 0 0 1px #333;
+        z-index: 10;
+    }
+
+/*    .menu-conta {
         max-width: 50px;
         min-width: 50px;
         width: 50px;
@@ -199,7 +256,7 @@
         background: url('https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/hamburguer-tema.png?v=2') no-repeat center center;
         display: table-cell;
         vertical-align: middle;
-    }
+    }*/
 
     #logotipo {
         max-width: 100%;
