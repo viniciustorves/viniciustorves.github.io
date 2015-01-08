@@ -221,6 +221,19 @@
         display: block;
         border-radius: 5px;
     }
+    
+    .env-busca {
+        margin: 0 auto !important;
+        max-width: 100%;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 65px;
+        padding: 10px;
+        background: #fff;
+        display: none;
+        box-shadow: 0 0 5px rgba(43, 44, 42, 0.32);
+    }
 
     .qtd-carrinho {
         position: absolute;
