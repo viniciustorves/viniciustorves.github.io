@@ -56,7 +56,7 @@
 
             var headerHtml = '<header>';
             headerHtml += htmlLogo;
-            headerHtml += '<div class="center">'
+            headerHtml += '<div class="">'
             headerHtml += '                    <div class="lupa-resp"></div>'
             headerHtml += '                    <div class="login-resp"></div>'
             headerHtml += '                    <div class="carrinho-resp"></div>'
