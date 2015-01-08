@@ -182,7 +182,7 @@
     }
     
     .lupa-resp {
-        background: url('../images/mobile/lupa.png?v=2');
+        background: url('https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/lupa.png?v=2');
         width: 40px;
         height: 40px;
         position: absolute;
@@ -192,7 +192,7 @@
     }
 
     .hamburguer {
-        background: url('../images/mobile/hamburguer.png?v=1');
+        background: url('https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/hamburguer.png?v=1');
         width: 40px;
         height: 40px;
         position: absolute;
@@ -202,7 +202,7 @@
     }
 
     .login-resp {
-        background: url('../images/mobile/login.png?v=12');
+        background: url('https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/login.png?v=12');
         width: 40px;
         height: 40px;
         position: absolute;
@@ -212,7 +212,7 @@
     }
 
     .carrinho-resp {
-        background: #f6f6f6 url('../images/mobile/cart.png?v=23');
+        background: #f6f6f6 url('https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/cart.png?v=23');
         width: 40px;
         height: 40px;
         position: absolute;
