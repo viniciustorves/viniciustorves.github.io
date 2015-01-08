@@ -62,7 +62,11 @@
     }
     
     header img {
-        max-height: 45px;
+        height: 45px;
+        position: absolute;
+        left: 5px;
+        top: 50%;
+        margin-top: -26px;
     }
 
     .banner-header {
