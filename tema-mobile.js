@@ -37,7 +37,9 @@
 
             $('.mousetrap').each(function () {
                 $('.mousetrap').remove();
-            })
+            });
+            
+            $("LINK[href*='theme-advanced.css']").remove();
 
 
             $('.busca-palavra').attr('value', '');
