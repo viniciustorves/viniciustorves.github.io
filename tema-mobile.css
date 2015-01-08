@@ -55,7 +55,7 @@
         box-shadow: 0 0 5px rgba(43, 44, 42, 0.32);
     }
     
-    header > h1 {
+    header > h1, header > h2 {
         width: 100px;
         margin: 12px 0 0 0 !important;
     }
