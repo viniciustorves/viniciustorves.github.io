@@ -6,13 +6,13 @@
     $('head').append('<meta http-equiv="X-UA-Compatible" content="IE=edge" />');
     $('head').append('<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">');
     $('head').append('<meta name="mobileoptimized" content="0" />');
-    
-    
-    
+
+
+
     var windowsize = $(window).width(); // when the browser resizes, reset the width
     if (windowsize <= 768) {
 
-    $(window).resize(function () {
+        $(window).resize(function () {
             var windowsize = $(window).width(); // when the browser resizes, reset the width
             $('html').css('width', windowsize);
             $('header').css('width', windowsize);
@@ -52,23 +52,25 @@
 
 
             var htmlBusca = $('.bg-busca').html();
-            
-            var headerHtml  = '<header>';
-                headerHtml +=  '<div class="center">'
-                headerHtml +=  '                    <div class="lupa-resp"></div>'
-                headerHtml +=  '                    <div class="login-resp"></div>'
-                headerHtml +=  '                    <div class="carrinho-resp"></div>'
-                headerHtml +=  '                    <div class="hamburguer"></div>'
-                headerHtml +=  '                    <div class="env-busca">'
-                headerHtml +=  htmlBusca;
-                headerHtml +=  '                    </div>'
-                headerHtml +=  '                </div><!-- .center -->'
-                headerHtml +=  '            </header>';
-            
+             var htmlLogo = $('#logotipo').html();
+
+            var headerHtml = '<header>';
+            headerHtml += htmlLogo;
+            headerHtml += '<div class="center">'
+            headerHtml += '                    <div class="lupa-resp"></div>'
+            headerHtml += '                    <div class="login-resp"></div>'
+            headerHtml += '                    <div class="carrinho-resp"></div>'
+            headerHtml += '                    <div class="hamburguer"></div>'
+            headerHtml += '                    <div class="env-busca">'
+            headerHtml += htmlBusca;
+            headerHtml += '                    </div>'
+            headerHtml += '                </div><!-- .center -->'
+            headerHtml += '            </header>';
+
             //$('#cabecalho').append('<div class="menu-mobile bgcolor"><div class="hamburguer bgcolor"></div>' + htmlBusca + '<div class="menu-conta bgcolor"></div></div>');
-            
+
             $('#cabecalho').append(headerHtml);
-            
+
             $('button').addClass('bgcolor');
             $('.botao-commerce').addClass('bgcolor');
 
@@ -100,20 +102,20 @@
                 $('html, body').scrollTop(0);
                 $('#NavLateralEsquerda').toggle('fast');
             })
-            
-            $('header').find('.lupa-resp').click(function() {
+
+            $('header').find('.lupa-resp').click(function () {
                 $('.env-busca').toggle();
             });
-            
-            $('header').find('.login-resp').click(function() {
-            var loja = $('input[name="loja"]').val();
-            document.location.href = 'login_layout.php?loja=' + loja + '&origem=central&f=';
-        });
 
-        $('header').find('.carrinho-resp').click(function() {
-            var loja = $('input[name="loja"]').val();
-            document.location.href = 'carrinho.php?loja=' + loja;
-        });
+            $('header').find('.login-resp').click(function () {
+                var loja = $('input[name="loja"]').val();
+                document.location.href = 'login_layout.php?loja=' + loja + '&origem=central&f=';
+            });
+
+            $('header').find('.carrinho-resp').click(function () {
+                var loja = $('input[name="loja"]').val();
+                document.location.href = 'carrinho.php?loja=' + loja;
+            });
 
 
             $('html').css('width', windowsize);
