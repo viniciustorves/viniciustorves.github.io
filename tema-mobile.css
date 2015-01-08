@@ -61,6 +61,10 @@
         max-height: 45px;
     }
     
+    .finish-body {
+        margin-top: 64px;
+    }
+    
     header img {
         height: 45px;
         position: absolute;
