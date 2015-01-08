@@ -169,6 +169,10 @@
         border: none !important;
         box-shadow: none !important;
     }
+    
+    .cabecalho .center {
+        display: none;
+    }
 
     .menu-mobile {
         width: 100%;
