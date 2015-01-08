@@ -198,10 +198,6 @@
         background: url('https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/hamburguer-tema.png?v=2') no-repeat center center;
         display: table-cell;
         vertical-align: middle;
-        -webkit-transition:	all 2s linear;
-        -moz-transition: all 2s linear;
-        -o-transition: all 2s linear;
-        transition: all 2s linear;
     }
 
     #logotipo {
