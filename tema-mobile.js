@@ -92,7 +92,7 @@
 //                $('.cabecalho .caixa-overflow').toggle('fast');
 //            });
 
-            $('.hamburguer').addClass('bgcolor');
+
             $('.hamburguer').click(function () {
                 if ($('.cabecalho .caixa-overflow').css('display') == "block") {
                     $('.cabecalho .caixa-overflow').toggle('fast');
