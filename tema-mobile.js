@@ -96,16 +96,8 @@
             $('.hamburguer').click(function () {
                 if ($('.cabecalho .caixa-overflow').css('display') == "block") {
                     $('.cabecalho .caixa-overflow').toggle('fast');
-                    $('.menu-conta').css('background', 'url(https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/conta-tema.png?v=2) no-repeat scroll center center transparent');
                 }
                 $('html, body').scrollTop(0);
-
-                if ($('#NavLateralEsquerda').css('display') == "none") {
-                    $('.hamburguer').css('background', '  url(https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/hamburguer-tema-x.png?v=7) center center no-repeat transparent');
-                }
-                else {
-                    $('.hamburguer').css('background', '  url(https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/hamburguer-tema.png) center center no-repeat transparent');
-                }
                 $('#NavLateralEsquerda').toggle('fast');
             })
 
