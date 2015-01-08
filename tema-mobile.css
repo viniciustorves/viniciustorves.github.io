@@ -160,15 +160,15 @@
 
     #NavSuperior .cabecalho {
         background: #eee;
-        position: relative;
+        position: fixed;
         padding: 0 !important;;
         margin: 0 !important;
         position: relative;
-        top: 50px;
         overflow: initial;
         border: none !important;
         box-shadow: none !important;
     }
+    
     
    
 
@@ -280,7 +280,7 @@
 
     #logotipo {
         max-width: 100%;
-        display: inline-block;
+        display: none;
         float: none;
         width: 100% !important;
         text-align: center;
