@@ -56,7 +56,7 @@
     }
     
     header > h1, header > h2 {
-        width: 126px;
+        max-width: 126px;
         margin: 12px 0 0 0 !important;
         max-height: 45px;
     }
@@ -69,7 +69,7 @@
         height: 45px;
         position: absolute;
         left: 10px;
-        max-width: 100px;
+        max-width: 126px;
         top: 50%;
         margin-top: -22px;
     }
