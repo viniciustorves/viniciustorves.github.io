@@ -817,6 +817,7 @@
         padding: 5px 0;
         display: block;
         text-align: center;
+        position: relative;
     }
 
     .vitrine-geral .por-preco {
