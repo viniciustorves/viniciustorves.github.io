@@ -103,10 +103,13 @@
                 }
                 $('html, body').scrollTop(0);
                 $('#NavLateralEsquerda').toggle('fast');
+                $('.env-busca').fadeOut('fast');
             })
 
             $('header').find('.lupa-resp').click(function () {
-                $('.env-busca').toggle();
+                $('.env-busca').toggle('fast');
+                $('.cabecalho .caixa-overflow').fadeOut('fast');
+                
             });
 
             $('header').find('.login-resp').click(function () {
