@@ -109,6 +109,7 @@
             $('header').find('.lupa-resp').click(function () {
                 $('.env-busca').toggle('fast');
                 $('.cabecalho .caixa-overflow').fadeOut('fast');
+                $('#NavLateralEsquerda').fadeOut('fast');
                 
             });
 
