@@ -898,6 +898,7 @@
         display: inline-block;
         text-align: center;
         font-weight: normal !important;
+        position: relative;
     }
 
     #NavLogoTray {
