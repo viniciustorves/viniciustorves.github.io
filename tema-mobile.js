@@ -233,6 +233,12 @@
                     $('.menu-conta').css('background', 'url(https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/conta-tema.png?v=2) no-repeat scroll center center transparent');
                 }
             })
+            
+            var sair = $("li").find("[data-tray-tst='sair']").clone();
+            
+            $('.central-menu').append('<div class="icoFilho central-icons"> <p>Sair</p>'+sair+'</div>');
+            
+            
 
 
             var numItems = $('.prodBox').length;
