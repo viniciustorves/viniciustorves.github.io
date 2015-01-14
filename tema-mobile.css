@@ -1913,6 +1913,11 @@ display: none;
         width: 45px !important;
         display: inline-block !important;;
     }
+    
+    #endereco_cobranca_diferente {
+        float: left;
+        margin-right: 10px;
+    }
 
     .abasProduto #Aba1, .abasProduto #Aba2, .abasProduto #Aba3, .abasProduto #Aba4 {
         display: block;
