@@ -2325,7 +2325,8 @@
     }
     
     .container3.caixa-botoes{
-        margin: 20px 0;
+        padding: 10px 0;
+        border-top: 5px solid #eee;
     }
     
     .container3.caixa-total th {
