@@ -1904,11 +1904,11 @@ display: none;
         background: #fff !important;
     }
 
-    .CadastroAbas #cep_1 {
+    .central-conteudo #cep_1 {
         width: 80px !important;
     }
     
-    .CadastroAbas #cep_2 {
+    .central-conteudo #cep_2 {
         width: 45px !important;
     }
 
