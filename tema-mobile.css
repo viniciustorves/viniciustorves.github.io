@@ -2261,7 +2261,8 @@
     }
     
     div#atualizaFormas img {
-        width: 100px;
+        width: 70px;
+        max-width: initial;
     }
         
     #formas_envio_frete .valores_carrinho {
