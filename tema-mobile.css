@@ -2249,7 +2249,7 @@
     }
     
     .caixa-total .color.tit-total {
-        margin-bottom: -30px;
+        margin-bottom: -33px !important;
     }
 
     #formas_envio_frete .valores_carrinho {
