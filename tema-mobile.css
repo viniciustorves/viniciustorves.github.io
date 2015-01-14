@@ -1904,12 +1904,14 @@ display: none;
         background: #fff !important;
     }
 
-    #span_cep_nacional #cep_1, #cep_nacional_span #cobranca_cep_1 {
+    #span_cep_nacional #cep_1, 
+    #cep_nacional_span #cobranca_cep_1 {
         width: 80px !important;
         display: inline-block !important;;
     }
     
-    #span_cep_nacional #cep_2, #cep_nacional_span #cobranca_cep_2 {
+    #span_cep_nacional #cep_2, 
+    #cep_nacional_span #cobranca_cep_2 {
         width: 45px !important;
         display: inline-block !important;;
     }
