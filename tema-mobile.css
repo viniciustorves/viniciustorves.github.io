@@ -1920,6 +1920,14 @@ display: none;
         display: block;
     }
     
+    #vitrine-catalogo input[type='image'] {
+        background: url('https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/bt-pesquisar.png?v=3') !important;
+        width: 0;
+        height: 0;
+        padding: 20px 60px;
+        display: block;
+    }
+    
     #endereco_cobranca_diferente {
         float: left;
         margin-right: 10px;
