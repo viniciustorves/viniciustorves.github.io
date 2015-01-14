@@ -1014,6 +1014,7 @@
         display: block;
         float: none;
         text-align: center;
+        padding: 10px 0 20px 0;
     }
 
     .catalogo-pages {
@@ -1023,6 +1024,11 @@
     }
     .catalogo-pages a{ 
         padding: 20px;
+        display: inline-block;
+    }
+    
+    .btn-pagina-anterior, .btn-proxima-pagina  {
+        display: none;
     }
     .filtro-disponibilidade {
         display: none !important;
