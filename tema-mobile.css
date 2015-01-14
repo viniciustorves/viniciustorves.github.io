@@ -2506,6 +2506,10 @@
         margin-top: 150px !important;
         width: 90px !important;
     }
+    
+    .img_lighwindow {
+        max-width: 100% !important;
+    }
 
 
     #FormasPagamento legend {
