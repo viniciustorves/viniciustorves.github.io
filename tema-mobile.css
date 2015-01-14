@@ -1926,6 +1926,7 @@ display: none;
         height: 0;
         padding: 20px 60px;
         display: block;
+        margin-top: 20px;
     }
     
     #endereco_cobranca_diferente {
