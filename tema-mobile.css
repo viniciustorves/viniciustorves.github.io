@@ -214,8 +214,8 @@
         padding: 5px 0 0 0;
         color: red;
     }
-    .inputErro {
-        border:1px solid red;
+    #form1 .inputErro {
+        border:1px solid red !important;
     }
     
     .lupa-resp {
