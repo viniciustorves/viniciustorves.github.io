@@ -2259,6 +2259,10 @@
     .txt-forma-pagto span.item-parcela {
         min-height: 40px;
     }
+    
+    txt-forma-pagto td img {
+        width: 100px;
+    }
         
     #formas_envio_frete .valores_carrinho {
         margin-top: -25px;
