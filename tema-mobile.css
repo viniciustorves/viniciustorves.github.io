@@ -1846,7 +1846,7 @@
     }
 
     .produto-calcular-frete {
-        display: none;
+        display: block;
     }
 
     .description embed {
