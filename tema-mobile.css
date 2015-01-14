@@ -1211,7 +1211,7 @@
     #Page .caixa-login h3, #Page .caixa-login form, #Page .caixa-login p, #Page .caixa-cadastro h3, #Page .caixa-cadastro form {
         max-width: 100% !important;
         width: 100%;
-        text-transform: unset;
+        text-transform: initial;
     }
 
     .caixa-login label {
