@@ -217,7 +217,7 @@
     }
     
     
-   fieldset .inputErro {
+   #Page .inputErro {
         border:1px solid red !important;
     }
     
