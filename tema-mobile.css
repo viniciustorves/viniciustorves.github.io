@@ -1034,6 +1034,10 @@
     .btns-paginator.selectedPg {
         padding: 12px;
     }
+    
+    #caixaDestaque .breadcrumb {
+        display: none;
+    }
 
     .filtro-disponibilidade {
         display: none !important;
