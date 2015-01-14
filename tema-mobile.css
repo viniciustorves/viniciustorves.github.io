@@ -2327,6 +2327,10 @@
     .container3.caixa-botoes{
         margin: 20px 0;
     }
+    
+    .container3.caixa-total th {
+        background: transparent !important;
+    }
 
     .bt-cupom {
         background: url('https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/bt-calcular.png?v=5') !important;
