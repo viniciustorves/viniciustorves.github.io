@@ -2479,6 +2479,8 @@
         display: block;
         margin-bottom: 0px;
         font-size: 13px;
+        width: 286px;
+        white-space: normal;
     }
 
     .tem-mensagem label {
