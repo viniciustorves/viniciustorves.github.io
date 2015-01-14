@@ -1294,7 +1294,6 @@
 
     #CadastroAbas > ul > li:first-child {
         float: left;
-        margin-right: 10px;
     }
 
     #CadastroAbas > ul > li:last-child {
