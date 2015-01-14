@@ -2230,6 +2230,10 @@
     width: 0px;
 }
 
+.Pedidos tr td a, .Pedidos tr td h3{
+    font-size: 10px !important; 
+}
+
     .bt-cep {
         background: url('https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/bt-calcular-frete.png?v=3') !important;
         display: inline-block;
