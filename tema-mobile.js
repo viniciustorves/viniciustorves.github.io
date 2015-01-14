@@ -234,8 +234,8 @@
                 }
             })
             
-            var sair = $("li").find("[data-tray-tst='sair']").html();
-            $('.central-menu').append('<div class="icoFilho central-icons"> <p>Sair</p>'+sair+'</div>');
+            var sair = $("li").find("[data-tray-tst='sair']").attr('href');
+            $('.central-menu').append('<div class="icoFilho central-icons"> <p>Sair</p><a href="'+sair+'"></a></div>');
             
             
 
