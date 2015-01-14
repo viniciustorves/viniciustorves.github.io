@@ -208,6 +208,10 @@
                 $('div.container:nth-child(4)').remove();
                 $('.container3').css('display', 'block');
             }
+            
+            if ($(location).attr('pathname') == "/loja/contato.php") {
+                $('header').css('position','relative');
+            }
 
             if ($(location).attr('pathname') == "/loja/central_detalhe_pedido.php") {
                 $('p').css('display', 'block');
