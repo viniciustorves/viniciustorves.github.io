@@ -2484,7 +2484,7 @@
     }
     
     input[name="numero_cartao"] {
-        width: 80;
+        width: 80%;
     }
     
     #dados_cartao_campos > div:nth-child(11) {
