@@ -2215,6 +2215,10 @@
     .bt-cep img, .bt-cupom img {
         display: none;
     }
+    
+    .formulario-contato input {
+        max-width: 90% !important;
+    }
 
     .bt-cep {
         background: url('https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/bt-calcular-frete.png?v=3') !important;
