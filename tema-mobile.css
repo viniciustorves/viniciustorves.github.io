@@ -2495,6 +2495,7 @@
         background: url("https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/bt-pagar.png") repeat scroll 0% 0% transparent !important;
         padding: 18px 30px !important;
         display: block;
+        width: 0;
     }
     
     #dados_cartao_campos > div:nth-child(11) {
