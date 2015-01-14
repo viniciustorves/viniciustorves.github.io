@@ -2463,6 +2463,10 @@
     .mensagem-popup {
         display: none;
     }
+    
+    .board.observacao {
+        margin: 20px 0 0 0 !important;
+        }
 
     .lista-formas-pagamento img {
         flex: 0 0 auto;
