@@ -181,6 +181,13 @@
             $('#validade_cartao_ano').replaceWith($('#validade_cartao_ano').clone().attr('type', 'number'));
 
 
+            var f = $('#lightwindow_contents #none');
+            f.load(function() {
+                var iF = f.contents().find('iframe');
+                iF.load(function() {
+                    iF.contents().find('img').css('max-width','100%');
+                });
+            });
 
 
             $('#search-key').replaceWith($('#search-key').clone().attr('type', 'search'));
