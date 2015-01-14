@@ -2491,6 +2491,15 @@
         overflow-x: hidden;
         overflow-y: auto;
     }
+    #enviar_cartao{
+        width: 61px;
+        height: 36px;
+        background: url("https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/bt-pagar.png") repeat scroll 0% 0% transparent !important;
+        width: 0;
+        height: 0;
+        padding: 30px 18px;
+        display: block;
+    }
     
     #dados_cartao_campos > div:nth-child(11) {
         margin: 0 !important;
