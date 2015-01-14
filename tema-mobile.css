@@ -207,6 +207,17 @@
         line-height: 50px;
     }
     
+    .mensagensErro {
+        background: none !important;
+        border: none;
+        margin: 0 !important;
+        padding: 5px 0 0 0;
+        color: red;
+    }
+    .inputErro {
+        border:1px solid red;
+    }
+    
     .lupa-resp {
         background: url('https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/lupa.png?v=2');
         width: 40px;
