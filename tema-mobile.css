@@ -2247,6 +2247,10 @@
         float: none;
         margin: 8px 0 0 0 !important;
     }
+    
+    .caixa-total h3 {
+        margin-bottom: -40px;
+    }
 
     #formas_envio_frete .valores_carrinho {
         margin-top: -25px;
@@ -2394,7 +2398,6 @@
 
     .caixa-total h3 {
         position: relative;
-        top: -32px;
     }
 
     #tabela_carrinho.tablePage:nth-child(1) > tbody:nth-child(1) > tr:nth-child(2) {
