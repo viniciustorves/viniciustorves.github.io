@@ -1030,6 +1030,11 @@
     .btn-pagina-anterior, .btn-proxima-pagina  {
         display: none;
     }
+    
+    .btns-paginator.selectedPg {
+        padding: 12px;
+    }
+
     .filtro-disponibilidade {
         display: none !important;
     }
