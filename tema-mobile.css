@@ -214,7 +214,7 @@
         padding: 5px 0 0 0;
         color: red;
     }
-    #form1 .inputErro {
+    #Page #form1 .inputErro {
         border:1px solid red !important;
     }
     
