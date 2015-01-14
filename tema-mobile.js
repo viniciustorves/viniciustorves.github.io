@@ -183,6 +183,7 @@
 
             var f = $('#none');
             f.load(function() {
+                alert('aa');
                     f.contents().find('.img_lighwindow').css('max-width','100%');
             });
 
