@@ -2487,6 +2487,11 @@
         width: 80%;
     }
     
+    #lightwindow_contents {
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    
     #dados_cartao_campos > div:nth-child(11) {
         margin: 0 !important;
     }
