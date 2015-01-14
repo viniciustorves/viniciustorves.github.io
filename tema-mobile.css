@@ -2486,6 +2486,15 @@
     input[name="numero_cartao"] {
         width: 80;
     }
+    
+    #dados_cartao_campos > div:nth-child(11) {
+        margin: 0 !important;
+    }
+    
+    #dados_cartao_campos > div:nth-child(12) {
+        margin-top: 150px !important;
+        width: 90px !important;
+    }
 
 
     #FormasPagamento legend {
