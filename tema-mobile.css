@@ -1299,6 +1299,10 @@
     #CadastroAbas > ul > li:last-child {
         float: left;
     }
+    
+    .tablePags td:nth-child(4) {
+display: none;
+}
 
     #frm2 {
         background: #f6f6f6;
