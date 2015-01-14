@@ -181,7 +181,7 @@
             $('#validade_cartao_ano').replaceWith($('#validade_cartao_ano').clone().attr('type', 'number'));
 
 
-            var f = $('#none');
+            var f = $('iframe#none');
             f.load(function() {
                 alert('aa');
                     f.contents().find('.img_lighwindow').css('max-width','100%');
