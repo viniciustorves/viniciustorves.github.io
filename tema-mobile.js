@@ -174,6 +174,11 @@
             $('#quant').replaceWith($('#quant').clone().attr('type', 'number'));
             $('#email_login').replaceWith($('#email_login').clone().attr('type', 'email'));
             $('#email_cadastro').replaceWith($('#email_cadastro').clone().attr('type', 'email'));
+            
+            $('#numero_cartao').replaceWith($('#numero_cartao').clone().attr('type', 'number'));
+            $('#codigo_seguranca').replaceWith($('#codigo_seguranca').clone().attr('type', 'number'));
+            $('#validade_cartao_mes').replaceWith($('#validade_cartao_mes').clone().attr('type', 'number'));
+            $('#validade_cartao_ano').replaceWith($('#validade_cartao_ano').clone().attr('type', 'number'));
 
 
 
