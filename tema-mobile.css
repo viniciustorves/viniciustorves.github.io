@@ -213,6 +213,7 @@
         margin: 0 !important;
         padding: 5px 0 0 0;
         color: red;
+        font-size: 12px;
     }
     #Page #form1 .inputErro {
         border:1px solid red !important;
