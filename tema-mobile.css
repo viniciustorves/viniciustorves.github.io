@@ -2480,11 +2480,11 @@
     }
     
     #nome_titular_cartao {
-        max-width: 260px;
+        max-width: 80%;
     }
     
     input[name="numero_cartao"] {
-        width: 260px;
+        width: 80;
     }
 
 
