@@ -1906,12 +1906,12 @@ display: none;
 
     #CadastroAbas  #cep_1 {
         width: 80px !important;
-        display: inline-block;
+        display: inline-block !important;;
     }
     
     #CadastroAbas  #cep_2 {
         width: 45px !important;
-        display: inline-block;
+        display: inline-block !important;;
     }
 
     .abasProduto #Aba1, .abasProduto #Aba2, .abasProduto #Aba3, .abasProduto #Aba4 {
