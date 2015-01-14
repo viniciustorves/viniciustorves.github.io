@@ -2488,8 +2488,8 @@
     }
     
     #lightwindow_contents {
-        overflow-x: hidden;
-        overflow-y: auto;
+        overflow-x: hidden !important;
+        overflow-y: auto !important;
     }
     #enviar_cartao{
         background: url("https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/bt-pagar.png") repeat scroll 0% 0% transparent !important;
