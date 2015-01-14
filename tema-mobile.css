@@ -2221,7 +2221,7 @@
     }
     .formulario-contato {
         display: block;
-        margin-bottom: 20px;
+        margin-bottom: 20px !important;
     }
     .formulario-contato input[type='image'] {
     background: url("https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/bt-enviar-contato.png") repeat scroll 0% 0% transparent !important;
