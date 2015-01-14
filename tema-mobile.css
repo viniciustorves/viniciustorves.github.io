@@ -1916,6 +1916,10 @@ display: none;
         display: inline-block !important;;
     }
     
+    #vitrine-catalogo .text {
+        display: block;
+    }
+    
     #endereco_cobranca_diferente {
         float: left;
         margin-right: 10px;
