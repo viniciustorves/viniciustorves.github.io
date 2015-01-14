@@ -181,9 +181,9 @@
             $('#validade_cartao_ano').replaceWith($('#validade_cartao_ano').clone().attr('type', 'number'));
 
 
-            var f = $('#lightwindow_contents #none');
+            var f = $('#none');
             f.load(function() {
-                    f.contents().find('img').css('max-width','100%');
+                    f.contents().find('.img_lighwindow').css('max-width','100%');
             });
 
 
