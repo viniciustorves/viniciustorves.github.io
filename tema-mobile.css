@@ -215,7 +215,9 @@
         color: red;
         font-size: 12px;
     }
-    #Page #form1 .inputErro {
+    
+    
+    .inputErro {
         border:1px solid red !important;
     }
     
