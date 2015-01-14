@@ -2248,8 +2248,8 @@
         margin: 8px 0 0 0 !important;
     }
     
-    .caixa-total h3 {
-        margin-bottom: -40px;
+    .caixa-total .color.tit-total {
+        margin-bottom: -30px;
     }
 
     #formas_envio_frete .valores_carrinho {
