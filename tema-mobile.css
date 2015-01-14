@@ -2219,6 +2219,13 @@
     .formulario-contato input, .formulario-contato textarea {
         max-width: 90% !important;
     }
+    
+    .formulario-contato input[type='image'] {
+    background: url("https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/bt-enviar-contato.png") repeat scroll 0% 0% transparent !important;
+    padding: 20px 40px !important;
+    display: block;
+    width: 0px;
+}
 
     .bt-cep {
         background: url('https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/bt-calcular-frete.png?v=3') !important;
