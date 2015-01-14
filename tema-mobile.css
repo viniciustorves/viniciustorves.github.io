@@ -2507,7 +2507,7 @@
         width: 90px !important;
     }
     
-    .img_lighwindow {
+    #lightwindow_contents .img_lighwindow {
         max-width: 100% !important;
     }
     
