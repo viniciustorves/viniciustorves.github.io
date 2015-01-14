@@ -1905,11 +1905,11 @@ display: none;
     }
 
     .CadastroAbas #cep_1 {
-        width: 80px
+        width: 80px !important;
     }
     
     .CadastroAbas #cep_2 {
-        width: 45px
+        width: 45px !important;
     }
 
     .abasProduto #Aba1, .abasProduto #Aba2, .abasProduto #Aba3, .abasProduto #Aba4 {
