@@ -1904,6 +1904,13 @@ display: none;
         background: #fff !important;
     }
 
+    .CadastroAbas #cep_1 {
+        width: 80px
+    }
+    
+    .CadastroAbas #cep_2 {
+        width: 45px
+    }
 
     .abasProduto #Aba1, .abasProduto #Aba2, .abasProduto #Aba3, .abasProduto #Aba4 {
         display: block;
