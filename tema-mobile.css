@@ -1929,6 +1929,11 @@ display: none;
         margin-top: 20px;
     }
     
+    .blocoAlerta, .message {
+        background: brown !important;
+        color: #fff !important;;
+    }
+    
     #endereco_cobranca_diferente {
         float: left;
         margin-right: 10px;
