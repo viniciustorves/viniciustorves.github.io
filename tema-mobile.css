@@ -2016,6 +2016,11 @@ display: none;
     #cepbox a img {
         display: none;
     }
+    
+    #lightwindow .page-simula-frete {
+        max-width: 100%;
+        
+    }
 
     #cepbox:before {
         content: '';
