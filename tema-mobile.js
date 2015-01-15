@@ -224,6 +224,13 @@
                 $('#ProdBlock').remove();
                 $('.central-breadcrumb').remove();
             }
+            
+            if ($(location).attr('pathname') == "/loja/central_confirmar_pagamento.php") {
+                $('form').find('input').css('width','100%');
+                $('form').find('textarea').css('width','100%');
+            }
+            
+            
 
 
 
