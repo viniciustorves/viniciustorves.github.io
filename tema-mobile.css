@@ -2579,6 +2579,7 @@ display: none;
     
     #dados_cartao_campos > div:nth-child(11) {
         margin: 0 !important;
+        display: none;
     }
     
     #dados_cartao_campos > div:nth-child(12) {
