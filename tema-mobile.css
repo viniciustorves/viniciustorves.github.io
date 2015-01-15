@@ -2274,6 +2274,10 @@ display: none;
     .formulario-contato input, #mensagem_contato {
         max-width: 90% !important;
     }
+    
+    #mensagem_contato {
+        max-width: 80% !important;
+    }
     .formulario-contato {
         display: block;
         margin-bottom: 20px !important;
