@@ -1717,7 +1717,7 @@ display: none;
 
     .caixa-lista-formas #ProdAbas ul {
         padding: 0;
-
+        border-top: 3px solid #fff;
     }
     .caixa-lista-formas #ProdAbas ul li {
         display: block;
