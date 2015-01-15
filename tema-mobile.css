@@ -2032,6 +2032,10 @@ display: none;
         display: none !important;
     }
     
+    .catalogo-lista-hidden {
+        display: none;
+    }
+    
     .page-simula-frete  table.tablePage td:nth-child(4) {
     width: 200px;
 }
