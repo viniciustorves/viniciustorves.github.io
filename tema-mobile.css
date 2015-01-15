@@ -2017,7 +2017,7 @@ display: none;
         display: none;
     }
     
-    table.tablePage td:nth-child(1) {
+    .page-simula-frete table.tablePage td:nth-child(1) {
         display: none;
     }
     
