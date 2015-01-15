@@ -2017,8 +2017,12 @@ display: none;
         display: none;
     }
     
+    .page-simula-frete table.tablePage td:nth-child(1) img{
+        width: 100%;
+    }
+    
     .page-simula-frete table.tablePage td:nth-child(1) {
-        display: none;
+        width: 20px;
     }
     
     #lightwindow .page-simula-frete {
