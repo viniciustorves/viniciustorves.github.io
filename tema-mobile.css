@@ -2011,6 +2011,7 @@ display: none;
         width: 104px;
         height: 40px;
         font-size: 0 !important;
+        margin: 0 !important;
     }
     #cepbox a img {
         display: none;
