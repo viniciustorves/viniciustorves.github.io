@@ -2579,11 +2579,11 @@ display: none;
     
     #dados_cartao_campos > div:nth-child(11) {
         margin: 0 !important;
-        display: none;
+        display: none !important;
     }
     
     #dados_cartao_campos > div:nth-child(12) {
-        margin-top: -217px !important;
+        margin-top: -170px !important;
         display: block;
         border: 1px dotted #ccc;
         float: right;
