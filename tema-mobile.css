@@ -2033,7 +2033,7 @@ display: none;
     }
     
     .catalogo-lista-hidden {
-        display: none;
+        display: none !important;
     }
     
     .page-simula-frete  table.tablePage td:nth-child(4) {
