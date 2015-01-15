@@ -2028,6 +2028,10 @@ display: none;
         width: 30px;
     }
     
+    .page-simula-frete  table.tablePage td:nth-child(4) {
+    width: 200px;
+}
+    
     #lightwindow .page-simula-frete {
         max-width: 100%;
         min-width: 100%;
