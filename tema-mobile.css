@@ -2582,7 +2582,7 @@ display: none;
     }
     
     #dados_cartao_campos > div:nth-child(12) {
-        margin-top: -217px;
+        margin-top: -217px !important;
         display: block;
         border: 1px dotted #ccc;
         float: right;
