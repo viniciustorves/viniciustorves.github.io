@@ -2028,6 +2028,10 @@ display: none;
         width: 30px;
     }
     
+    #linkPagParcelado {
+        display: none;
+    }
+    
     .page-simula-frete  table.tablePage td:nth-child(4) {
     width: 200px;
 }
