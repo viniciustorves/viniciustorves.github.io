@@ -2022,7 +2022,10 @@ display: none;
     }
     
     .page-simula-frete table.tablePage td:nth-child(1) {
-        width: 20px;
+        width: 50px;
+    }
+     .page-simula-frete table.tablePage td:nth-child(1) {
+        width: 30px;
     }
     
     #lightwindow .page-simula-frete {
