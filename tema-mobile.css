@@ -2271,7 +2271,7 @@ display: none;
         display: none;
     }
     
-    .formulario-contato input, .formulario-contato textarea {
+    .formulario-contato input, #mensagem_contato {
         max-width: 90% !important;
     }
     .formulario-contato {
