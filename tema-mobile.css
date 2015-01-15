@@ -2278,7 +2278,7 @@ display: none;
     #mensagem_contato {
         max-width: 80% !important;
         width: 80% !important;
-        height: 40px;
+        height: 100px;
     }
     .formulario-contato {
         display: block;
