@@ -2017,6 +2017,10 @@ display: none;
         display: none;
     }
     
+    table.tablePage td:nth-child(1) {
+        display: none;
+    }
+    
     #lightwindow .page-simula-frete {
         max-width: 100%;
         min-width: 100%;
