@@ -2028,6 +2028,10 @@ display: none;
         width: 30px;
     }
     
+    .banner-rodape {
+        display: none;
+    }
+    
     #linkPagParcelado {
         display: none !important;
     }
