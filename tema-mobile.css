@@ -2032,6 +2032,11 @@ display: none;
         display: none;
     }
     
+      #coments .text {
+        width: 90% !important;
+        display: block !important;
+    }
+    
     #linkPagParcelado {
         display: none !important;
     }
