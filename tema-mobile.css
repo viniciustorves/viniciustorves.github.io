@@ -1686,9 +1686,8 @@ display: none;
     }
     
     .font-default {
-        margin-top: 65px !important;
-    }
-    
+margin-top: 0px !important;
+}
     #form_comprar #quantidade label {
         display: inline-block;
     }
