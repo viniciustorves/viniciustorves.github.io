@@ -2037,7 +2037,7 @@ display: none;
         display: block !important;
     }
     
-    #coments .image.pointer{
+    #coments .image {
         background: url("https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/bt-enviar-coment.png") repeat scroll 0% 0% transparent !important;
         padding: 20px 40px !important;
         display: block;
