@@ -1684,6 +1684,10 @@ display: none;
     #form_comprar #quantidade {
         width: 100%;
     }
+    
+    #form_comprar #quantidade label {
+        display: inline-block;
+    }
 
     .caixa-frete .bottom {
         display: none;
