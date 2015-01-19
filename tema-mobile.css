@@ -1685,6 +1685,10 @@ display: none;
         width: 100%;
     }
     
+    .font-default {
+        margin-top: 65px;
+    }
+    
     #form_comprar #quantidade label {
         display: inline-block;
     }
