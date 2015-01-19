@@ -2801,6 +2801,7 @@
 
     span.botao-commerce.botao-nao_indisponivel.bgcolor {
         background: transparent;
+        color: #999 !important;
     }
     .BoxVisitados ul li .bts {
         padding: 2px 5px !important;
