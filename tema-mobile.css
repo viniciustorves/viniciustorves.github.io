@@ -2791,14 +2791,19 @@ margin-top: 0 !important;
         display: none;
     }
 
-    .vitrineVisitados .bts2, .BoxVisitados ul li .bts {
-        padding: 5px 10px !important";
+    .vitrineVisitados .bts2, {
+        padding: 5px 10px !important;
         border-radius: 5px;
         display: block;
         width: auto;
         height: auto;
     }
-
+.BoxVisitados ul li .bts {
+        padding: 5px !important;
+        border-radius: 5px;
+        display: block;
+        width: auto;
+        height: auto;
     .central-conteudo .change {
         display: none !important;
     }
