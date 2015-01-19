@@ -3,7 +3,7 @@
     @-ms-viewport { width: device-width; } @-o-viewport { width: device-width; } @viewport { width: device-width; }
 
     @import url('http://fonts.googleapis.com/css?family=Open+Sans:300,400,700,600');
-    
+
     /* teste */
 
     * {
@@ -54,18 +54,18 @@
         padding: 10px;
         box-shadow: 0 0 5px rgba(43, 44, 42, 0.32);
     }
-    
+
     header > h1, header > h2 {
         max-width: 110px;
         margin: 12px 0 0 0 !important;
         max-height: 45px;
         font-size: 15px;
     }
-    
+
     .finish-body {
         margin-top: 64px;
     }
-    
+
     header img {
         height: 45px;
         position: absolute;
@@ -98,7 +98,7 @@
         border: none;
         top: 64px;
     }
-    
+
     .bottom {
         display: none;
     }
@@ -188,9 +188,9 @@
         border: none !important;
         box-shadow: none !important;
     }
-    
-    
-   
+
+
+
 
     .menu-mobile {
         width: 100%;
@@ -207,7 +207,7 @@
         font-size: 14px;
         line-height: 50px;
     }
-    
+
     .mensagensErro {
         background: none !important;
         border: none;
@@ -216,12 +216,12 @@
         color: red;
         font-size: 12px;
     }
-    
-    
-   #Page .inputErro {
+
+
+    #Page .inputErro {
         border:1px solid red !important;
     }
-    
+
     .lupa-resp {
         background: url('https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/lupa.png?v=2');
         width: 40px;
@@ -262,7 +262,7 @@
         display: block;
         border-radius: 5px;
     }
-    
+
     .env-busca {
         margin: 0 auto !important;
         max-width: 100%;
@@ -292,25 +292,25 @@
         z-index: 10;
     }
 
-/*    .menu-conta {
-        max-width: 50px;
-        min-width: 50px;
-        width: 50px;
-        height: 50px;
-        background: url('https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/conta-tema.png?v=2') no-repeat center center;
-        display: table-cell;
-        vertical-align: middle;
-    }
-
-    .hamburguer {
-        max-width: 50px;
-        min-width: 50px;
-        width: 50px;
-        height: 50px;
-        background: url('https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/hamburguer-tema.png?v=2') no-repeat center center;
-        display: table-cell;
-        vertical-align: middle;
-    }*/
+    /*    .menu-conta {
+            max-width: 50px;
+            min-width: 50px;
+            width: 50px;
+            height: 50px;
+            background: url('https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/conta-tema.png?v=2') no-repeat center center;
+            display: table-cell;
+            vertical-align: middle;
+        }
+    
+        .hamburguer {
+            max-width: 50px;
+            min-width: 50px;
+            width: 50px;
+            height: 50px;
+            background: url('https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/hamburguer-tema.png?v=2') no-repeat center center;
+            display: table-cell;
+            vertical-align: middle;
+        }*/
 
     #logotipo {
         max-width: 100%;
@@ -1030,15 +1030,15 @@
         padding: 20px;
         display: inline-block;
     }
-    
+
     .btn-pagina-anterior, .btn-proxima-pagina  {
         display: none;
     }
-    
+
     .btns-paginator.selectedPg {
         padding: 12px;
     }
-    
+
     #caixaDestaque .breadcrumb {
         display: none;
     }
@@ -1318,10 +1318,10 @@
     #CadastroAbas > ul > li:last-child {
         float: left;
     }
-    
+
     .tablePags td:nth-child(4) {
-display: none;
-}
+        display: none;
+    }
 
     #frm2 {
         background: #f6f6f6;
@@ -1684,10 +1684,10 @@ display: none;
     #form_comprar #quantidade {
         width: 100%;
     }
-    
+
     .font-default {
-margin-top: 0 !important;
-}
+        margin-top: 0 !important;
+    }
     #form_comprar #quantidade label {
         display: inline-block;
     }
@@ -1901,12 +1901,12 @@ margin-top: 0 !important;
         max-width: 100% !important;;
         width: 100%;
     }
-    
+
     #descricao * {
         font-size: 12px;
         color: #7b7b7b;
     }
-    
+
     #descricao embed, #descricao object {
         max-width: 100%;
         width: 100%;
@@ -1935,17 +1935,17 @@ margin-top: 0 !important;
         width: 80px !important;
         display: inline-block !important;;
     }
-    
+
     #span_cep_nacional #cep_2, 
     #cep_nacional_span #cobranca_cep_2 {
         width: 45px !important;
         display: inline-block !important;;
     }
-    
+
     #vitrine-catalogo .text {
         display: block;
     }
-    
+
     #vitrine-catalogo input[type='image'] {
         background: url('https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/bt-pesquisar.png?v=3') !important;
         width: 0;
@@ -1954,12 +1954,12 @@ margin-top: 0 !important;
         display: block;
         margin-top: 20px;
     }
-    
+
     .blocoAlerta, .message {
         background: brown !important;
         color: #fff !important;;
     }
-    
+
     #endereco_cobranca_diferente {
         float: left;
         margin-right: 10px;
@@ -2024,54 +2024,54 @@ margin-top: 0 !important;
     #cepbox a img {
         display: none;
     }
-    
+
     .page-simula-frete table.tablePage td:nth-child(1) img{
         width: 100%;
     }
-    
+
     .page-simula-frete table.tablePage td:nth-child(1) {
         width: 50px;
     }
-     .page-simula-frete table.tablePage td:nth-child(2) {
+    .page-simula-frete table.tablePage td:nth-child(2) {
         width: 30px;
     }
-    
+
     .banner-rodape {
         display: none;
     }
-    
-      #coments .text {
+
+    #coments .text {
         width: 90% !important;
         display: block !important;
     }
-    
+
     #coments .image {
         background: url("https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/bt-enviar-coment.png") repeat scroll 0% 0% transparent !important;
         padding: 20px 42px !important;
         display: block;
         width: 0;
     }
-    
+
     .left-banner {
         display: none;
     }
-    
+
     #linkPagParcelado {
         display: none !important;
     }
-    
+
     .catalogo-lista-hidden {
         display: none !important;
     }
-    
+
     .page-simula-frete  table.tablePage td:nth-child(4) {
-    width: 200px;
-}
-    
+        width: 200px;
+    }
+
     #lightwindow .page-simula-frete {
         max-width: 100%;
         min-width: 100%;
-        
+
     }
 
     #cepbox:before {
@@ -2091,7 +2091,7 @@ margin-top: 0 !important;
         margin: 10px 0;
     }
     #bt_comprar button {
-        
+
         display: block;
         color: #fff;
         font-size: 20px;
@@ -2328,11 +2328,11 @@ margin-top: 0 !important;
     .bt-cep img, .bt-cupom img {
         display: none;
     }
-    
+
     .formulario-contato input, #mensagem_contato {
         max-width: 90% !important;
     }
-    
+
     #mensagem_contato {
         max-width: 80% !important;
         width: 80% !important;
@@ -2344,19 +2344,19 @@ margin-top: 0 !important;
         margin-bottom: 20px !important;
     }
     .formulario-contato input[type='image'] {
-    background: url("https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/bt-enviar-contato.png") repeat scroll 0% 0% transparent !important;
-    padding: 20px 40px !important;
-    display: block;
-    width: 0px;
-}
+        background: url("https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/bt-enviar-contato.png") repeat scroll 0% 0% transparent !important;
+        padding: 20px 40px !important;
+        display: block;
+        width: 0px;
+    }
 
-.Pedidos tr td a, .Pedidos tr td h3{
-    font-size: 10px !important; 
-}
+    .Pedidos tr td a, .Pedidos tr td h3{
+        font-size: 10px !important; 
+    }
 
-.Pedidos > tbody:nth-child(1) > tr:nth-child(1) > th:nth-child(4) {
-   
-}
+    .Pedidos > tbody:nth-child(1) > tr:nth-child(1) > th:nth-child(4) {
+
+    }
 
     .bt-cep {
         background: url('https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/bt-calcular-frete.png?v=3') !important;
@@ -2391,7 +2391,7 @@ margin-top: 0 !important;
         float: none;
         margin: 8px 0 0 0 !important;
     }
-    
+
     .caixa-total .color.tit-total {
         margin-bottom: -33px !important;
     }
@@ -2399,16 +2399,16 @@ margin-top: 0 !important;
     #atualizaFormas .tablePags td {
         vertical-align: top;
     }
-    
+
     .txt-forma-pagto span.item-parcela {
         min-height: 50px;
     }
-    
+
     div#atualizaFormas img {
         width: 70px;
         max-width: initial;
     }
-        
+
     #formas_envio_frete .valores_carrinho {
         margin-top: -25px;
         float: right;
@@ -2484,12 +2484,12 @@ margin-top: 0 !important;
         float: left;
         width: 100%;
     }
-    
+
     .container3.caixa-botoes{
         padding: 10px 0;
         border-top: 5px solid #eee;
     }
-    
+
     .container3.caixa-total th {
         background: transparent !important;
     }
@@ -2607,10 +2607,10 @@ margin-top: 0 !important;
     .mensagem-popup {
         display: none;
     }
-    
+
     .board.observacao {
         margin: 20px 0 0 0 !important;
-        }
+    }
 
     .lista-formas-pagamento img {
         flex: 0 0 auto;
@@ -2622,15 +2622,15 @@ margin-top: 0 !important;
         top: 0;
         right: 0;
     }
-    
+
     #nome_titular_cartao {
         max-width: 80%;
     }
-    
+
     input[name="numero_cartao"] {
         width: 80%;
     }
-    
+
     #lightwindow_contents {
         overflow-x: hidden !important;
         overflow-y: auto !important;
@@ -2641,12 +2641,12 @@ margin-top: 0 !important;
         display: block;
         width: 0;
     }
-    
+
     #dados_cartao_campos > div:nth-child(11) {
         margin: 0 !important;
         display: none !important;
     }
-    
+
     #dados_cartao_campos > div:nth-child(12) {
         margin-top: -123px !important;
         display: block;
@@ -2657,11 +2657,11 @@ margin-top: 0 !important;
         overflow: hidden;
         width: 200px;
     }
-    
+
     #lightwindow_contents img {
         max-width: 100% !important;
     }
-    
+
 
     #FormasPagamento legend {
         background: none repeat scroll 0% 0% transparent;
@@ -2798,13 +2798,17 @@ margin-top: 0 !important;
         width: auto;
         height: auto;
     }
-.BoxVisitados ul li .bts {
+
+    span.botao-commerce.botao-nao_indisponivel.bgcolor {
+        background: transparent;
+    }
+    .BoxVisitados ul li .bts {
         padding: 2px 5px !important;
         border-radius: 5px;
         display: block;
         width: auto;
         height: auto;
-    .central-conteudo .change {
-        display: none !important;
+        .central-conteudo .change {
+            display: none !important;
+        }
     }
-}
