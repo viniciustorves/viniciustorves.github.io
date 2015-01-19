@@ -2792,7 +2792,7 @@ margin-top: 0 !important;
     }
 
     .vitrineVisitados .bts2, .BoxVisitados ul li .bts {
-        padding: 5px 10px;
+        padding: 5px 10px !important";
         border-radius: 5px;
         display: block;
         width: auto;
