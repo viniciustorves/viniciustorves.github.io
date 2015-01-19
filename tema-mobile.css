@@ -2791,7 +2791,7 @@ margin-top: 0 !important;
         display: none;
     }
 
-    .vitrineVisitados .bts2, .bts {
+    .vitrineVisitados .bts2, .BoxVisitados ul li .bts {
         padding: 5px 10px;
         border-radius: 5px;
         display: block;
