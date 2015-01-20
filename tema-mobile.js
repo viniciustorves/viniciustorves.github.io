@@ -231,7 +231,7 @@
                 $('form').find('input[type=image]').attr('src','https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/bt-confirmar-pagamento.png');
             }
             
-            $('.page-simula-frete table.tablePage:nth-child(3) > tbody:nth-child(1) > tr:nth-child(1) > th:nth-child(1)').attr('colspan','1');
+           
             
             
 
@@ -277,3 +277,19 @@
     })
 
 })(jQuery);
+
+function openLightWindow(url,titulo,altura,largura, iframeNome){
+
+	var myLightWindow = new lightwindow();
+	if(iframeNome == undefined){iframeNome = "none"};
+	myLightWindow.activateWindow({
+		href: url,
+		title: titulo,
+		width: largura,
+		height: altura,
+		iframeNome: iframeNome,
+		type: 'inline'
+	});
+
+	return false;
+}
