@@ -1910,6 +1910,7 @@
     #descricao embed, #descricao object, #descricao img, #descricao table {
         max-width: 100% !important;
         width: 100% !important;
+        height: auto !important;
     }
 
     #CadastroAbas li {
