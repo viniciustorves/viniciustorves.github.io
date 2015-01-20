@@ -38,7 +38,7 @@
             $('.mousetrap').each(function () {
                 $('.mousetrap').remove();
             });
-            
+
             $("LINK[href*='theme-advanced.css']").remove();
 
 
@@ -54,7 +54,7 @@
 
 
             var htmlBusca = $('.bg-busca').html();
-             var htmlLogo = $('#logotipo').html();
+            var htmlLogo = $('#logotipo').html();
 
             var headerHtml = '<header>';
             headerHtml += htmlLogo;
@@ -110,7 +110,7 @@
                 $('.env-busca').toggle('fast');
                 $('.cabecalho .caixa-overflow').fadeOut('fast');
                 $('#NavLateralEsquerda').fadeOut('fast');
-                
+
             });
 
             $('header').find('.login-resp').click(function () {
@@ -174,7 +174,7 @@
             $('#quant').replaceWith($('#quant').clone().attr('type', 'number'));
             $('#email_login').replaceWith($('#email_login').clone().attr('type', 'email'));
             $('#email_cadastro').replaceWith($('#email_cadastro').clone().attr('type', 'email'));
-            
+
             $('#numero_cartao').replaceWith($('#numero_cartao').clone().attr('type', 'number'));
             $('#codigo_seguranca').replaceWith($('#codigo_seguranca').clone().attr('type', 'number'));
             $('#validade_cartao_mes').replaceWith($('#validade_cartao_mes').clone().attr('type', 'number'));
@@ -182,9 +182,9 @@
 
 
             var f = $('iframe#none');
-            f.load(function() {
+            f.load(function () {
                 alert('aa');
-                    f.contents().find('.img_lighwindow').css('max-width','100%');
+                f.contents().find('.img_lighwindow').css('max-width', '100%');
             });
 
 
@@ -208,8 +208,8 @@
                 $('div.container:nth-child(4)').remove();
                 $('.container3').css('display', 'block');
             }
-            
-            
+
+
 
             if ($(location).attr('pathname') == "/loja/central_detalhe_pedido.php") {
                 $('p').css('display', 'block');
@@ -224,16 +224,16 @@
                 $('#ProdBlock').remove();
                 $('.central-breadcrumb').remove();
             }
-            
+
             if ($(location).attr('pathname') == "/loja/central_confirmar_pagamento.php") {
-                $('form').find('input[type=text]').css('width','100%');
-                $('form').find('textarea').css('width','100%');
-                $('form').find('input[type=image]').attr('src','https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/bt-confirmar-pagamento.png');
+                $('form').find('input[type=text]').css('width', '100%');
+                $('form').find('textarea').css('width', '100%');
+                $('form').find('input[type=image]').attr('src', 'https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/bt-confirmar-pagamento.png');
             }
-            
-           
-            
-            
+
+
+
+
 
 
 
@@ -243,11 +243,11 @@
                     $('.menu-conta').css('background', 'url(https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/conta-tema.png?v=2) no-repeat scroll center center transparent');
                 }
             })
-            
+
             var sair = $("li").find("[data-tray-tst='sair']").attr('href');
-            $('.central-menu').append('<div class="icoFilho central-icons"> <p>Sair</p><a href="'+sair+'"></a></div>');
-            
-            
+            $('.central-menu').append('<div class="icoFilho central-icons"> <p>Sair</p><a href="' + sair + '"></a></div>');
+
+
 
 
             var numItems = $('.prodBox').length;
@@ -275,30 +275,34 @@
 
 
     })
-    
-    
+
+
 
 })(jQuery);
 
-function openLightWindow(url,titulo,altura,largura, iframeNome){
+function openLightWindow(url, titulo, altura, largura, iframeNome) {
 
-	var myLightWindow = new lightwindow();
-	if(iframeNome == undefined){iframeNome = "ligthMobile"};
-	myLightWindow.activateWindow({
-		href: url,
-		title: titulo,
-		width: largura,
-		height: altura,
-		type: 'external'
-	});
-        
-        var cssLink = document.createElement("link") 
-            cssLink.href = "file://path/to/style.css"; 
-            cssLink .rel = "stylesheet"; 
-            cssLink .type = "text/css"; 
-            var $head = $("#ligthMobile").contents().find("head");                
-            $head.append($("<link/>", 
-            { rel: "stylesheet", href: "https://bbelintanitray.github.io/tema-mobile.css?v=8", type: "text/css" }));
+    var myLightWindow = new lightwindow();
+    if (iframeNome == undefined) {
+        iframeNome = "ligthMobile"
+    }
+    ;
+    myLightWindow.activateWindow({
+        href: url,
+        title: titulo,
+        width: largura,
+        height: altura,
+        type: 'external'
+    });
+    (function ($) {
+        var cssLink = document.createElement("link")
+        cssLink.href = "file://path/to/style.css";
+        cssLink.rel = "stylesheet";
+        cssLink.type = "text/css";
+        var $head = $("#ligthMobile").contents().find("head");
+        $head.append($("<link/>",
+                {rel: "stylesheet", href: "https://bbelintanitray.github.io/tema-mobile.css?v=8", type: "text/css"}));
         alert('aaa');
-	return false;
+    })(jQuery);
+    return false;
 }
