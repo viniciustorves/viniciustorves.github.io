@@ -283,7 +283,7 @@
 function openLightWindow(url, titulo, altura, largura, iframeNome) {
 
     var myLightWindow = new lightwindow();
- 
+
     myLightWindow.activateWindow({
         href: url,
         title: 'ligthMobile',
@@ -296,10 +296,13 @@ function openLightWindow(url, titulo, altura, largura, iframeNome) {
         cssLink.href = "file://path/to/style.css";
         cssLink.rel = "stylesheet";
         cssLink.type = "text/css";
-        var $head = $("#lightwindow_iframe").contents().find("head");
-        $head.append($("<link/>",
-                {rel: "stylesheet", href: "https://bbelintanitray.github.io/tema-mobile.css?v=8", type: "text/css"}));
-        alert('aaa');
+        $("#lightwindow_iframe").load(function () {
+            var $head = $("#lightwindow_iframe").contents().find("head");
+            $head.append($("<link/>",
+                    {rel: "stylesheet", href: "https://bbelintanitray.github.io/tema-mobile.css?v=8", type: "text/css"}));
+            alert('aaa');
+        })
+
     })(jQuery);
     return false;
 }
