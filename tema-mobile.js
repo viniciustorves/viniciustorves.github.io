@@ -275,13 +275,11 @@
 
 
     })
-
-})(jQuery);
-
-function openLightWindow(url,titulo,altura,largura, iframeNome){
+    
+    function openLightWindow(url,titulo,altura,largura, iframeNome){
 
 	var myLightWindow = new lightwindow();
-	if(iframeNome == undefined){iframeNome = "none"};
+	if(iframeNome == undefined){iframeNome = "ligthMobile"};
 	myLightWindow.activateWindow({
 		href: url,
 		title: titulo,
@@ -289,6 +287,17 @@ function openLightWindow(url,titulo,altura,largura, iframeNome){
 		height: altura,
 		type: 'external'
 	});
-        alert('aaa');
+        
+        var cssLink = document.createElement("link") 
+            cssLink.href = "file://path/to/style.css"; 
+            cssLink .rel = "stylesheet"; 
+            cssLink .type = "text/css"; 
+            var $head = $("#ligthMobile").contents().find("head");                
+            $head.append($("<link/>", 
+            { rel: "stylesheet", href: "https://bbelintanitray.github.io/tema-mobile.css?v=8", type: "text/css" }));
+        
 	return false;
 }
+
+})(jQuery);
+
