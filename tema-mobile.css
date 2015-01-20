@@ -2028,6 +2028,11 @@
     #cepbox > #cep2 {
     margin-right: 0px;
     }
+    
+    .qntdEstoque {
+    display: inline-block !important;
+    float: right;
+}
 
     .page-simula-frete table.tablePage td:nth-child(1) img{
         width: 100%;
