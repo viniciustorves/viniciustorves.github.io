@@ -2640,6 +2640,11 @@
     input[name="numero_cartao"] {
         width: 80%;
     }
+    
+    #div_atualiza #form1 input {
+        width: 100%;
+        display: block;
+    }
 
     #lightwindow_contents {
         overflow-x: hidden !important;
