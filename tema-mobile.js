@@ -283,13 +283,10 @@
 function openLightWindow(url, titulo, altura, largura, iframeNome) {
 
     var myLightWindow = new lightwindow();
-    if (iframeNome == undefined) {
-        iframeNome = "ligthMobile"
-    }
-    ;
+ 
     myLightWindow.activateWindow({
         href: url,
-        title: titulo,
+        title: 'ligthMobile',
         width: largura,
         height: altura,
         type: 'external'
