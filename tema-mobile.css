@@ -2025,16 +2025,16 @@
     #cepbox a img {
         display: none;
     }
-    
+
     #cepbox > #cep2 {
-    margin-right: 0px;
+        margin-right: 0px;
     }
-    
+
     .qntdEstoque {
-    display: inline-block !important;
-    float: right;
-    margin-right: -28px;
-}
+        display: inline-block !important;
+        float: right;
+        margin-right: -28px;
+    }
 
     .page-simula-frete table.tablePage td:nth-child(1) img{
         width: 100%;
@@ -2359,13 +2359,13 @@
         padding: 20px 40px !important;
         display: block;
         width: 0px;
-        
+
     }
 
     .Pedidos tr td a, .Pedidos tr td h3{
         font-size: 10px !important; 
     }
-    
+
     .BoxVisitados .change {
         display: none;
     }
@@ -2643,7 +2643,7 @@
     input[name="numero_cartao"] {
         width: 80%;
     }
-    
+
     #div_atualiza #form1 input,
     #div_atualiza #form1 textarea{
         width: 100%;
@@ -2829,7 +2829,9 @@
         display: block;
         width: auto;
         height: auto;
-        .central-conteudo .change {
-            display: none !important;
-        }
+
+    }
+
+    .central-conteudo .change {
+        display: none !important;
     }
