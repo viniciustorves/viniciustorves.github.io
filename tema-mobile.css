@@ -2365,9 +2365,6 @@
         font-size: 10px !important; 
     }
 
-    .Pedidos > tbody:nth-child(1) > tr:nth-child(1) > th:nth-child(4) {
-        display: none;
-    }
 
     .bt-cep {
         background: url('https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/bt-calcular-frete.png?v=3') !important;
