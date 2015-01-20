@@ -2010,7 +2010,7 @@
 
 
     #cepbox {
-        padding: 20px 10px;
+        padding: 20px 0px;
     }
     #cepbox a {
         background: url('https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/bt-calcular-frete.png?v=3') !important;
@@ -2023,6 +2023,10 @@
     }
     #cepbox a img {
         display: none;
+    }
+    
+    #cepbox > #cep2 {
+    margin-right: 0px;
     }
 
     .page-simula-frete table.tablePage td:nth-child(1) img{
