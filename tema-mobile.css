@@ -2641,7 +2641,8 @@
         width: 80%;
     }
     
-    #div_atualiza #form1 input {
+    #div_atualiza #form1 input,
+    #div_atualiza #form1 textarea{
         width: 100%;
         display: block;
     }
