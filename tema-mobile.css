@@ -2364,6 +2364,10 @@
     .Pedidos tr td a, .Pedidos tr td h3{
         font-size: 10px !important; 
     }
+    
+    .BoxVisitados .change {
+        display: none;
+    }
 
 
     .bt-cep {
