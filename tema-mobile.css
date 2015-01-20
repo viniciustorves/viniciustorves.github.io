@@ -1908,8 +1908,8 @@
     }
 
     #descricao embed, #descricao object, #descricao img, #descricao table {
-        max-width: 100%;
-        width: 100%;
+        max-width: 100% !important;
+        width: 100% !important;
     }
 
     #CadastroAbas li {
