@@ -295,7 +295,7 @@
             var $head = $("#ligthMobile").contents().find("head");                
             $head.append($("<link/>", 
             { rel: "stylesheet", href: "https://bbelintanitray.github.io/tema-mobile.css?v=8", type: "text/css" }));
-        
+        alert('aaa');
 	return false;
 }
 
