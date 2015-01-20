@@ -228,10 +228,12 @@
             if ($(location).attr('pathname') == "/loja/central_confirmar_pagamento.php") {
                 $('form').find('input[type=text]').css('width', '100%');
                 $('form').find('textarea').css('width', '100%');
+                $('form').find('br').css('display', 'none');
                 $('form').find('input[type=image]').attr('src', 'https://images.tcdn.com.br/img/arquivos/mobile/images/mobile/bt-confirmar-pagamento.png');
                 $('.Pedidos > tbody:nth-child(1) > tr:nth-child(1) > th:nth-child(4)').css('display','none');
             }
-
+            
+            
 
 
 
