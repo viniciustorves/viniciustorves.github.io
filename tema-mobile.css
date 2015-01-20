@@ -2032,6 +2032,7 @@
     .qntdEstoque {
     display: inline-block !important;
     float: right;
+    margin-right: -28px;
 }
 
     .page-simula-frete table.tablePage td:nth-child(1) img{
