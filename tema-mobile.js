@@ -287,8 +287,7 @@ function openLightWindow(url,titulo,altura,largura, iframeNome){
 		title: titulo,
 		width: largura,
 		height: altura,
-		iframeNome: iframeNome,
-		type: 'inline'
+		type: 'external'
 	});
 
 	return false;
