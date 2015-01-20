@@ -276,7 +276,11 @@
 
     })
     
-    function openLightWindow(url,titulo,altura,largura, iframeNome){
+    
+
+})(jQuery);
+
+function openLightWindow(url,titulo,altura,largura, iframeNome){
 
 	var myLightWindow = new lightwindow();
 	if(iframeNome == undefined){iframeNome = "ligthMobile"};
@@ -298,6 +302,3 @@
         alert('aaa');
 	return false;
 }
-
-})(jQuery);
-
