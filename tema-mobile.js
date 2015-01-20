@@ -300,7 +300,6 @@ function openLightWindow(url, titulo, altura, largura, iframeNome) {
             var $head = $("#lightwindow_iframe").contents().find("head");
             $head.append($("<link/>",
                     {rel: "stylesheet", href: "https://bbelintanitray.github.io/tema-mobile.css?v=8", type: "text/css"}));
-            alert('aaa');
         })
 
     })(jQuery);
