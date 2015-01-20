@@ -289,6 +289,6 @@ function openLightWindow(url,titulo,altura,largura, iframeNome){
 		height: altura,
 		type: 'external'
 	});
-
+        alert('aaa');
 	return false;
 }
