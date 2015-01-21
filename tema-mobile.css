@@ -1791,7 +1791,7 @@
     }
 
     #Page .obriga {
-        border-left: 3px solid #C00;
+        border-left: 3px solid #C00 !important;
     }
 
     .escolha-forma-pagamento {
