@@ -2034,6 +2034,7 @@
         display: inline-block !important;
         float: right;
         margin-right: -28px;
+        margin-top: 14px;
     }
 
     .page-simula-frete table.tablePage td:nth-child(1) img{
