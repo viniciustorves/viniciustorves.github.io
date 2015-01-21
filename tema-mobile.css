@@ -1790,8 +1790,8 @@
         display: block !important;
     }
 
-    .obriga {
-        border: none !important;
+    #Page .obriga {
+        border-left: 3px solid #C00;
     }
 
     .escolha-forma-pagamento {
