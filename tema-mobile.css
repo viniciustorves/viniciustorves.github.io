@@ -1793,6 +1793,10 @@
     #Page .obriga {
         border-left: 3px solid #C00 !important;
     }
+    
+    #nome_titular_cartao, #numero_cartao {
+        width: 100%;
+    }
 
     .escolha-forma-pagamento {
         display: none;
