@@ -1795,7 +1795,7 @@
     }
     
     #nome_titular_cartao, #numero_cartao {
-        width: 100%;
+        width: 100% !important;
     }
 
     .escolha-forma-pagamento {
@@ -2679,9 +2679,9 @@
         border: 1px dotted #ccc;
         float: right;
         padding: 3px;
-        margin-right: 44px;
+        margin-right: 16px;
         overflow: hidden;
-        width: 182px;
+        width: 160px;
         font-size: 10px;
     }
 
