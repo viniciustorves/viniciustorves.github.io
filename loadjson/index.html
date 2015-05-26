@@ -68,7 +68,15 @@
 	</form>
 
 	<pre id="json">
-		Aguarde...
+		{
+			"nome":"Bruno Sanches Belintani",
+			"sexo": "masculino",
+			"cor": "verde",
+			"opcao1":false,
+			"opcao2": true,
+			"opcao3": false,
+			"mensagem":"Carregando dados via js para o form"
+		}  
 	</pre>
 
 	<script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
@@ -79,7 +87,6 @@
 
 		$.getJSON( "dados.json", function( data ) {
 			$('form').loadJSON(data);
-			alert(data);
 		})
 		
 	</script>
