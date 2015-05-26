@@ -31,8 +31,8 @@
                 case 'select-one':
                 case 'text':
                 case 'hidden':
-                    $(element).attr("value", value);
-                    
+                    $(element).val(value);
+
                     break;
                 case 'a':
                     var href = $(element).attr("href");
