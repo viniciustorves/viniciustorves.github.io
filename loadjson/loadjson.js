@@ -23,12 +23,18 @@
                     for (var i = 0; i < element.options.length; i++) {
                         for (var j = 0; j < values.length; j++) {
                             element.options[i].selected |= element.options[i].value == values[j];
-                            alert('x');
                         }
                     }
                     break;
 
                 case 'select':
+                    var values = value.constructor == Array ? value : [value];
+                    for (var i = 0; i < element.options.length; i++) {
+                        for (var j = 0; j < values.length; j++) {
+                            element.options[i].selected |= element.options[i].value == values[j];
+                        }
+                    }
+                break;
                 case 'select-one':
                 case 'text':
                 case 'hidden':
