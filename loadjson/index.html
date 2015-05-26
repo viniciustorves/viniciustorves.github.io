@@ -95,8 +95,8 @@
 		})
 
 		$( "form" ).submit(function( event ) {
+		   $('#json').html($(this).serializeObject());
 		   alert($(this).serializeObject());
-		   //$('#json').html($(this).serializeObject());
 		  event.preventDefault();
 		});
 		
