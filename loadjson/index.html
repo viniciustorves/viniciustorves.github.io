@@ -96,6 +96,7 @@
 
 		$( "form" ).submit(function( event ) {
 		   $('#json').html($(this).serializeObject());
+		   alert($(this).serializeObject());
 		  event.preventDefault();
 		});
 		
