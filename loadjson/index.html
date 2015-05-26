@@ -95,9 +95,13 @@
 		})
 
 		$( "form" ).submit(function( event ) {
-		   $('#json').html($( this).serializeArray());
-		   alert($( this).serializeArray());
-		  event.preventDefault();
+		    var form = $('form').serializeArray();
+			var formObject = {};
+			$.each(form,
+			    function(i, v) {
+			        formObject[v.name] = v.value;
+			    });
+			$('#json').html(FormObject);
 		});
 		
 	</script>
