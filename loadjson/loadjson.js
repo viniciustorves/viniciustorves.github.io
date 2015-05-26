@@ -29,8 +29,7 @@
 
                 case 'select':
                 break;
-                
-                case 'select-one':
+
                 case 'text':
                 case 'hidden':
                     $(element).attr("value", value);
