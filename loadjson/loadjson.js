@@ -23,6 +23,7 @@
                     for (var i = 0; i < element.options.length; i++) {
                         for (var j = 0; j < values.length; j++) {
                             element.options[i].selected |= element.options[i].value == values[j];
+                            alert('x');
                         }
                     }
                     break;
@@ -91,7 +92,7 @@
             }
             // array
             else if (obj.constructor == Array) {
-                if (element.length > 0 && element[0].tagName == "select") {
+                if (element.length > 0 && element[0].tagName == "SELECT") {
                     setElementValue(element[0], obj, name);
                 } else {
                     var arr = jQuery.makeArray(element);
