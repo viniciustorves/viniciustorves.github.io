@@ -1,7 +1,7 @@
 {
 	"nome":"Bruno Sanches Belintani",
 	"sexo": "masculino",
-	"Town": "verde",
+	"cor": "verde",
 	"opcao1":false,
 	"opcao2": true,
 	"opcao3": false,
