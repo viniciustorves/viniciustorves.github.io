@@ -93,18 +93,6 @@
 		$.getJSON( "dados.json", function( data ) {
 			$('form').loadJSON(data);
 		})
-
-		$( "form" ).submit(function( event ) {
-		    var form = $('form').serializeArray();
-			var formObject = {};
-			$.each(form,
-			    function(i, v) {
-			        formObject[v.name] = v.value;
-			    });
-			alert(formObject);
-			
-			$('#json').html(formObject);
-		});
 		
 	</script>
 
