@@ -18,17 +18,9 @@
                         $(element).attr("checked", "checked");
                     break;
 
-                case 'select-multiple':
-                    var values = value.constructor == Array ? value : [value];
-                    for (var i = 0; i < element.options.length; i++) {
-                        for (var j = 0; j < values.length; j++) {
-                            element.options[i].selected |= element.options[i].value == values[j];
-                        }
-                    }
-                    break;
+              
 
-                case 'select':
-                case 'select-one':
+                
                 case 'text':
                 case 'hidden':
                     $(element).attr("value", value);
