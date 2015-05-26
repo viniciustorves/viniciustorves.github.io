@@ -5,5 +5,6 @@
 	"opcao1":false,
 	"opcao2": true,
 	"opcao3": false,
-	"mensagem":"Carregando dados via js para o form"
+	"mensagem":"Carregando dados via js para o form",
+	"corp": "#cc0000"
 }  
