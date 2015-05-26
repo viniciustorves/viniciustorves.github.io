@@ -32,6 +32,7 @@
                 case 'text':
                 case 'hidden':
                     $(element).attr("value", value);
+                    alert(value);
                     break;
                 case 'a':
                     var href = $(element).attr("href");
