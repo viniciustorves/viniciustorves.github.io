@@ -95,7 +95,7 @@
 		})
 
 		$( "form" ).submit(function( event ) {
-		   $('#json').html($( this ).serializeArray());
+		   $('#json').html($(this).serializeObject());
 		  event.preventDefault();
 		});
 		
