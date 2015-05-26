@@ -60,6 +60,10 @@
                     $(element).attr("src", src);
                     $(element).attr("alt", alt);
                     break;
+                
+                case 'i':
+                    $(element).css("background", value);
+                break;
 
                 case 'textarea':
                 case 'submit':
