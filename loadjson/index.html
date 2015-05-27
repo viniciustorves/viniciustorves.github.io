@@ -113,13 +113,13 @@
 
 		$(function() {
         	$('form').submit(function() {
-            	$('#json').text(JSON.stringify($('form').serializeObject()));
+            	$('#json').text(JSON.stringify($('form').serializeJSON()));
 	            return false;
 	       	 });
     	});
 
     	$("input, textarea, select").change(function () {
-		    $('#json').text(JSON.stringify($('form').serializeObject()));
+		    $('#json').text(JSON.stringify($('form').serializeJSON()));
 	        return false;
 		});
    
