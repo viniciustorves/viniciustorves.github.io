@@ -82,18 +82,20 @@
 
 	<div class="col-md-6">
 	<h3 class="doc-title-3"  style="margin-bottom:20px;">Json de retorno</h3>
-		<pre id="json">
-			{
-				"nome":"Bruno Sanches Belintani",
-				"sexo":"masculino",
-				"cor":"verde",
-				"opcao1":false,
-				"opcao2":true,
-				"opcao3":false,
-				"mensagem":"Carregando dados via js para o form",
-				"corp": "#cc0000"
-			} 
-		</pre>
+		<div id="json">
+			<pre>
+				{
+					"nome":"Bruno Sanches Belintani",
+					"sexo":"masculino",
+					"cor":"verde",
+					"opcao1":false,
+					"opcao2":true,
+					"opcao3":false,
+					"mensagem":"Carregando dados via js para o form",
+					"corp": "#cc0000"
+				} 
+			</pre>
+		</div>
 	</div>
 	<script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
 	<script type="text/javascript" src="loadjson.js"></script>
@@ -119,8 +121,7 @@
     	});
 
     	$("input, textarea, select").change(function () {
-		    $('#json').text(JSON.stringify($('form').serializeJSON()));
-	        $('#json').css('width','auto');
+		    $('#json').html("<pre>".JSON.stringify($('form').serializeJSON())."</pre>");
 		});
    
 	</script>
