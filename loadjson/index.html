@@ -110,6 +110,13 @@
 		$(document).ready(function(){
 			$('.demo2').colorpicker();
 		})
+
+		$(function() {
+        	$('form').submit(function() {
+            	$('#json').text(JSON.stringify($('form').serializeObject()));
+	            return false;
+	       	 });
+    	});
    
 		
 	</script>
