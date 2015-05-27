@@ -155,7 +155,7 @@
     $.fn.serializeJSON = function(){
     var json = {}
     var form = $(this);
-    form.find('input, select').each(function(){
+    form.find('input, select, textarea').each(function(){
       var val
       if (!this.name) return;
  
