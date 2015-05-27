@@ -120,7 +120,7 @@
 
     	$("input, textarea, select").change(function () {
 		    $('#json').text(JSON.stringify($('form').serializeJSON()));
-	        return false;
+	        $('#json').css('width','auto');
 		});
    
 	</script>
