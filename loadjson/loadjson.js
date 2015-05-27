@@ -175,6 +175,7 @@
             this.value;
         }
       } else {
+        alert(json[this.name]);
         json[this.name] = this.value;
       }
     })
