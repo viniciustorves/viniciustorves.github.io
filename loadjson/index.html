@@ -113,10 +113,15 @@
 
 		$(function() {
         	$('form').submit(function() {
-            	$('#json').html(JSON.stringify($('form').serializeObject()));
+            	$('#json').text(JSON.stringify($('form').serializeObject()));
 	            return false;
 	       	 });
     	});
+
+    	$("input").change(function () {
+		    $('#json').text(JSON.stringify($('form').serializeObject()));
+	        return false;
+		});
    
 	</script>
 
