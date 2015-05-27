@@ -2,9 +2,9 @@
 	"nome":"Bruno Sanches Belintani",
 	"sexo": "masculino",
 	"cor": "verde",
-	"opcao1":false,
-	"opcao2": true,
-	"opcao3": false,
+	"opcao1": "",
+	"opcao2": "on",
+	"opcao3": "",
 	"mensagem":"Carregando dados via js para o form",
 	"corp": "#cc0000",
 	"corp1": "#cc0000"
