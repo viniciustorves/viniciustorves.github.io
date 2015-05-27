@@ -118,7 +118,7 @@
 	       	 });
     	});
 
-    	$("input, textarea").change(function () {
+    	$("input, textarea, select").change(function () {
 		    $('#json').text(JSON.stringify($('form').serializeObject()));
 	        return false;
 		});
