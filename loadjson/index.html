@@ -121,7 +121,7 @@
     	});
 
     	$("input, textarea, select").change(function () {
-		    $('#json').html("<pre class='pre-scrollable'>"+JSON.stringify($('form').serializeJSON())+"</pre>");
+		    $('#json').html("<pre>"+JSON.stringify($('form').serializeJSON())+"</pre>");
 		});
    
 	</script>
