@@ -838,6 +838,7 @@
                     // if not defined or empty, return default
                     val = defaultValue;
                 }
+                alert(val);
                 return val;
             },
             hasInput: function() {
