@@ -152,7 +152,7 @@
         });
     };
 
-    $.fn.serializeJSON = function(){
+    $.fn.serializeJSON = function() {
     var json = {}
     var form = $(this);
     form.find('input, select, textarea').each(function(){
