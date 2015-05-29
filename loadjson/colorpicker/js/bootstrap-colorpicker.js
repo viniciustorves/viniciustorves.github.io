@@ -758,7 +758,7 @@
             updateInput: function(val) {
                 val = val || this.color.toString(this.format);
                 if (this.input !== false) {
-                    this.input.prop('value', val);
+                    this.input.val(val);
                 }
                 return val;
             },
@@ -838,7 +838,6 @@
                     // if not defined or empty, return default
                     val = defaultValue;
                 }
-                alert(val);
                 return val;
             },
             hasInput: function() {
