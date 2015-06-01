@@ -1,10 +1,10 @@
 {
-	"titulo":"Bruno Sanches Belintani",
+	"titulo":"Loja teste",
 	"cor": "vermelho",
 	"opcao1": "",
 	"opcao2": "on",
 	"opcao3": "",
-	"mensagem":"Carregando dados via js para o form",
+	"msg":"Carregando dados via js para o form",
 	"corp": "#cc0000",
 	"corp1": "#cc0000"
 }  
