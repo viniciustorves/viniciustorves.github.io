@@ -2,7 +2,7 @@
 	"titulo":"Loja xml",
 	"cor": "azul",
 	"opcao1": "on",
-	"opcao2": '',
+	"opcao2": "",
 	"opcao3": "on",
 	"msg":"teste",
 	"corp": "#000000",
