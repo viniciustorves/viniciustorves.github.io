@@ -2,7 +2,7 @@
 	"titulo":"Loja teste",
 	"cor": "vermelho",
 	"opcao1": "",
-	"opcao2": "on",
+	"opcao2": "true",
 	"opcao3": "",
 	"msg":"Carregando dados via js para o form",
 	"corp": "#cc0000",
