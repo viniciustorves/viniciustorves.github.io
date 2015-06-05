@@ -1,9 +1,9 @@
 {
 	"titulo":"Loja xml",
 	"cor": "azul",
-	"opcao1": "",
-	"opcao2": "on",
-	"opcao3": "",
+	"opcao1": "on",
+	"opcao2": "",
+	"opcao3": "on",
 	"msg":"teste",
 	"corp": "#000000",
 	"corp1": "#000000"
