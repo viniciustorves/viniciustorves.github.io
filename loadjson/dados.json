@@ -17,8 +17,8 @@
 			"opcao2": "true",
 			"opcao3": "",
 			"msg":"Carregando dados via js para o form 2",
-			"corp": "#cc0000",
-			"corp1": "#cc0000"
+			"corp": "#00cc00",
+			"corp1": "#00cc00"
 		},
 		"red": {
 			"titulo":"red",
@@ -27,8 +27,8 @@
 			"opcao2": "",
 			"opcao3": "",
 			"msg":"Carregando dados via js para o form 3",
-			"corp": "#cc0000",
-			"corp1": "#cc0000"
+			"corp": "#ff0000",
+			"corp1": "#ff0000"
 		}
 	}
 }
